@@ -1,624 +1,1623 @@
-[main(db)][INFO][2026-09-29T20:22:51.016700800Z] starting Main
-[main(db)][INFO][2026-09-29T20:22:51.179237100Z] Taking a turn with placement: Blue_Cathedral at position: (2/5)
-[main(db)][INFO][2026-09-29T20:22:51.180235400Z] 
+[main(db)][INFO][2026-10-08T07:43:48.858039188Z] starting Main
+[main(db)][INFO][2026-10-08T07:43:48.997547732Z] Taking a turn with: MiniMaxAgent
+[main(db)][DEBUG][2026-10-08T07:44:20.569716063Z] selecting best move: Blue_Cathedral at position: (7/1) with score=0.0
+[main(db)][INFO][2026-10-08T07:44:20.572082410Z] Taking a turn with placement: Blue_Cathedral at position: (7/1)
+[main(db)][DEBUG][2026-10-08T07:44:20.572414789Z] 
 
-[main(db)][DEBUG][2026-09-29T20:22:51.189657200Z] Board state:
+[main(db)][DEBUG][2026-10-08T07:44:20.580754580Z] Board state:
 Board[
 freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=2, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=1, 10 Black Tower=1, 11 Black Academy=1, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=1, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=1, 20 White Castle=1, 21 White Tower=1, 22 White Academy=1, 23 Cathedral=0}, 
-placedBuildings=[Building: 23 Cathedral Position: (2/5) Direction _180], 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270], 
 board=
+, [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+, [0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+, [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
 , [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 , [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 , [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-, [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
-, [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
-, [0, 1, 1, 1, 0, 0, 0, 0, 0, 0]
-, [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 , [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 , [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 , [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 ]
 
-[main(db)][DEBUG][2026-09-29T20:22:51.190656900Z] Current player: 2
+[main(db)][DEBUG][2026-10-08T07:44:20.581265774Z] Current player: 2
 
-[main(db)][DEBUG][2026-09-29T20:22:51.191808800Z] Last move: (2/5)
+[main(db)][DEBUG][2026-10-08T07:44:20.581614613Z] Last move: (7/1)
 
-[main(db)][DEBUG][2026-09-29T20:22:51.196754Z] score: {2=47, 4=47}
-[main(db)][DEBUG][2026-09-29T20:22:51.200263400Z] game finished: false
-[main(db)][INFO][2026-09-29T20:22:51.200263400Z] ----------------------------------------------------
-[main(db)][INFO][2026-09-29T20:22:51.237027800Z] Taking a turn with placement: Black_Inn at position: (6/2)
-[main(db)][INFO][2026-09-29T20:22:51.238594800Z] 
+[main(db)][DEBUG][2026-10-08T07:44:20.583151574Z] score: White: 47, Black: 47
 
-[main(db)][DEBUG][2026-09-29T20:22:51.239532Z] Board state:
+[main(db)][DEBUG][2026-10-08T07:44:20.585412142Z] game finished: false
+[main(db)][DEBUG][2026-10-08T07:44:20.585767846Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T07:44:20.586216626Z] Taking a turn with: MiniMaxAgent
+[main(db)][DEBUG][2026-10-08T07:45:36.201179512Z] selecting best move: Black_Academy at position: (8/7) with score=67.583336
+[main(db)][INFO][2026-10-08T07:45:36.201715857Z] Taking a turn with placement: Black_Academy at position: (8/7)
+[main(db)][DEBUG][2026-10-08T07:45:36.201943280Z] 
+
+[main(db)][DEBUG][2026-10-08T07:45:36.202298853Z] Board state:
 Board[
-freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=1, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=1, 10 Black Tower=1, 11 Black Academy=1, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=1, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=1, 20 White Castle=1, 21 White Tower=1, 22 White Academy=1, 23 Cathedral=0}, 
-placedBuildings=[Building: 23 Cathedral Position: (2/5) Direction _180, Building: 3 Black Inn Position: (6/2) Direction _0], 
+freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=2, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=1, 10 Black Tower=1, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=1, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=1, 20 White Castle=1, 21 White Tower=1, 22 White Academy=1, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 11 Black Academy Position: (8/7) Direction _270], 
 board=
+, [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+, [0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+, [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
 , [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 , [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-, [0, 0, 0, 0, 0, 0, 2, 2, 0, 0]
-, [0, 0, 1, 0, 0, 0, 0, 2, 0, 0]
-, [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
-, [0, 1, 1, 1, 0, 0, 0, 0, 0, 0]
-, [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
 , [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 2, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 2, 2, 2]
+, [0, 0, 0, 0, 0, 0, 0, 0, 2, 0]
 , [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 ]
 
-[main(db)][DEBUG][2026-09-29T20:22:51.241530700Z] Current player: 4
+[main(db)][DEBUG][2026-10-08T07:45:36.202544624Z] Current player: 4
 
-[main(db)][DEBUG][2026-09-29T20:22:51.241530700Z] Last move: (6/2)
+[main(db)][DEBUG][2026-10-08T07:45:36.202707184Z] Last move: (8/7)
 
-[main(db)][DEBUG][2026-09-29T20:22:51.243293300Z] score: {2=44, 4=47}
-[main(db)][DEBUG][2026-09-29T20:22:51.244515700Z] game finished: false
-[main(db)][INFO][2026-09-29T20:22:51.245024200Z] ----------------------------------------------------
-[main(db)][INFO][2026-09-29T20:22:51.278373100Z] Taking a turn with placement: White_Tower at position: (5/7)
-[main(db)][INFO][2026-09-29T20:22:51.279406700Z] 
+[main(db)][DEBUG][2026-10-08T07:45:36.202870166Z] score: White: 47, Black: 42
 
-[main(db)][DEBUG][2026-09-29T20:22:51.279916800Z] Board state:
+[main(db)][DEBUG][2026-10-08T07:45:36.203127209Z] game finished: false
+[main(db)][DEBUG][2026-10-08T07:45:36.203266989Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T07:45:36.209119274Z] Taking a turn with: MiniMaxAgentCopy
+[main(db)][DEBUG][2026-10-08T07:45:40.677392085Z] selecting best move: White_Infirmary at position: (1/8) with score=80.0
+[main(db)][INFO][2026-10-08T07:45:40.677806872Z] Taking a turn with placement: White_Infirmary at position: (1/8)
+[main(db)][DEBUG][2026-10-08T07:45:40.678008902Z] 
+
+[main(db)][DEBUG][2026-10-08T07:45:40.678521392Z] Board state:
 Board[
-freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=1, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=1, 10 Black Tower=1, 11 Black Academy=1, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=1, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=1, 20 White Castle=1, 21 White Tower=0, 22 White Academy=1, 23 Cathedral=0}, 
-placedBuildings=[Building: 23 Cathedral Position: (2/5) Direction _180, Building: 3 Black Inn Position: (6/2) Direction _0, Building: 21 White Tower Position: (5/7) Direction _180], 
+freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=2, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=1, 10 Black Tower=1, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=1, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=1, 21 White Tower=1, 22 White Academy=1, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 11 Black Academy Position: (8/7) Direction _270, Building: 19 White Infirmary Position: (1/8) Direction _0], 
 board=
+, [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+, [0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+, [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
 , [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 , [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-, [0, 0, 0, 0, 0, 0, 2, 2, 0, 0]
-, [0, 0, 1, 0, 0, 0, 0, 2, 0, 0]
-, [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
-, [0, 1, 1, 1, 0, 0, 0, 0, 0, 0]
-, [0, 0, 1, 0, 4, 0, 0, 0, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 2, 0, 0]
+, [0, 4, 0, 0, 0, 0, 0, 2, 2, 2]
+, [4, 4, 4, 0, 0, 0, 0, 0, 2, 0]
+, [0, 4, 0, 0, 0, 0, 0, 0, 0, 0]
+]
+
+[main(db)][DEBUG][2026-10-08T07:45:40.678927188Z] Current player: 2
+
+[main(db)][DEBUG][2026-10-08T07:45:40.679175276Z] Last move: (1/8)
+
+[main(db)][DEBUG][2026-10-08T07:45:40.679423642Z] score: White: 42, Black: 42
+
+[main(db)][DEBUG][2026-10-08T07:45:40.679824593Z] game finished: false
+[main(db)][DEBUG][2026-10-08T07:45:40.680003274Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T07:45:40.680270603Z] Taking a turn with: MiniMaxAgent
+[main(db)][DEBUG][2026-10-08T07:46:20.595335187Z] selecting best move: Black_Tower at position: (5/8) with score=86.55
+[main(db)][INFO][2026-10-08T07:46:20.595888900Z] Taking a turn with placement: Black_Tower at position: (5/8)
+[main(db)][DEBUG][2026-10-08T07:46:20.596152242Z] 
+
+[main(db)][DEBUG][2026-10-08T07:46:20.596588419Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=2, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=1, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=1, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=1, 21 White Tower=1, 22 White Academy=1, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 11 Black Academy Position: (8/7) Direction _270, Building: 19 White Infirmary Position: (1/8) Direction _0, Building: 10 Black Tower Position: (5/8) Direction _270], 
+board=
+, [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+, [0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+, [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 2, 0, 0]
+, [0, 4, 0, 0, 0, 2, 2, 2, 2, 2]
+, [4, 4, 4, 0, 2, 2, 3, 3, 2, 3]
+, [5, 4, 0, 0, 2, 3, 3, 3, 3, 3]
+]
+
+[main(db)][DEBUG][2026-10-08T07:46:20.596914556Z] Current player: 4
+
+[main(db)][DEBUG][2026-10-08T07:46:20.597143092Z] Last move: (5/8)
+
+[main(db)][DEBUG][2026-10-08T07:46:20.597325727Z] score: White: 42, Black: 37
+
+[main(db)][DEBUG][2026-10-08T07:46:20.597836824Z] game finished: false
+[main(db)][DEBUG][2026-10-08T07:46:20.598150303Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T07:46:20.598787280Z] Taking a turn with: MiniMaxAgentCopy
+[main(db)][DEBUG][2026-10-08T07:46:24.119609823Z] selecting best move: White_Castle at position: (5/2) with score=80.0
+[main(db)][INFO][2026-10-08T07:46:24.120057981Z] Taking a turn with placement: White_Castle at position: (5/2)
+[main(db)][DEBUG][2026-10-08T07:46:24.120258140Z] 
+
+[main(db)][DEBUG][2026-10-08T07:46:24.120597289Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=2, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=1, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=1, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=1, 22 White Academy=1, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 11 Black Academy Position: (8/7) Direction _270, Building: 19 White Infirmary Position: (1/8) Direction _0, Building: 10 Black Tower Position: (5/8) Direction _270, Building: 20 White Castle Position: (5/2) Direction _0], 
+board=
+, [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+, [0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+, [0, 0, 0, 0, 4, 4, 4, 1, 0, 0]
+, [0, 0, 0, 0, 4, 0, 4, 0, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 2, 0, 0]
+, [0, 4, 0, 0, 0, 2, 2, 2, 2, 2]
+, [4, 4, 4, 0, 2, 2, 3, 3, 2, 3]
+, [5, 4, 0, 0, 2, 3, 3, 3, 3, 3]
+]
+
+[main(db)][DEBUG][2026-10-08T07:46:24.120858037Z] Current player: 2
+
+[main(db)][DEBUG][2026-10-08T07:46:24.121012835Z] Last move: (5/2)
+
+[main(db)][DEBUG][2026-10-08T07:46:24.121180131Z] score: White: 37, Black: 37
+
+[main(db)][DEBUG][2026-10-08T07:46:24.121439358Z] game finished: false
+[main(db)][DEBUG][2026-10-08T07:46:24.121579095Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T07:46:24.121837796Z] Taking a turn with: MiniMaxAgent
+[main(db)][DEBUG][2026-10-08T07:46:53.638694486Z] selecting best move: Black_Castle at position: (1/6) with score=162.03333
+[main(db)][INFO][2026-10-08T07:46:53.639245564Z] Taking a turn with placement: Black_Castle at position: (1/6)
+[main(db)][DEBUG][2026-10-08T07:46:53.639491793Z] 
+
+[main(db)][DEBUG][2026-10-08T07:46:53.639837668Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=2, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=1, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=1, 22 White Academy=1, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 11 Black Academy Position: (8/7) Direction _270, Building: 19 White Infirmary Position: (1/8) Direction _0, Building: 10 Black Tower Position: (5/8) Direction _270, Building: 20 White Castle Position: (5/2) Direction _0, Building: 9 Black Castle Position: (1/6) Direction _0], 
+board=
+, [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+, [0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+, [0, 0, 0, 0, 4, 4, 4, 1, 0, 0]
+, [0, 0, 0, 0, 4, 0, 4, 0, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+, [2, 2, 2, 0, 0, 0, 0, 2, 0, 0]
+, [2, 4, 2, 0, 0, 2, 2, 2, 2, 2]
+, [4, 4, 4, 0, 2, 2, 3, 3, 2, 3]
+, [5, 4, 0, 0, 2, 3, 3, 3, 3, 3]
+]
+
+[main(db)][DEBUG][2026-10-08T07:46:53.640056063Z] Current player: 4
+
+[main(db)][DEBUG][2026-10-08T07:46:53.640303608Z] Last move: (1/6)
+
+[main(db)][DEBUG][2026-10-08T07:46:53.640659844Z] score: White: 37, Black: 32
+
+[main(db)][DEBUG][2026-10-08T07:46:53.640963263Z] game finished: false
+[main(db)][DEBUG][2026-10-08T07:46:53.641116922Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T07:46:53.641742807Z] Taking a turn with: MiniMaxAgentCopy
+[main(db)][DEBUG][2026-10-08T07:46:56.454934272Z] selecting best move: White_Tower at position: (4/4) with score=80.0
+[main(db)][INFO][2026-10-08T07:46:56.455308750Z] Taking a turn with placement: White_Tower at position: (4/4)
+[main(db)][DEBUG][2026-10-08T07:46:56.455810339Z] 
+
+[main(db)][DEBUG][2026-10-08T07:46:56.456184765Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=2, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=1, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=1, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 11 Black Academy Position: (8/7) Direction _270, Building: 19 White Infirmary Position: (1/8) Direction _0, Building: 10 Black Tower Position: (5/8) Direction _270, Building: 20 White Castle Position: (5/2) Direction _0, Building: 9 Black Castle Position: (1/6) Direction _0, Building: 21 White Tower Position: (4/4) Direction _90], 
+board=
+, [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+, [0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+, [0, 0, 0, 0, 4, 4, 4, 1, 0, 0]
+, [0, 0, 0, 0, 4, 4, 4, 0, 0, 0]
 , [0, 0, 0, 0, 4, 4, 0, 0, 0, 0]
-, [0, 0, 0, 0, 0, 4, 4, 0, 0, 0]
+, [0, 0, 0, 4, 4, 0, 0, 0, 0, 0]
+, [2, 2, 2, 0, 0, 0, 0, 2, 0, 0]
+, [2, 4, 2, 0, 0, 2, 2, 2, 2, 2]
+, [4, 4, 4, 0, 2, 2, 3, 3, 2, 3]
+, [5, 4, 0, 0, 2, 3, 3, 3, 3, 3]
+]
+
+[main(db)][DEBUG][2026-10-08T07:46:56.456410590Z] Current player: 2
+
+[main(db)][DEBUG][2026-10-08T07:46:56.456578295Z] Last move: (4/4)
+
+[main(db)][DEBUG][2026-10-08T07:46:56.456715568Z] score: White: 32, Black: 32
+
+[main(db)][DEBUG][2026-10-08T07:46:56.456966867Z] game finished: false
+[main(db)][DEBUG][2026-10-08T07:46:56.457093218Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T07:46:56.457319753Z] Taking a turn with: MiniMaxAgent
+[main(db)][DEBUG][2026-10-08T07:47:19.726878224Z] selecting best move: Black_Infirmary at position: (1/1) with score=186.3
+[main(db)][INFO][2026-10-08T07:47:19.727334364Z] Taking a turn with placement: Black_Infirmary at position: (1/1)
+[main(db)][DEBUG][2026-10-08T07:47:19.735144405Z] 
+
+[main(db)][DEBUG][2026-10-08T07:47:19.735732190Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=2, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=1, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=1, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 11 Black Academy Position: (8/7) Direction _270, Building: 19 White Infirmary Position: (1/8) Direction _0, Building: 10 Black Tower Position: (5/8) Direction _270, Building: 20 White Castle Position: (5/2) Direction _0, Building: 9 Black Castle Position: (1/6) Direction _0, Building: 21 White Tower Position: (4/4) Direction _90, Building: 8 Black Infirmary Position: (1/1) Direction _0], 
+board=
+, [3, 2, 0, 0, 0, 0, 0, 1, 0, 0]
+, [2, 2, 2, 0, 0, 0, 1, 1, 1, 1]
+, [0, 2, 0, 0, 4, 4, 4, 1, 0, 0]
+, [0, 0, 0, 0, 4, 4, 4, 0, 0, 0]
+, [0, 0, 0, 0, 4, 4, 0, 0, 0, 0]
+, [0, 0, 0, 4, 4, 0, 0, 0, 0, 0]
+, [2, 2, 2, 0, 0, 0, 0, 2, 0, 0]
+, [2, 4, 2, 0, 0, 2, 2, 2, 2, 2]
+, [4, 4, 4, 0, 2, 2, 3, 3, 2, 3]
+, [5, 4, 0, 0, 2, 3, 3, 3, 3, 3]
+]
+
+[main(db)][DEBUG][2026-10-08T07:47:19.735988305Z] Current player: 4
+
+[main(db)][DEBUG][2026-10-08T07:47:19.736196856Z] Last move: (1/1)
+
+[main(db)][DEBUG][2026-10-08T07:47:19.736419230Z] score: White: 32, Black: 27
+
+[main(db)][DEBUG][2026-10-08T07:47:19.736857527Z] game finished: false
+[main(db)][DEBUG][2026-10-08T07:47:19.737031664Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T07:47:19.737354361Z] Taking a turn with: MiniMaxAgentCopy
+[main(db)][DEBUG][2026-10-08T07:47:21.662550734Z] selecting best move: White_Academy at position: (1/4) with score=60.0
+[main(db)][INFO][2026-10-08T07:47:21.662932175Z] Taking a turn with placement: White_Academy at position: (1/4)
+[main(db)][DEBUG][2026-10-08T07:47:21.663149776Z] 
+
+[main(db)][DEBUG][2026-10-08T07:47:21.663436962Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=2, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=1, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 11 Black Academy Position: (8/7) Direction _270, Building: 19 White Infirmary Position: (1/8) Direction _0, Building: 10 Black Tower Position: (5/8) Direction _270, Building: 20 White Castle Position: (5/2) Direction _0, Building: 9 Black Castle Position: (1/6) Direction _0, Building: 21 White Tower Position: (4/4) Direction _90, Building: 8 Black Infirmary Position: (1/1) Direction _0, Building: 22 White Academy Position: (1/4) Direction _180], 
+board=
+, [3, 2, 0, 0, 0, 0, 0, 1, 0, 0]
+, [2, 2, 2, 0, 0, 0, 1, 1, 1, 1]
+, [0, 2, 0, 0, 4, 4, 4, 1, 0, 0]
+, [0, 4, 0, 0, 4, 4, 4, 0, 0, 0]
+, [4, 4, 0, 0, 4, 4, 0, 0, 0, 0]
+, [0, 4, 4, 4, 4, 0, 0, 0, 0, 0]
+, [2, 2, 2, 0, 0, 0, 0, 2, 0, 0]
+, [2, 4, 2, 0, 0, 2, 2, 2, 2, 2]
+, [4, 4, 4, 0, 2, 2, 3, 3, 2, 3]
+, [5, 4, 0, 0, 2, 3, 3, 3, 3, 3]
+]
+
+[main(db)][DEBUG][2026-10-08T07:47:21.663646750Z] Current player: 2
+
+[main(db)][DEBUG][2026-10-08T07:47:21.663780760Z] Last move: (1/4)
+
+[main(db)][DEBUG][2026-10-08T07:47:21.663909929Z] score: White: 27, Black: 27
+
+[main(db)][DEBUG][2026-10-08T07:47:21.664160586Z] game finished: false
+[main(db)][DEBUG][2026-10-08T07:47:21.664285981Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T07:47:21.664533421Z] Taking a turn with: MiniMaxAgent
+[main(db)][DEBUG][2026-10-08T07:47:39.606041032Z] selecting best move: Black_Abbey at position: (4/1) with score=59.56667
+[main(db)][INFO][2026-10-08T07:47:39.606433363Z] Taking a turn with placement: Black_Abbey at position: (4/1)
+[main(db)][DEBUG][2026-10-08T07:47:39.606630859Z] 
+
+[main(db)][DEBUG][2026-10-08T07:47:39.606935495Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=2, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=1, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 11 Black Academy Position: (8/7) Direction _270, Building: 19 White Infirmary Position: (1/8) Direction _0, Building: 10 Black Tower Position: (5/8) Direction _270, Building: 20 White Castle Position: (5/2) Direction _0, Building: 9 Black Castle Position: (1/6) Direction _0, Building: 21 White Tower Position: (4/4) Direction _90, Building: 8 Black Infirmary Position: (1/1) Direction _0, Building: 22 White Academy Position: (1/4) Direction _180, Building: 7 Black Abbey Position: (4/1) Direction _90], 
+board=
+, [3, 2, 3, 3, 2, 0, 0, 1, 0, 0]
+, [2, 2, 2, 2, 2, 0, 1, 1, 1, 1]
+, [0, 2, 0, 2, 4, 4, 4, 1, 0, 0]
+, [0, 4, 0, 0, 4, 4, 4, 0, 0, 0]
+, [4, 4, 0, 0, 4, 4, 0, 0, 0, 0]
+, [0, 4, 4, 4, 4, 0, 0, 0, 0, 0]
+, [2, 2, 2, 0, 0, 0, 0, 2, 0, 0]
+, [2, 4, 2, 0, 0, 2, 2, 2, 2, 2]
+, [4, 4, 4, 0, 2, 2, 3, 3, 2, 3]
+, [5, 4, 0, 0, 2, 3, 3, 3, 3, 3]
+]
+
+[main(db)][DEBUG][2026-10-08T07:47:39.607138557Z] Current player: 4
+
+[main(db)][DEBUG][2026-10-08T07:47:39.607272880Z] Last move: (4/1)
+
+[main(db)][DEBUG][2026-10-08T07:47:39.607453720Z] score: White: 27, Black: 23
+
+[main(db)][DEBUG][2026-10-08T07:47:39.607696375Z] game finished: false
+[main(db)][DEBUG][2026-10-08T07:47:39.607822328Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T07:47:39.608056993Z] Taking a turn with: MiniMaxAgentCopy
+[main(db)][DEBUG][2026-10-08T07:47:40.912669150Z] selecting best move: White_Manor at position: (3/7) with score=60.0
+[main(db)][INFO][2026-10-08T07:47:40.913086579Z] Taking a turn with placement: White_Manor at position: (3/7)
+[main(db)][DEBUG][2026-10-08T07:47:40.913299394Z] 
+
+[main(db)][DEBUG][2026-10-08T07:47:40.913643212Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=2, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=1, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 11 Black Academy Position: (8/7) Direction _270, Building: 19 White Infirmary Position: (1/8) Direction _0, Building: 10 Black Tower Position: (5/8) Direction _270, Building: 20 White Castle Position: (5/2) Direction _0, Building: 21 White Tower Position: (4/4) Direction _90, Building: 8 Black Infirmary Position: (1/1) Direction _0, Building: 22 White Academy Position: (1/4) Direction _180, Building: 7 Black Abbey Position: (4/1) Direction _90, Building: 16 White Manor Position: (3/7) Direction _270], 
+board=
+, [3, 2, 3, 3, 2, 0, 0, 1, 0, 0]
+, [2, 2, 2, 2, 2, 0, 1, 1, 1, 1]
+, [0, 2, 0, 2, 4, 4, 4, 1, 0, 0]
+, [0, 4, 0, 0, 4, 4, 4, 0, 0, 0]
+, [4, 4, 0, 0, 4, 4, 0, 0, 0, 0]
+, [5, 4, 4, 4, 4, 0, 0, 0, 0, 0]
+, [5, 5, 5, 4, 0, 0, 0, 2, 0, 0]
+, [5, 4, 5, 4, 4, 2, 2, 2, 2, 2]
+, [4, 4, 4, 4, 2, 2, 3, 3, 2, 3]
+, [5, 4, 0, 0, 2, 3, 3, 3, 3, 3]
+]
+
+[main(db)][DEBUG][2026-10-08T07:47:40.913867933Z] Current player: 2
+
+[main(db)][DEBUG][2026-10-08T07:47:40.914004235Z] Last move: (3/7)
+
+[main(db)][DEBUG][2026-10-08T07:47:40.914138628Z] score: White: 23, Black: 28
+
+[main(db)][DEBUG][2026-10-08T07:47:40.914437023Z] game finished: false
+[main(db)][DEBUG][2026-10-08T07:47:40.914589468Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T07:47:40.914826205Z] Taking a turn with: MiniMaxAgent
+[main(db)][DEBUG][2026-10-08T07:47:55.068858471Z] selecting best move: Black_Castle at position: (7/4) with score=58.433334
+[main(db)][INFO][2026-10-08T07:47:55.069342119Z] Taking a turn with placement: Black_Castle at position: (7/4)
+[main(db)][DEBUG][2026-10-08T07:47:55.069553581Z] 
+
+[main(db)][DEBUG][2026-10-08T07:47:55.069826132Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=2, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 11 Black Academy Position: (8/7) Direction _270, Building: 19 White Infirmary Position: (1/8) Direction _0, Building: 10 Black Tower Position: (5/8) Direction _270, Building: 20 White Castle Position: (5/2) Direction _0, Building: 21 White Tower Position: (4/4) Direction _90, Building: 8 Black Infirmary Position: (1/1) Direction _0, Building: 22 White Academy Position: (1/4) Direction _180, Building: 7 Black Abbey Position: (4/1) Direction _90, Building: 16 White Manor Position: (3/7) Direction _270, Building: 9 Black Castle Position: (7/4) Direction _270], 
+board=
+, [3, 2, 3, 3, 2, 0, 0, 1, 0, 0]
+, [2, 2, 2, 2, 2, 0, 1, 1, 1, 1]
+, [0, 2, 0, 2, 4, 4, 4, 1, 0, 0]
+, [0, 4, 0, 0, 4, 4, 4, 2, 2, 0]
+, [4, 4, 0, 0, 4, 4, 0, 2, 0, 0]
+, [5, 4, 4, 4, 4, 0, 0, 2, 2, 0]
+, [5, 5, 5, 4, 0, 0, 0, 2, 0, 0]
+, [5, 4, 5, 4, 4, 2, 2, 2, 2, 2]
+, [4, 4, 4, 4, 2, 2, 3, 3, 2, 3]
+, [5, 4, 0, 0, 2, 3, 3, 3, 3, 3]
+]
+
+[main(db)][DEBUG][2026-10-08T07:47:55.070016501Z] Current player: 4
+
+[main(db)][DEBUG][2026-10-08T07:47:55.070141649Z] Last move: (7/4)
+
+[main(db)][DEBUG][2026-10-08T07:47:55.070259966Z] score: White: 23, Black: 23
+
+[main(db)][DEBUG][2026-10-08T07:47:55.070489759Z] game finished: false
+[main(db)][DEBUG][2026-10-08T07:47:55.070649193Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T07:47:55.070879406Z] Taking a turn with: MiniMaxAgentCopy
+[main(db)][DEBUG][2026-10-08T07:47:56.147041566Z] selecting best move: White_Square at position: (2/3) with score=120.0
+[main(db)][INFO][2026-10-08T07:47:56.147454851Z] Taking a turn with placement: White_Square at position: (2/3)
+[main(db)][DEBUG][2026-10-08T07:47:56.147667473Z] 
+
+[main(db)][DEBUG][2026-10-08T07:47:56.147953316Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=2, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=0, 17 White Square=0, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 11 Black Academy Position: (8/7) Direction _270, Building: 19 White Infirmary Position: (1/8) Direction _0, Building: 10 Black Tower Position: (5/8) Direction _270, Building: 20 White Castle Position: (5/2) Direction _0, Building: 21 White Tower Position: (4/4) Direction _90, Building: 8 Black Infirmary Position: (1/1) Direction _0, Building: 22 White Academy Position: (1/4) Direction _180, Building: 7 Black Abbey Position: (4/1) Direction _90, Building: 16 White Manor Position: (3/7) Direction _270, Building: 9 Black Castle Position: (7/4) Direction _270, Building: 17 White Square Position: (2/3) Direction _0], 
+board=
+, [3, 2, 3, 3, 2, 0, 0, 1, 0, 0]
+, [2, 2, 2, 2, 2, 0, 1, 1, 1, 1]
+, [0, 2, 0, 2, 4, 4, 4, 1, 0, 0]
+, [0, 4, 4, 4, 4, 4, 4, 2, 2, 0]
+, [4, 4, 4, 4, 4, 4, 0, 2, 0, 0]
+, [5, 4, 4, 4, 4, 0, 0, 2, 2, 0]
+, [5, 5, 5, 4, 0, 0, 0, 2, 0, 0]
+, [5, 4, 5, 4, 4, 2, 2, 2, 2, 2]
+, [4, 4, 4, 4, 2, 2, 3, 3, 2, 3]
+, [5, 4, 0, 0, 2, 3, 3, 3, 3, 3]
+]
+
+[main(db)][DEBUG][2026-10-08T07:47:56.148176549Z] Current player: 2
+
+[main(db)][DEBUG][2026-10-08T07:47:56.148346236Z] Last move: (2/3)
+
+[main(db)][DEBUG][2026-10-08T07:47:56.149037400Z] score: White: 19, Black: 23
+
+[main(db)][DEBUG][2026-10-08T07:47:56.149493804Z] game finished: false
+[main(db)][DEBUG][2026-10-08T07:47:56.149735965Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T07:47:56.150156407Z] Taking a turn with: MiniMaxAgent
+[main(db)][DEBUG][2026-10-08T07:48:08.337127702Z] selecting best move: Black_Stable at position: (8/2) with score=69.5
+[main(db)][INFO][2026-10-08T07:48:08.337496155Z] Taking a turn with placement: Black_Stable at position: (8/2)
+[main(db)][DEBUG][2026-10-08T07:48:08.337712941Z] 
+
+[main(db)][DEBUG][2026-10-08T07:48:08.337972490Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=2, 2 Black Stable=1, 3 Black Inn=2, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=0, 17 White Square=0, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 11 Black Academy Position: (8/7) Direction _270, Building: 19 White Infirmary Position: (1/8) Direction _0, Building: 10 Black Tower Position: (5/8) Direction _270, Building: 20 White Castle Position: (5/2) Direction _0, Building: 21 White Tower Position: (4/4) Direction _90, Building: 8 Black Infirmary Position: (1/1) Direction _0, Building: 22 White Academy Position: (1/4) Direction _180, Building: 7 Black Abbey Position: (4/1) Direction _90, Building: 16 White Manor Position: (3/7) Direction _270, Building: 9 Black Castle Position: (7/4) Direction _270, Building: 17 White Square Position: (2/3) Direction _0, Building: 2 Black Stable Position: (8/2) Direction _0], 
+board=
+, [3, 2, 3, 3, 2, 0, 0, 1, 0, 0]
+, [2, 2, 2, 2, 2, 0, 1, 1, 1, 1]
+, [0, 2, 0, 2, 4, 4, 4, 1, 2, 2]
+, [0, 4, 4, 4, 4, 4, 4, 2, 2, 3]
+, [4, 4, 4, 4, 4, 4, 0, 2, 3, 3]
+, [5, 4, 4, 4, 4, 0, 0, 2, 2, 3]
+, [5, 5, 5, 4, 0, 0, 0, 2, 3, 3]
+, [5, 4, 5, 4, 4, 2, 2, 2, 2, 2]
+, [4, 4, 4, 4, 2, 2, 3, 3, 2, 3]
+, [5, 4, 0, 0, 2, 3, 3, 3, 3, 3]
+]
+
+[main(db)][DEBUG][2026-10-08T07:48:08.338134396Z] Current player: 4
+
+[main(db)][DEBUG][2026-10-08T07:48:08.338274517Z] Last move: (8/2)
+
+[main(db)][DEBUG][2026-10-08T07:48:08.338403893Z] score: White: 19, Black: 21
+
+[main(db)][DEBUG][2026-10-08T07:48:08.338640862Z] game finished: false
+[main(db)][DEBUG][2026-10-08T07:48:08.338753823Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T07:48:08.338977549Z] Taking a turn with: MiniMaxAgentCopy
+[main(db)][DEBUG][2026-10-08T07:48:09.217914204Z] selecting best move: White_Abbey at position: (5/5) with score=160.0
+[main(db)][INFO][2026-10-08T07:48:09.218281263Z] Taking a turn with placement: White_Abbey at position: (5/5)
+[main(db)][DEBUG][2026-10-08T07:48:09.218499710Z] 
+
+[main(db)][DEBUG][2026-10-08T07:48:09.218760694Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=2, 2 Black Stable=1, 3 Black Inn=2, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=0, 17 White Square=0, 18 White Abbey=0, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 11 Black Academy Position: (8/7) Direction _270, Building: 19 White Infirmary Position: (1/8) Direction _0, Building: 10 Black Tower Position: (5/8) Direction _270, Building: 20 White Castle Position: (5/2) Direction _0, Building: 21 White Tower Position: (4/4) Direction _90, Building: 8 Black Infirmary Position: (1/1) Direction _0, Building: 22 White Academy Position: (1/4) Direction _180, Building: 7 Black Abbey Position: (4/1) Direction _90, Building: 16 White Manor Position: (3/7) Direction _270, Building: 9 Black Castle Position: (7/4) Direction _270, Building: 17 White Square Position: (2/3) Direction _0, Building: 2 Black Stable Position: (8/2) Direction _0, Building: 18 White Abbey Position: (5/5) Direction _0], 
+board=
+, [3, 2, 3, 3, 2, 0, 0, 1, 0, 0]
+, [2, 2, 2, 2, 2, 0, 1, 1, 1, 1]
+, [0, 2, 0, 2, 4, 4, 4, 1, 2, 2]
+, [0, 4, 4, 4, 4, 4, 4, 2, 2, 3]
+, [4, 4, 4, 4, 4, 4, 0, 2, 3, 3]
+, [5, 4, 4, 4, 4, 4, 4, 2, 2, 3]
+, [5, 5, 5, 4, 4, 4, 0, 2, 3, 3]
+, [5, 4, 5, 4, 4, 2, 2, 2, 2, 2]
+, [4, 4, 4, 4, 2, 2, 3, 3, 2, 3]
+, [5, 4, 0, 0, 2, 3, 3, 3, 3, 3]
+]
+
+[main(db)][DEBUG][2026-10-08T07:48:09.218910419Z] Current player: 2
+
+[main(db)][DEBUG][2026-10-08T07:48:09.219026573Z] Last move: (5/5)
+
+[main(db)][DEBUG][2026-10-08T07:48:09.219138623Z] score: White: 15, Black: 21
+
+[main(db)][DEBUG][2026-10-08T07:48:09.219412234Z] game finished: false
+[main(db)][DEBUG][2026-10-08T07:48:09.219528747Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T07:48:09.219755129Z] Taking a turn with: MiniMaxAgent
+[main(db)][DEBUG][2026-10-08T07:48:16.285351922Z] selecting best move: Black_Inn at position: (5/1) with score=66.76666
+[main(db)][INFO][2026-10-08T07:48:16.285785400Z] Taking a turn with placement: Black_Inn at position: (5/1)
+[main(db)][DEBUG][2026-10-08T07:48:16.286018730Z] 
+
+[main(db)][DEBUG][2026-10-08T07:48:16.286371364Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=2, 2 Black Stable=1, 3 Black Inn=1, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=0, 17 White Square=0, 18 White Abbey=0, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 11 Black Academy Position: (8/7) Direction _270, Building: 19 White Infirmary Position: (1/8) Direction _0, Building: 10 Black Tower Position: (5/8) Direction _270, Building: 20 White Castle Position: (5/2) Direction _0, Building: 21 White Tower Position: (4/4) Direction _90, Building: 8 Black Infirmary Position: (1/1) Direction _0, Building: 22 White Academy Position: (1/4) Direction _180, Building: 7 Black Abbey Position: (4/1) Direction _90, Building: 16 White Manor Position: (3/7) Direction _270, Building: 9 Black Castle Position: (7/4) Direction _270, Building: 17 White Square Position: (2/3) Direction _0, Building: 2 Black Stable Position: (8/2) Direction _0, Building: 18 White Abbey Position: (5/5) Direction _0, Building: 3 Black Inn Position: (5/1) Direction _270], 
+board=
+, [3, 2, 3, 3, 2, 2, 2, 1, 0, 0]
+, [2, 2, 2, 2, 2, 2, 1, 1, 1, 1]
+, [0, 2, 0, 2, 4, 4, 4, 1, 2, 2]
+, [0, 4, 4, 4, 4, 4, 4, 2, 2, 3]
+, [4, 4, 4, 4, 4, 4, 0, 2, 3, 3]
+, [5, 4, 4, 4, 4, 4, 4, 2, 2, 3]
+, [5, 5, 5, 4, 4, 4, 0, 2, 3, 3]
+, [5, 4, 5, 4, 4, 2, 2, 2, 2, 2]
+, [4, 4, 4, 4, 2, 2, 3, 3, 2, 3]
+, [5, 4, 0, 0, 2, 3, 3, 3, 3, 3]
+]
+
+[main(db)][DEBUG][2026-10-08T07:48:16.286615385Z] Current player: 4
+
+[main(db)][DEBUG][2026-10-08T07:48:16.286811744Z] Last move: (5/1)
+
+[main(db)][DEBUG][2026-10-08T07:48:16.287021993Z] score: White: 15, Black: 18
+
+[main(db)][DEBUG][2026-10-08T07:48:16.287311564Z] game finished: false
+[main(db)][DEBUG][2026-10-08T07:48:16.287722253Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T07:48:16.288093298Z] Taking a turn with: MiniMaxAgentCopy
+[main(db)][DEBUG][2026-10-08T07:48:17.016246492Z] selecting best move: White_Inn at position: (1/6) with score=160.0
+[main(db)][INFO][2026-10-08T07:48:17.016641923Z] Taking a turn with placement: White_Inn at position: (1/6)
+[main(db)][DEBUG][2026-10-08T07:48:17.016824507Z] 
+
+[main(db)][DEBUG][2026-10-08T07:48:17.017102153Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=2, 2 Black Stable=1, 3 Black Inn=1, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=1, 15 White Bridge=1, 16 White Manor=0, 17 White Square=0, 18 White Abbey=0, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 11 Black Academy Position: (8/7) Direction _270, Building: 19 White Infirmary Position: (1/8) Direction _0, Building: 10 Black Tower Position: (5/8) Direction _270, Building: 20 White Castle Position: (5/2) Direction _0, Building: 21 White Tower Position: (4/4) Direction _90, Building: 8 Black Infirmary Position: (1/1) Direction _0, Building: 22 White Academy Position: (1/4) Direction _180, Building: 7 Black Abbey Position: (4/1) Direction _90, Building: 16 White Manor Position: (3/7) Direction _270, Building: 9 Black Castle Position: (7/4) Direction _270, Building: 17 White Square Position: (2/3) Direction _0, Building: 2 Black Stable Position: (8/2) Direction _0, Building: 18 White Abbey Position: (5/5) Direction _0, Building: 3 Black Inn Position: (5/1) Direction _270, Building: 14 White Inn Position: (1/6) Direction _0], 
+board=
+, [3, 2, 3, 3, 2, 2, 2, 1, 0, 0]
+, [2, 2, 2, 2, 2, 2, 1, 1, 1, 1]
+, [0, 2, 0, 2, 4, 4, 4, 1, 2, 2]
+, [0, 4, 4, 4, 4, 4, 4, 2, 2, 3]
+, [4, 4, 4, 4, 4, 4, 0, 2, 3, 3]
+, [5, 4, 4, 4, 4, 4, 4, 2, 2, 3]
+, [5, 4, 4, 4, 4, 4, 0, 2, 3, 3]
+, [5, 4, 4, 4, 4, 2, 2, 2, 2, 2]
+, [4, 4, 4, 4, 2, 2, 3, 3, 2, 3]
+, [5, 4, 0, 0, 2, 3, 3, 3, 3, 3]
+]
+
+[main(db)][DEBUG][2026-10-08T07:48:17.017255436Z] Current player: 2
+
+[main(db)][DEBUG][2026-10-08T07:48:17.017399173Z] Last move: (1/6)
+
+[main(db)][DEBUG][2026-10-08T07:48:17.017518580Z] score: White: 12, Black: 18
+
+[main(db)][DEBUG][2026-10-08T07:48:17.017736026Z] game finished: false
+[main(db)][DEBUG][2026-10-08T07:48:17.017845817Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T07:48:17.018051441Z] Taking a turn with: MiniMaxAgent
+[main(db)][DEBUG][2026-10-08T07:48:20.374923496Z] selecting best move: Black_Stable at position: (8/0) with score=71.86667
+[main(db)][INFO][2026-10-08T07:48:20.375291302Z] Taking a turn with placement: Black_Stable at position: (8/0)
+[main(db)][DEBUG][2026-10-08T07:48:20.375490582Z] 
+
+[main(db)][DEBUG][2026-10-08T07:48:20.375752715Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=2, 2 Black Stable=0, 3 Black Inn=1, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=1, 15 White Bridge=1, 16 White Manor=0, 17 White Square=0, 18 White Abbey=0, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 11 Black Academy Position: (8/7) Direction _270, Building: 19 White Infirmary Position: (1/8) Direction _0, Building: 10 Black Tower Position: (5/8) Direction _270, Building: 20 White Castle Position: (5/2) Direction _0, Building: 21 White Tower Position: (4/4) Direction _90, Building: 8 Black Infirmary Position: (1/1) Direction _0, Building: 22 White Academy Position: (1/4) Direction _180, Building: 7 Black Abbey Position: (4/1) Direction _90, Building: 16 White Manor Position: (3/7) Direction _270, Building: 9 Black Castle Position: (7/4) Direction _270, Building: 17 White Square Position: (2/3) Direction _0, Building: 2 Black Stable Position: (8/2) Direction _0, Building: 18 White Abbey Position: (5/5) Direction _0, Building: 3 Black Inn Position: (5/1) Direction _270, Building: 14 White Inn Position: (1/6) Direction _0, Building: 2 Black Stable Position: (8/0) Direction _0], 
+board=
+, [3, 2, 3, 3, 2, 2, 2, 1, 2, 2]
+, [2, 2, 2, 2, 2, 2, 1, 1, 1, 1]
+, [0, 2, 0, 2, 4, 4, 4, 1, 2, 2]
+, [0, 4, 4, 4, 4, 4, 4, 2, 2, 3]
+, [4, 4, 4, 4, 4, 4, 0, 2, 3, 3]
+, [5, 4, 4, 4, 4, 4, 4, 2, 2, 3]
+, [5, 4, 4, 4, 4, 4, 0, 2, 3, 3]
+, [5, 4, 4, 4, 4, 2, 2, 2, 2, 2]
+, [4, 4, 4, 4, 2, 2, 3, 3, 2, 3]
+, [5, 4, 0, 0, 2, 3, 3, 3, 3, 3]
+]
+
+[main(db)][DEBUG][2026-10-08T07:48:20.375904506Z] Current player: 4
+
+[main(db)][DEBUG][2026-10-08T07:48:20.376019513Z] Last move: (8/0)
+
+[main(db)][DEBUG][2026-10-08T07:48:20.376126911Z] score: White: 12, Black: 16
+
+[main(db)][DEBUG][2026-10-08T07:48:20.376355206Z] game finished: false
+[main(db)][DEBUG][2026-10-08T07:48:20.376485135Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T07:48:20.376704721Z] Taking a turn with: MiniMaxAgentCopy
+[main(db)][DEBUG][2026-10-08T07:48:20.860524027Z] selecting best move: White_Bridge at position: (0/6) with score=160.0
+[main(db)][INFO][2026-10-08T07:48:20.860877362Z] Taking a turn with placement: White_Bridge at position: (0/6)
+[main(db)][DEBUG][2026-10-08T07:48:20.861078107Z] 
+
+[main(db)][DEBUG][2026-10-08T07:48:20.861337158Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=2, 2 Black Stable=0, 3 Black Inn=1, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=1, 15 White Bridge=0, 16 White Manor=0, 17 White Square=0, 18 White Abbey=0, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 11 Black Academy Position: (8/7) Direction _270, Building: 19 White Infirmary Position: (1/8) Direction _0, Building: 10 Black Tower Position: (5/8) Direction _270, Building: 20 White Castle Position: (5/2) Direction _0, Building: 21 White Tower Position: (4/4) Direction _90, Building: 8 Black Infirmary Position: (1/1) Direction _0, Building: 22 White Academy Position: (1/4) Direction _180, Building: 7 Black Abbey Position: (4/1) Direction _90, Building: 16 White Manor Position: (3/7) Direction _270, Building: 9 Black Castle Position: (7/4) Direction _270, Building: 17 White Square Position: (2/3) Direction _0, Building: 2 Black Stable Position: (8/2) Direction _0, Building: 18 White Abbey Position: (5/5) Direction _0, Building: 3 Black Inn Position: (5/1) Direction _270, Building: 14 White Inn Position: (1/6) Direction _0, Building: 2 Black Stable Position: (8/0) Direction _0, Building: 15 White Bridge Position: (0/6) Direction _0], 
+board=
+, [3, 2, 3, 3, 2, 2, 2, 1, 2, 2]
+, [2, 2, 2, 2, 2, 2, 1, 1, 1, 1]
+, [0, 2, 0, 2, 4, 4, 4, 1, 2, 2]
+, [0, 4, 4, 4, 4, 4, 4, 2, 2, 3]
+, [4, 4, 4, 4, 4, 4, 0, 2, 3, 3]
+, [4, 4, 4, 4, 4, 4, 4, 2, 2, 3]
+, [4, 4, 4, 4, 4, 4, 0, 2, 3, 3]
+, [4, 4, 4, 4, 4, 2, 2, 2, 2, 2]
+, [4, 4, 4, 4, 2, 2, 3, 3, 2, 3]
+, [5, 4, 0, 0, 2, 3, 3, 3, 3, 3]
+]
+
+[main(db)][DEBUG][2026-10-08T07:48:20.861507707Z] Current player: 2
+
+[main(db)][DEBUG][2026-10-08T07:48:20.861623868Z] Last move: (0/6)
+
+[main(db)][DEBUG][2026-10-08T07:48:20.861733654Z] score: White: 9, Black: 16
+
+[main(db)][DEBUG][2026-10-08T07:48:20.861970065Z] game finished: false
+[main(db)][DEBUG][2026-10-08T07:48:20.862090375Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T07:48:20.862295227Z] Taking a turn with: MiniMaxAgent
+[main(db)][DEBUG][2026-10-08T07:48:21.969719163Z] selecting best move: Black_Tavern at position: (3/9) with score=81.4
+[main(db)][INFO][2026-10-08T07:48:21.970193651Z] Taking a turn with placement: Black_Tavern at position: (3/9)
+[main(db)][DEBUG][2026-10-08T07:48:21.970396166Z] 
+
+[main(db)][DEBUG][2026-10-08T07:48:21.970763666Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=1, 2 Black Stable=0, 3 Black Inn=1, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=1, 15 White Bridge=0, 16 White Manor=0, 17 White Square=0, 18 White Abbey=0, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 11 Black Academy Position: (8/7) Direction _270, Building: 19 White Infirmary Position: (1/8) Direction _0, Building: 10 Black Tower Position: (5/8) Direction _270, Building: 20 White Castle Position: (5/2) Direction _0, Building: 21 White Tower Position: (4/4) Direction _90, Building: 8 Black Infirmary Position: (1/1) Direction _0, Building: 22 White Academy Position: (1/4) Direction _180, Building: 7 Black Abbey Position: (4/1) Direction _90, Building: 16 White Manor Position: (3/7) Direction _270, Building: 9 Black Castle Position: (7/4) Direction _270, Building: 17 White Square Position: (2/3) Direction _0, Building: 2 Black Stable Position: (8/2) Direction _0, Building: 18 White Abbey Position: (5/5) Direction _0, Building: 3 Black Inn Position: (5/1) Direction _270, Building: 14 White Inn Position: (1/6) Direction _0, Building: 2 Black Stable Position: (8/0) Direction _0, Building: 15 White Bridge Position: (0/6) Direction _0, Building: 1 Black Tavern Position: (3/9) Direction _0], 
+board=
+, [3, 2, 3, 3, 2, 2, 2, 1, 2, 2]
+, [2, 2, 2, 2, 2, 2, 1, 1, 1, 1]
+, [0, 2, 0, 2, 4, 4, 4, 1, 2, 2]
+, [0, 4, 4, 4, 4, 4, 4, 2, 2, 3]
+, [4, 4, 4, 4, 4, 4, 0, 2, 3, 3]
+, [4, 4, 4, 4, 4, 4, 4, 2, 2, 3]
+, [4, 4, 4, 4, 4, 4, 0, 2, 3, 3]
+, [4, 4, 4, 4, 4, 2, 2, 2, 2, 2]
+, [4, 4, 4, 4, 2, 2, 3, 3, 2, 3]
+, [5, 4, 0, 2, 2, 3, 3, 3, 3, 3]
+]
+
+[main(db)][DEBUG][2026-10-08T07:48:21.970937327Z] Current player: 4
+
+[main(db)][DEBUG][2026-10-08T07:48:21.971049938Z] Last move: (3/9)
+
+[main(db)][DEBUG][2026-10-08T07:48:21.971149885Z] score: White: 9, Black: 15
+
+[main(db)][DEBUG][2026-10-08T07:48:21.971358286Z] game finished: false
+[main(db)][DEBUG][2026-10-08T07:48:21.971477898Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T07:48:21.971680342Z] Taking a turn with: MiniMaxAgentCopy
+[main(db)][DEBUG][2026-10-08T07:48:22.263567778Z] selecting best move: White_Stable at position: (0/2) with score=160.0
+[main(db)][INFO][2026-10-08T07:48:22.264023510Z] Taking a turn with placement: White_Stable at position: (0/2)
+[main(db)][DEBUG][2026-10-08T07:48:22.264320648Z] 
+
+[main(db)][DEBUG][2026-10-08T07:48:22.264750952Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=1, 2 Black Stable=0, 3 Black Inn=1, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=1, 14 White Inn=1, 15 White Bridge=0, 16 White Manor=0, 17 White Square=0, 18 White Abbey=0, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 11 Black Academy Position: (8/7) Direction _270, Building: 19 White Infirmary Position: (1/8) Direction _0, Building: 10 Black Tower Position: (5/8) Direction _270, Building: 20 White Castle Position: (5/2) Direction _0, Building: 21 White Tower Position: (4/4) Direction _90, Building: 8 Black Infirmary Position: (1/1) Direction _0, Building: 22 White Academy Position: (1/4) Direction _180, Building: 7 Black Abbey Position: (4/1) Direction _90, Building: 16 White Manor Position: (3/7) Direction _270, Building: 9 Black Castle Position: (7/4) Direction _270, Building: 17 White Square Position: (2/3) Direction _0, Building: 2 Black Stable Position: (8/2) Direction _0, Building: 18 White Abbey Position: (5/5) Direction _0, Building: 3 Black Inn Position: (5/1) Direction _270, Building: 14 White Inn Position: (1/6) Direction _0, Building: 2 Black Stable Position: (8/0) Direction _0, Building: 15 White Bridge Position: (0/6) Direction _0, Building: 1 Black Tavern Position: (3/9) Direction _0, Building: 13 White Stable Position: (0/2) Direction _90], 
+board=
+, [3, 2, 3, 3, 2, 2, 2, 1, 2, 2]
+, [2, 2, 2, 2, 2, 2, 1, 1, 1, 1]
+, [4, 2, 0, 2, 4, 4, 4, 1, 2, 2]
+, [4, 4, 4, 4, 4, 4, 4, 2, 2, 3]
+, [4, 4, 4, 4, 4, 4, 0, 2, 3, 3]
+, [4, 4, 4, 4, 4, 4, 4, 2, 2, 3]
+, [4, 4, 4, 4, 4, 4, 0, 2, 3, 3]
+, [4, 4, 4, 4, 4, 2, 2, 2, 2, 2]
+, [4, 4, 4, 4, 2, 2, 3, 3, 2, 3]
+, [5, 4, 0, 2, 2, 3, 3, 3, 3, 3]
+]
+
+[main(db)][DEBUG][2026-10-08T07:48:22.264995056Z] Current player: 2
+
+[main(db)][DEBUG][2026-10-08T07:48:22.265175675Z] Last move: (0/2)
+
+[main(db)][DEBUG][2026-10-08T07:48:22.265339383Z] score: White: 7, Black: 15
+
+[main(db)][DEBUG][2026-10-08T07:48:22.265663525Z] game finished: false
+[main(db)][DEBUG][2026-10-08T07:48:22.265845683Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T07:48:22.266200762Z] Taking a turn with: MiniMaxAgent
+[main(db)][DEBUG][2026-10-08T07:48:22.705899591Z] selecting best move: Black_Tavern at position: (2/2) with score=73.7
+[main(db)][INFO][2026-10-08T07:48:22.706278674Z] Taking a turn with placement: Black_Tavern at position: (2/2)
+[main(db)][DEBUG][2026-10-08T07:48:22.706543118Z] 
+
+[main(db)][DEBUG][2026-10-08T07:48:22.706849588Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=0, 2 Black Stable=0, 3 Black Inn=1, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=1, 14 White Inn=1, 15 White Bridge=0, 16 White Manor=0, 17 White Square=0, 18 White Abbey=0, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 11 Black Academy Position: (8/7) Direction _270, Building: 19 White Infirmary Position: (1/8) Direction _0, Building: 10 Black Tower Position: (5/8) Direction _270, Building: 20 White Castle Position: (5/2) Direction _0, Building: 21 White Tower Position: (4/4) Direction _90, Building: 8 Black Infirmary Position: (1/1) Direction _0, Building: 22 White Academy Position: (1/4) Direction _180, Building: 7 Black Abbey Position: (4/1) Direction _90, Building: 16 White Manor Position: (3/7) Direction _270, Building: 9 Black Castle Position: (7/4) Direction _270, Building: 17 White Square Position: (2/3) Direction _0, Building: 2 Black Stable Position: (8/2) Direction _0, Building: 18 White Abbey Position: (5/5) Direction _0, Building: 3 Black Inn Position: (5/1) Direction _270, Building: 14 White Inn Position: (1/6) Direction _0, Building: 2 Black Stable Position: (8/0) Direction _0, Building: 15 White Bridge Position: (0/6) Direction _0, Building: 1 Black Tavern Position: (3/9) Direction _0, Building: 13 White Stable Position: (0/2) Direction _90, Building: 1 Black Tavern Position: (2/2) Direction _0], 
+board=
+, [3, 2, 3, 3, 2, 2, 2, 1, 2, 2]
+, [2, 2, 2, 2, 2, 2, 1, 1, 1, 1]
+, [4, 2, 2, 2, 4, 4, 4, 1, 2, 2]
+, [4, 4, 4, 4, 4, 4, 4, 2, 2, 3]
+, [4, 4, 4, 4, 4, 4, 0, 2, 3, 3]
+, [4, 4, 4, 4, 4, 4, 4, 2, 2, 3]
+, [4, 4, 4, 4, 4, 4, 0, 2, 3, 3]
+, [4, 4, 4, 4, 4, 2, 2, 2, 2, 2]
+, [4, 4, 4, 4, 2, 2, 3, 3, 2, 3]
+, [5, 4, 0, 2, 2, 3, 3, 3, 3, 3]
+]
+
+[main(db)][DEBUG][2026-10-08T07:48:22.707035629Z] Current player: 4
+
+[main(db)][DEBUG][2026-10-08T07:48:22.707217063Z] Last move: (2/2)
+
+[main(db)][DEBUG][2026-10-08T07:48:22.707407669Z] score: White: 7, Black: 14
+
+[main(db)][DEBUG][2026-10-08T07:48:22.707869950Z] game finished: false
+[main(db)][DEBUG][2026-10-08T07:48:22.708036174Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T07:48:22.708498111Z] Taking a turn with: MiniMaxAgentCopy
+[main(db)][DEBUG][2026-10-08T07:48:22.790077615Z] selecting best move: White_Tavern at position: (6/4) with score=100.0
+[main(db)][INFO][2026-10-08T07:48:22.790440056Z] Taking a turn with placement: White_Tavern at position: (6/4)
+[main(db)][DEBUG][2026-10-08T07:48:22.790687675Z] 
+
+[main(db)][DEBUG][2026-10-08T07:48:22.790996282Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=0, 2 Black Stable=0, 3 Black Inn=1, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=1, 13 White Stable=1, 14 White Inn=1, 15 White Bridge=0, 16 White Manor=0, 17 White Square=0, 18 White Abbey=0, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 11 Black Academy Position: (8/7) Direction _270, Building: 19 White Infirmary Position: (1/8) Direction _0, Building: 10 Black Tower Position: (5/8) Direction _270, Building: 20 White Castle Position: (5/2) Direction _0, Building: 21 White Tower Position: (4/4) Direction _90, Building: 8 Black Infirmary Position: (1/1) Direction _0, Building: 22 White Academy Position: (1/4) Direction _180, Building: 7 Black Abbey Position: (4/1) Direction _90, Building: 16 White Manor Position: (3/7) Direction _270, Building: 9 Black Castle Position: (7/4) Direction _270, Building: 17 White Square Position: (2/3) Direction _0, Building: 2 Black Stable Position: (8/2) Direction _0, Building: 18 White Abbey Position: (5/5) Direction _0, Building: 3 Black Inn Position: (5/1) Direction _270, Building: 14 White Inn Position: (1/6) Direction _0, Building: 2 Black Stable Position: (8/0) Direction _0, Building: 15 White Bridge Position: (0/6) Direction _0, Building: 1 Black Tavern Position: (3/9) Direction _0, Building: 13 White Stable Position: (0/2) Direction _90, Building: 1 Black Tavern Position: (2/2) Direction _0, Building: 12 White Tavern Position: (6/4) Direction _0], 
+board=
+, [3, 2, 3, 3, 2, 2, 2, 1, 2, 2]
+, [2, 2, 2, 2, 2, 2, 1, 1, 1, 1]
+, [4, 2, 2, 2, 4, 4, 4, 1, 2, 2]
+, [4, 4, 4, 4, 4, 4, 4, 2, 2, 3]
+, [4, 4, 4, 4, 4, 4, 4, 2, 3, 3]
+, [4, 4, 4, 4, 4, 4, 4, 2, 2, 3]
+, [4, 4, 4, 4, 4, 4, 0, 2, 3, 3]
+, [4, 4, 4, 4, 4, 2, 2, 2, 2, 2]
+, [4, 4, 4, 4, 2, 2, 3, 3, 2, 3]
+, [5, 4, 0, 2, 2, 3, 3, 3, 3, 3]
+]
+
+[main(db)][DEBUG][2026-10-08T07:48:22.791196652Z] Current player: 2
+
+[main(db)][DEBUG][2026-10-08T07:48:22.791362920Z] Last move: (6/4)
+
+[main(db)][DEBUG][2026-10-08T07:48:22.791549791Z] score: White: 6, Black: 14
+
+[main(db)][DEBUG][2026-10-08T07:48:22.792017959Z] game finished: false
+[main(db)][DEBUG][2026-10-08T07:48:22.792168367Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T07:48:22.792616856Z] Taking a turn with: MiniMaxAgent
+[main(db)][DEBUG][2026-10-08T07:48:22.881897432Z] selecting best move: Black_Inn at position: (6/9) with score=63.500004
+[main(db)][INFO][2026-10-08T07:48:22.882355067Z] Taking a turn with placement: Black_Inn at position: (6/9)
+[main(db)][DEBUG][2026-10-08T07:48:22.882614081Z] 
+
+[main(db)][DEBUG][2026-10-08T07:48:22.883041856Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=0, 2 Black Stable=0, 3 Black Inn=0, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=1, 13 White Stable=1, 14 White Inn=1, 15 White Bridge=0, 16 White Manor=0, 17 White Square=0, 18 White Abbey=0, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 11 Black Academy Position: (8/7) Direction _270, Building: 19 White Infirmary Position: (1/8) Direction _0, Building: 10 Black Tower Position: (5/8) Direction _270, Building: 20 White Castle Position: (5/2) Direction _0, Building: 21 White Tower Position: (4/4) Direction _90, Building: 8 Black Infirmary Position: (1/1) Direction _0, Building: 22 White Academy Position: (1/4) Direction _180, Building: 7 Black Abbey Position: (4/1) Direction _90, Building: 16 White Manor Position: (3/7) Direction _270, Building: 9 Black Castle Position: (7/4) Direction _270, Building: 17 White Square Position: (2/3) Direction _0, Building: 2 Black Stable Position: (8/2) Direction _0, Building: 18 White Abbey Position: (5/5) Direction _0, Building: 3 Black Inn Position: (5/1) Direction _270, Building: 14 White Inn Position: (1/6) Direction _0, Building: 2 Black Stable Position: (8/0) Direction _0, Building: 15 White Bridge Position: (0/6) Direction _0, Building: 1 Black Tavern Position: (3/9) Direction _0, Building: 13 White Stable Position: (0/2) Direction _90, Building: 1 Black Tavern Position: (2/2) Direction _0, Building: 12 White Tavern Position: (6/4) Direction _0, Building: 3 Black Inn Position: (6/9) Direction _270], 
+board=
+, [3, 2, 3, 3, 2, 2, 2, 1, 2, 2]
+, [2, 2, 2, 2, 2, 2, 1, 1, 1, 1]
+, [4, 2, 2, 2, 4, 4, 4, 1, 2, 2]
+, [4, 4, 4, 4, 4, 4, 4, 2, 2, 3]
+, [4, 4, 4, 4, 4, 4, 4, 2, 3, 3]
+, [4, 4, 4, 4, 4, 4, 4, 2, 2, 3]
+, [4, 4, 4, 4, 4, 4, 0, 2, 3, 3]
+, [4, 4, 4, 4, 4, 2, 2, 2, 2, 2]
+, [4, 4, 4, 4, 2, 2, 2, 2, 2, 3]
+, [5, 4, 0, 2, 2, 3, 2, 3, 3, 3]
+]
+
+[main(db)][DEBUG][2026-10-08T07:48:22.883240582Z] Current player: 4
+
+[main(db)][DEBUG][2026-10-08T07:48:22.883485328Z] Last move: (6/9)
+
+[main(db)][DEBUG][2026-10-08T07:48:22.883743984Z] score: White: 6, Black: 11
+
+[main(db)][DEBUG][2026-10-08T07:48:22.884031807Z] game finished: false
+[main(db)][DEBUG][2026-10-08T07:48:22.884159409Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T07:48:22.884472930Z] Taking a turn with: MiniMaxAgentCopy
+[main(db)][DEBUG][2026-10-08T07:48:22.897549806Z] selecting best move: White_Tavern at position: (6/6) with score=40.0
+[main(db)][INFO][2026-10-08T07:48:22.897910070Z] Taking a turn with placement: White_Tavern at position: (6/6)
+[main(db)][DEBUG][2026-10-08T07:48:22.898150314Z] 
+
+[main(db)][DEBUG][2026-10-08T07:48:22.898409285Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=0, 2 Black Stable=0, 3 Black Inn=0, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=0, 13 White Stable=1, 14 White Inn=1, 15 White Bridge=0, 16 White Manor=0, 17 White Square=0, 18 White Abbey=0, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 11 Black Academy Position: (8/7) Direction _270, Building: 19 White Infirmary Position: (1/8) Direction _0, Building: 10 Black Tower Position: (5/8) Direction _270, Building: 20 White Castle Position: (5/2) Direction _0, Building: 21 White Tower Position: (4/4) Direction _90, Building: 8 Black Infirmary Position: (1/1) Direction _0, Building: 22 White Academy Position: (1/4) Direction _180, Building: 7 Black Abbey Position: (4/1) Direction _90, Building: 16 White Manor Position: (3/7) Direction _270, Building: 9 Black Castle Position: (7/4) Direction _270, Building: 17 White Square Position: (2/3) Direction _0, Building: 2 Black Stable Position: (8/2) Direction _0, Building: 18 White Abbey Position: (5/5) Direction _0, Building: 3 Black Inn Position: (5/1) Direction _270, Building: 14 White Inn Position: (1/6) Direction _0, Building: 2 Black Stable Position: (8/0) Direction _0, Building: 15 White Bridge Position: (0/6) Direction _0, Building: 1 Black Tavern Position: (3/9) Direction _0, Building: 13 White Stable Position: (0/2) Direction _90, Building: 1 Black Tavern Position: (2/2) Direction _0, Building: 12 White Tavern Position: (6/4) Direction _0, Building: 3 Black Inn Position: (6/9) Direction _270, Building: 12 White Tavern Position: (6/6) Direction _0], 
+board=
+, [3, 2, 3, 3, 2, 2, 2, 1, 2, 2]
+, [2, 2, 2, 2, 2, 2, 1, 1, 1, 1]
+, [4, 2, 2, 2, 4, 4, 4, 1, 2, 2]
+, [4, 4, 4, 4, 4, 4, 4, 2, 2, 3]
+, [4, 4, 4, 4, 4, 4, 4, 2, 3, 3]
+, [4, 4, 4, 4, 4, 4, 4, 2, 2, 3]
+, [4, 4, 4, 4, 4, 4, 4, 2, 3, 3]
+, [4, 4, 4, 4, 4, 2, 2, 2, 2, 2]
+, [4, 4, 4, 4, 2, 2, 2, 2, 2, 3]
+, [5, 4, 0, 2, 2, 3, 2, 3, 3, 3]
+]
+
+[main(db)][DEBUG][2026-10-08T07:48:22.898649843Z] Current player: 2
+
+[main(db)][DEBUG][2026-10-08T07:48:22.898822607Z] Last move: (6/6)
+
+[main(db)][DEBUG][2026-10-08T07:48:22.899015439Z] score: White: 5, Black: 11
+
+[main(db)][DEBUG][2026-10-08T07:48:22.899517007Z] game finished: false
+[main(db)][DEBUG][2026-10-08T07:48:22.899752404Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T07:48:22.900240805Z] Taking a turn with: MiniMaxAgent
+[main(db)][DEBUG][2026-10-08T07:48:22.908794902Z] selecting best move: Black_Bridge at position: (9/5) with score=64.16667
+[main(db)][INFO][2026-10-08T07:48:22.909631926Z] Taking a turn with placement: Black_Bridge at position: (9/5)
+[main(db)][DEBUG][2026-10-08T07:48:22.910051935Z] 
+
+[main(db)][DEBUG][2026-10-08T07:48:22.910449900Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=0, 2 Black Stable=0, 3 Black Inn=0, 4 Black Bridge=0, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=0, 13 White Stable=1, 14 White Inn=1, 15 White Bridge=0, 16 White Manor=0, 17 White Square=0, 18 White Abbey=0, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 11 Black Academy Position: (8/7) Direction _270, Building: 19 White Infirmary Position: (1/8) Direction _0, Building: 10 Black Tower Position: (5/8) Direction _270, Building: 20 White Castle Position: (5/2) Direction _0, Building: 21 White Tower Position: (4/4) Direction _90, Building: 8 Black Infirmary Position: (1/1) Direction _0, Building: 22 White Academy Position: (1/4) Direction _180, Building: 7 Black Abbey Position: (4/1) Direction _90, Building: 16 White Manor Position: (3/7) Direction _270, Building: 9 Black Castle Position: (7/4) Direction _270, Building: 17 White Square Position: (2/3) Direction _0, Building: 2 Black Stable Position: (8/2) Direction _0, Building: 18 White Abbey Position: (5/5) Direction _0, Building: 3 Black Inn Position: (5/1) Direction _270, Building: 14 White Inn Position: (1/6) Direction _0, Building: 2 Black Stable Position: (8/0) Direction _0, Building: 15 White Bridge Position: (0/6) Direction _0, Building: 1 Black Tavern Position: (3/9) Direction _0, Building: 13 White Stable Position: (0/2) Direction _90, Building: 1 Black Tavern Position: (2/2) Direction _0, Building: 12 White Tavern Position: (6/4) Direction _0, Building: 3 Black Inn Position: (6/9) Direction _270, Building: 12 White Tavern Position: (6/6) Direction _0, Building: 4 Black Bridge Position: (9/5) Direction _0], 
+board=
+, [3, 2, 3, 3, 2, 2, 2, 1, 2, 2]
+, [2, 2, 2, 2, 2, 2, 1, 1, 1, 1]
+, [4, 2, 2, 2, 4, 4, 4, 1, 2, 2]
+, [4, 4, 4, 4, 4, 4, 4, 2, 2, 3]
+, [4, 4, 4, 4, 4, 4, 4, 2, 3, 2]
+, [4, 4, 4, 4, 4, 4, 4, 2, 2, 2]
+, [4, 4, 4, 4, 4, 4, 4, 2, 3, 2]
+, [4, 4, 4, 4, 4, 2, 2, 2, 2, 2]
+, [4, 4, 4, 4, 2, 2, 2, 2, 2, 3]
+, [5, 4, 0, 2, 2, 3, 2, 3, 3, 3]
+]
+
+[main(db)][DEBUG][2026-10-08T07:48:22.910732402Z] Current player: 4
+
+[main(db)][DEBUG][2026-10-08T07:48:22.910984547Z] Last move: (9/5)
+
+[main(db)][DEBUG][2026-10-08T07:48:22.911161264Z] score: White: 5, Black: 8
+
+[main(db)][DEBUG][2026-10-08T07:48:22.912697352Z] game finished: true
+[main(db)][DEBUG][2026-10-08T07:48:22.912993268Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T07:48:22.914847449Z] Game finished with score: {2=8, 4=5}
+
+
+
+[main(db)][INFO][2026-10-08T09:33:22.687341632Z] starting Main
+[main(db)][INFO][2026-10-08T09:33:22.772391240Z] Taking a turn with: MiniMaxAgent
+[main(db)][DEBUG][2026-10-08T09:33:53.862166582Z] selecting best move: Blue_Cathedral at position: (7/1) with score=0.0
+[main(db)][INFO][2026-10-08T09:33:53.865178054Z] Taking a turn with placement: Blue_Cathedral at position: (7/1)
+[main(db)][DEBUG][2026-10-08T09:33:53.865537960Z] 
+
+[main(db)][DEBUG][2026-10-08T09:33:53.875063959Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=2, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=1, 10 Black Tower=1, 11 Black Academy=1, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=1, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=1, 20 White Castle=1, 21 White Tower=1, 22 White Academy=1, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270], 
+board=
+, [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+, [0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+, [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 , [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 ]
 
-[main(db)][DEBUG][2026-09-29T20:22:51.280911200Z] Current player: 2
+[main(db)][DEBUG][2026-10-08T09:33:53.875537036Z] Current player: 2
 
-[main(db)][DEBUG][2026-09-29T20:22:51.281910300Z] Last move: (5/7)
+[main(db)][DEBUG][2026-10-08T09:33:53.875865355Z] Last move: (7/1)
 
-[main(db)][DEBUG][2026-09-29T20:22:51.282909900Z] score: {2=44, 4=42}
-[main(db)][DEBUG][2026-09-29T20:22:51.283909600Z] game finished: false
-[main(db)][INFO][2026-09-29T20:22:51.284907400Z] ----------------------------------------------------
-[main(db)][INFO][2026-09-29T20:22:51.295595Z] Taking a turn with placement: Black_Stable at position: (7/1)
-[main(db)][INFO][2026-09-29T20:22:51.300927900Z] 
+[main(db)][DEBUG][2026-10-08T09:33:53.877665655Z] score: White: 47, Black: 47
 
-[main(db)][DEBUG][2026-09-29T20:22:51.301469400Z] Board state:
+[main(db)][DEBUG][2026-10-08T09:33:53.879731029Z] game finished: false
+[main(db)][DEBUG][2026-10-08T09:33:53.879989165Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T09:33:53.880323786Z] Taking a turn with: MiniMaxAgent
+[main(db)][DEBUG][2026-10-08T09:35:09.613871894Z] selecting best move: Black_Tower at position: (6/8) with score=65.53333
+[main(db)][INFO][2026-10-08T09:35:09.614358288Z] Taking a turn with placement: Black_Tower at position: (6/8)
+[main(db)][DEBUG][2026-10-08T09:35:09.614615707Z] 
+
+[main(db)][DEBUG][2026-10-08T09:35:09.614981379Z] Board state:
 Board[
-freeBuildings={1 Black Tavern=2, 2 Black Stable=1, 3 Black Inn=1, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=1, 10 Black Tower=1, 11 Black Academy=1, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=1, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=1, 20 White Castle=1, 21 White Tower=0, 22 White Academy=1, 23 Cathedral=0}, 
-placedBuildings=[Building: 23 Cathedral Position: (2/5) Direction _180, Building: 3 Black Inn Position: (6/2) Direction _0, Building: 21 White Tower Position: (5/7) Direction _180, Building: 2 Black Stable Position: (7/1) Direction _0], 
+freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=2, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=1, 10 Black Tower=0, 11 Black Academy=1, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=1, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=1, 20 White Castle=1, 21 White Tower=1, 22 White Academy=1, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 10 Black Tower Position: (6/8) Direction _0], 
 board=
+, [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+, [0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+, [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
 , [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-, [0, 0, 0, 0, 0, 0, 0, 2, 2, 0]
+, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+, [0, 0, 0, 0, 0, 2, 2, 0, 0, 0]
 , [0, 0, 0, 0, 0, 0, 2, 2, 0, 0]
-, [0, 0, 1, 0, 0, 0, 0, 2, 0, 0]
-, [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
-, [0, 1, 1, 1, 0, 0, 0, 0, 0, 0]
-, [0, 0, 1, 0, 4, 0, 0, 0, 0, 0]
-, [0, 0, 0, 0, 4, 4, 0, 0, 0, 0]
-, [0, 0, 0, 0, 0, 4, 4, 0, 0, 0]
-, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 2, 0, 0]
 ]
 
-[main(db)][DEBUG][2026-09-29T20:22:51.302432300Z] Current player: 4
+[main(db)][DEBUG][2026-10-08T09:35:09.615193732Z] Current player: 4
 
-[main(db)][DEBUG][2026-09-29T20:22:51.302432300Z] Last move: (7/1)
+[main(db)][DEBUG][2026-10-08T09:35:09.615361146Z] Last move: (6/8)
 
-[main(db)][DEBUG][2026-09-29T20:22:51.303431800Z] score: {2=42, 4=42}
-[main(db)][DEBUG][2026-09-29T20:22:51.304526100Z] game finished: false
-[main(db)][INFO][2026-09-29T20:22:51.304526100Z] ----------------------------------------------------
-[main(db)][INFO][2026-09-29T20:22:51.309784400Z] Taking a turn with placement: White_Castle at position: (1/8)
-[main(db)][INFO][2026-09-29T20:22:51.311754400Z] 
+[main(db)][DEBUG][2026-10-08T09:35:09.615522625Z] score: White: 47, Black: 42
 
-[main(db)][DEBUG][2026-09-29T20:22:51.312750200Z] Board state:
+[main(db)][DEBUG][2026-10-08T09:35:09.615801277Z] game finished: false
+[main(db)][DEBUG][2026-10-08T09:35:09.615950108Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T09:35:09.622502226Z] Taking a turn with: MiniMaxAgentCopy
+[main(db)][DEBUG][2026-10-08T09:35:13.954331255Z] selecting best move: White_Infirmary at position: (5/3) with score=80.0
+[main(db)][INFO][2026-10-08T09:35:13.954778492Z] Taking a turn with placement: White_Infirmary at position: (5/3)
+[main(db)][DEBUG][2026-10-08T09:35:13.955012614Z] 
+
+[main(db)][DEBUG][2026-10-08T09:35:13.955544128Z] Board state:
 Board[
-freeBuildings={1 Black Tavern=2, 2 Black Stable=1, 3 Black Inn=1, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=1, 10 Black Tower=1, 11 Black Academy=1, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=1, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=1, 20 White Castle=0, 21 White Tower=0, 22 White Academy=1, 23 Cathedral=0}, 
-placedBuildings=[Building: 23 Cathedral Position: (2/5) Direction _180, Building: 3 Black Inn Position: (6/2) Direction _0, Building: 21 White Tower Position: (5/7) Direction _180, Building: 2 Black Stable Position: (7/1) Direction _0, Building: 20 White Castle Position: (1/8) Direction _0], 
+freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=2, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=1, 10 Black Tower=0, 11 Black Academy=1, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=1, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=1, 21 White Tower=1, 22 White Academy=1, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 10 Black Tower Position: (6/8) Direction _0, Building: 19 White Infirmary Position: (5/3) Direction _0], 
 board=
+, [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+, [0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+, [0, 0, 0, 0, 0, 4, 0, 1, 0, 0]
+, [0, 0, 0, 0, 4, 4, 4, 0, 0, 0]
+, [0, 0, 0, 0, 0, 4, 0, 0, 0, 0]
 , [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-, [0, 0, 0, 0, 0, 0, 0, 2, 2, 0]
+, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+, [0, 0, 0, 0, 0, 2, 2, 0, 0, 0]
 , [0, 0, 0, 0, 0, 0, 2, 2, 0, 0]
-, [0, 0, 1, 0, 0, 0, 0, 2, 0, 0]
-, [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
-, [0, 1, 1, 1, 0, 0, 0, 0, 0, 0]
-, [0, 0, 1, 0, 4, 0, 0, 0, 0, 0]
-, [0, 0, 0, 0, 4, 4, 0, 0, 0, 0]
-, [4, 4, 4, 0, 0, 4, 4, 0, 0, 0]
-, [4, 5, 4, 0, 0, 0, 0, 0, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 2, 0, 0]
 ]
 
-[main(db)][DEBUG][2026-09-29T20:22:51.313749100Z] Current player: 2
+[main(db)][DEBUG][2026-10-08T09:35:13.956044635Z] Current player: 2
 
-[main(db)][DEBUG][2026-09-29T20:22:51.313749100Z] Last move: (1/8)
+[main(db)][DEBUG][2026-10-08T09:35:13.956294163Z] Last move: (5/3)
 
-[main(db)][DEBUG][2026-09-29T20:22:51.314747700Z] score: {2=42, 4=37}
-[main(db)][DEBUG][2026-09-29T20:22:51.314747700Z] game finished: false
-[main(db)][INFO][2026-09-29T20:22:51.315746800Z] ----------------------------------------------------
-[main(db)][INFO][2026-09-29T20:22:51.321841800Z] Taking a turn with placement: Black_Castle at position: (6/5)
-[main(db)][INFO][2026-09-29T20:22:51.322840800Z] 
+[main(db)][DEBUG][2026-10-08T09:35:13.956514058Z] score: White: 42, Black: 42
 
-[main(db)][DEBUG][2026-09-29T20:22:51.323840300Z] Board state:
+[main(db)][DEBUG][2026-10-08T09:35:13.956805049Z] game finished: false
+[main(db)][DEBUG][2026-10-08T09:35:13.956969960Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T09:35:13.957217931Z] Taking a turn with: MiniMaxAgent
+[main(db)][DEBUG][2026-10-08T09:35:54.702296981Z] selecting best move: Black_Castle at position: (8/3) with score=103.4
+[main(db)][INFO][2026-10-08T09:35:54.702720903Z] Taking a turn with placement: Black_Castle at position: (8/3)
+[main(db)][DEBUG][2026-10-08T09:35:54.702967542Z] 
+
+[main(db)][DEBUG][2026-10-08T09:35:54.703349203Z] Board state:
 Board[
-freeBuildings={1 Black Tavern=2, 2 Black Stable=1, 3 Black Inn=1, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=0, 10 Black Tower=1, 11 Black Academy=1, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=1, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=1, 20 White Castle=0, 21 White Tower=0, 22 White Academy=1, 23 Cathedral=0}, 
-placedBuildings=[Building: 23 Cathedral Position: (2/5) Direction _180, Building: 3 Black Inn Position: (6/2) Direction _0, Building: 21 White Tower Position: (5/7) Direction _180, Building: 2 Black Stable Position: (7/1) Direction _0, Building: 20 White Castle Position: (1/8) Direction _0, Building: 9 Black Castle Position: (6/5) Direction _0], 
+freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=2, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=1, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=1, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=1, 21 White Tower=1, 22 White Academy=1, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 10 Black Tower Position: (6/8) Direction _0, Building: 19 White Infirmary Position: (5/3) Direction _0, Building: 9 Black Castle Position: (8/3) Direction _270], 
 board=
+, [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+, [0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+, [0, 0, 0, 0, 0, 4, 0, 1, 2, 2]
+, [0, 0, 0, 0, 4, 4, 4, 0, 2, 3]
+, [0, 0, 0, 0, 0, 4, 0, 0, 2, 2]
 , [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-, [0, 0, 0, 0, 0, 0, 0, 2, 2, 0]
-, [0, 0, 0, 0, 0, 0, 2, 2, 0, 0]
-, [0, 0, 1, 0, 0, 0, 0, 2, 0, 0]
-, [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
-, [0, 1, 1, 1, 0, 2, 2, 2, 0, 0]
-, [0, 0, 1, 0, 4, 2, 0, 2, 0, 0]
-, [0, 0, 0, 0, 4, 4, 0, 0, 0, 0]
-, [4, 4, 4, 0, 0, 4, 4, 0, 0, 0]
-, [4, 5, 4, 0, 0, 0, 0, 0, 0, 0]
-]
-
-[main(db)][DEBUG][2026-09-29T20:22:51.323840300Z] Current player: 4
-
-[main(db)][DEBUG][2026-09-29T20:22:51.324838900Z] Last move: (6/5)
-
-[main(db)][DEBUG][2026-09-29T20:22:51.324838900Z] score: {2=37, 4=37}
-[main(db)][DEBUG][2026-09-29T20:22:51.325837500Z] game finished: false
-[main(db)][INFO][2026-09-29T20:22:51.325837500Z] ----------------------------------------------------
-[main(db)][INFO][2026-09-29T20:22:51.330790Z] Taking a turn with placement: White_Inn at position: (8/8)
-[main(db)][INFO][2026-09-29T20:22:51.332766500Z] 
-
-[main(db)][DEBUG][2026-09-29T20:22:51.332766500Z] Board state:
-Board[
-freeBuildings={1 Black Tavern=2, 2 Black Stable=1, 3 Black Inn=1, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=0, 10 Black Tower=1, 11 Black Academy=1, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=1, 15 White Bridge=1, 16 White Manor=1, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=1, 20 White Castle=0, 21 White Tower=0, 22 White Academy=1, 23 Cathedral=0}, 
-placedBuildings=[Building: 23 Cathedral Position: (2/5) Direction _180, Building: 3 Black Inn Position: (6/2) Direction _0, Building: 21 White Tower Position: (5/7) Direction _180, Building: 2 Black Stable Position: (7/1) Direction _0, Building: 20 White Castle Position: (1/8) Direction _0, Building: 9 Black Castle Position: (6/5) Direction _0, Building: 14 White Inn Position: (8/8) Direction _0], 
-board=
 , [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-, [0, 0, 0, 0, 0, 0, 0, 2, 2, 0]
+, [0, 0, 0, 0, 0, 2, 2, 0, 0, 0]
 , [0, 0, 0, 0, 0, 0, 2, 2, 0, 0]
-, [0, 0, 1, 0, 0, 0, 0, 2, 0, 0]
-, [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
-, [0, 1, 1, 1, 0, 2, 2, 2, 0, 0]
-, [0, 0, 1, 0, 4, 2, 0, 2, 0, 0]
-, [0, 0, 0, 0, 4, 4, 0, 0, 0, 0]
-, [4, 4, 4, 0, 0, 4, 4, 0, 4, 4]
-, [4, 5, 4, 0, 0, 0, 0, 0, 0, 4]
+, [0, 0, 0, 0, 0, 0, 0, 2, 0, 0]
 ]
 
-[main(db)][DEBUG][2026-09-29T20:22:51.334636600Z] Current player: 2
+[main(db)][DEBUG][2026-10-08T09:35:54.703582231Z] Current player: 4
 
-[main(db)][DEBUG][2026-09-29T20:22:51.334636600Z] Last move: (8/8)
+[main(db)][DEBUG][2026-10-08T09:35:54.703780301Z] Last move: (8/3)
 
-[main(db)][DEBUG][2026-09-29T20:22:51.335629700Z] score: {2=37, 4=34}
-[main(db)][DEBUG][2026-09-29T20:22:51.335629700Z] game finished: false
-[main(db)][INFO][2026-09-29T20:22:51.336629300Z] ----------------------------------------------------
-[main(db)][INFO][2026-09-29T20:22:51.341665200Z] Taking a turn with placement: Black_Inn at position: (0/5)
-[main(db)][INFO][2026-09-29T20:22:51.342621700Z] 
+[main(db)][DEBUG][2026-10-08T09:35:54.704021971Z] score: White: 42, Black: 37
 
-[main(db)][DEBUG][2026-09-29T20:22:51.343833600Z] Board state:
+[main(db)][DEBUG][2026-10-08T09:35:54.704447944Z] game finished: false
+[main(db)][DEBUG][2026-10-08T09:35:54.704668580Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T09:35:54.705011481Z] Taking a turn with: MiniMaxAgentCopy
+[main(db)][DEBUG][2026-10-08T09:35:58.286942278Z] selecting best move: White_Castle at position: (2/8) with score=80.0
+[main(db)][INFO][2026-10-08T09:35:58.287357661Z] Taking a turn with placement: White_Castle at position: (2/8)
+[main(db)][DEBUG][2026-10-08T09:35:58.287548407Z] 
+
+[main(db)][DEBUG][2026-10-08T09:35:58.287914553Z] Board state:
 Board[
-freeBuildings={1 Black Tavern=2, 2 Black Stable=1, 3 Black Inn=0, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=0, 10 Black Tower=1, 11 Black Academy=1, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=1, 15 White Bridge=1, 16 White Manor=1, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=1, 20 White Castle=0, 21 White Tower=0, 22 White Academy=1, 23 Cathedral=0}, 
-placedBuildings=[Building: 23 Cathedral Position: (2/5) Direction _180, Building: 3 Black Inn Position: (6/2) Direction _0, Building: 21 White Tower Position: (5/7) Direction _180, Building: 2 Black Stable Position: (7/1) Direction _0, Building: 20 White Castle Position: (1/8) Direction _0, Building: 9 Black Castle Position: (6/5) Direction _0, Building: 14 White Inn Position: (8/8) Direction _0, Building: 3 Black Inn Position: (0/5) Direction _270], 
+freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=2, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=1, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=1, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=1, 22 White Academy=1, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 10 Black Tower Position: (6/8) Direction _0, Building: 19 White Infirmary Position: (5/3) Direction _0, Building: 9 Black Castle Position: (8/3) Direction _270, Building: 20 White Castle Position: (2/8) Direction _180], 
 board=
+, [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+, [0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+, [0, 0, 0, 0, 0, 4, 0, 1, 2, 2]
+, [0, 0, 0, 0, 4, 4, 4, 0, 2, 3]
+, [0, 0, 0, 0, 0, 4, 0, 0, 2, 2]
 , [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-, [0, 0, 0, 0, 0, 0, 0, 2, 2, 0]
-, [0, 0, 0, 0, 0, 0, 2, 2, 0, 0]
-, [0, 0, 1, 0, 0, 0, 0, 2, 0, 0]
-, [2, 2, 1, 0, 0, 0, 0, 0, 0, 0]
-, [2, 1, 1, 1, 0, 2, 2, 2, 0, 0]
-, [0, 0, 1, 0, 4, 2, 0, 2, 0, 0]
-, [0, 0, 0, 0, 4, 4, 0, 0, 0, 0]
-, [4, 4, 4, 0, 0, 4, 4, 0, 4, 4]
-, [4, 5, 4, 0, 0, 0, 0, 0, 0, 4]
+, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+, [0, 4, 0, 4, 0, 2, 2, 0, 0, 0]
+, [0, 4, 4, 4, 0, 0, 2, 2, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 2, 0, 0]
 ]
 
-[main(db)][DEBUG][2026-09-29T20:22:51.344341400Z] Current player: 4
+[main(db)][DEBUG][2026-10-08T09:35:58.288168691Z] Current player: 2
 
-[main(db)][DEBUG][2026-09-29T20:22:51.344341400Z] Last move: (0/5)
+[main(db)][DEBUG][2026-10-08T09:35:58.288357522Z] Last move: (2/8)
 
-[main(db)][DEBUG][2026-09-29T20:22:51.345337200Z] score: {2=34, 4=34}
-[main(db)][DEBUG][2026-09-29T20:22:51.346569Z] game finished: false
-[main(db)][INFO][2026-09-29T20:22:51.347086800Z] ----------------------------------------------------
-[main(db)][INFO][2026-09-29T20:22:51.352186Z] Taking a turn with placement: White_Manor at position: (2/1)
-[main(db)][INFO][2026-09-29T20:22:51.353326800Z] 
+[main(db)][DEBUG][2026-10-08T09:35:58.288515282Z] score: White: 37, Black: 37
 
-[main(db)][DEBUG][2026-09-29T20:22:51.353932100Z] Board state:
+[main(db)][DEBUG][2026-10-08T09:35:58.288773702Z] game finished: false
+[main(db)][DEBUG][2026-10-08T09:35:58.288926023Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T09:35:58.289179705Z] Taking a turn with: MiniMaxAgent
+[main(db)][DEBUG][2026-10-08T09:36:27.114803554Z] selecting best move: Black_Infirmary at position: (1/5) with score=189.5
+[main(db)][INFO][2026-10-08T09:36:27.115413982Z] Taking a turn with placement: Black_Infirmary at position: (1/5)
+[main(db)][DEBUG][2026-10-08T09:36:27.115675856Z] 
+
+[main(db)][DEBUG][2026-10-08T09:36:27.116063143Z] Board state:
 Board[
-freeBuildings={1 Black Tavern=2, 2 Black Stable=1, 3 Black Inn=0, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=0, 10 Black Tower=1, 11 Black Academy=1, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=1, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=1, 20 White Castle=0, 21 White Tower=0, 22 White Academy=1, 23 Cathedral=0}, 
-placedBuildings=[Building: 23 Cathedral Position: (2/5) Direction _180, Building: 3 Black Inn Position: (6/2) Direction _0, Building: 21 White Tower Position: (5/7) Direction _180, Building: 2 Black Stable Position: (7/1) Direction _0, Building: 20 White Castle Position: (1/8) Direction _0, Building: 9 Black Castle Position: (6/5) Direction _0, Building: 14 White Inn Position: (8/8) Direction _0, Building: 3 Black Inn Position: (0/5) Direction _270, Building: 16 White Manor Position: (2/1) Direction _270], 
+freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=2, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=1, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=1, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=1, 22 White Academy=1, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 10 Black Tower Position: (6/8) Direction _0, Building: 19 White Infirmary Position: (5/3) Direction _0, Building: 9 Black Castle Position: (8/3) Direction _270, Building: 20 White Castle Position: (2/8) Direction _180, Building: 8 Black Infirmary Position: (1/5) Direction _0], 
 board=
-, [0, 0, 4, 0, 0, 0, 0, 0, 0, 0]
-, [0, 0, 4, 4, 0, 0, 0, 2, 2, 0]
-, [0, 0, 4, 0, 0, 0, 2, 2, 0, 0]
-, [0, 0, 1, 0, 0, 0, 0, 2, 0, 0]
-, [2, 2, 1, 0, 0, 0, 0, 0, 0, 0]
-, [2, 1, 1, 1, 0, 2, 2, 2, 0, 0]
-, [0, 0, 1, 0, 4, 2, 0, 2, 0, 0]
-, [0, 0, 0, 0, 4, 4, 0, 0, 0, 0]
-, [4, 4, 4, 0, 0, 4, 4, 0, 4, 4]
-, [4, 5, 4, 0, 0, 0, 0, 0, 0, 4]
+, [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+, [0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+, [0, 0, 0, 0, 0, 4, 0, 1, 2, 2]
+, [0, 0, 0, 0, 4, 4, 4, 0, 2, 3]
+, [0, 2, 0, 0, 0, 4, 0, 0, 2, 2]
+, [2, 2, 2, 0, 0, 0, 0, 0, 0, 0]
+, [0, 2, 0, 0, 0, 0, 0, 0, 0, 0]
+, [0, 4, 0, 4, 0, 2, 2, 0, 0, 0]
+, [0, 4, 4, 4, 0, 0, 2, 2, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 2, 0, 0]
 ]
 
-[main(db)][DEBUG][2026-09-29T20:22:51.355050300Z] Current player: 2
+[main(db)][DEBUG][2026-10-08T09:36:27.116352890Z] Current player: 4
 
-[main(db)][DEBUG][2026-09-29T20:22:51.355563600Z] Last move: (2/1)
+[main(db)][DEBUG][2026-10-08T09:36:27.116586508Z] Last move: (1/5)
 
-[main(db)][DEBUG][2026-09-29T20:22:51.356258Z] score: {2=34, 4=30}
-[main(db)][DEBUG][2026-09-29T20:22:51.357171700Z] game finished: false
-[main(db)][INFO][2026-09-29T20:22:51.357171700Z] ----------------------------------------------------
-[main(db)][INFO][2026-09-29T20:22:51.362167600Z] Taking a turn with placement: Black_Stable at position: (6/6)
-[main(db)][INFO][2026-09-29T20:22:51.363164700Z] 
+[main(db)][DEBUG][2026-10-08T09:36:27.116776884Z] score: White: 37, Black: 32
 
-[main(db)][DEBUG][2026-09-29T20:22:51.364163600Z] Board state:
+[main(db)][DEBUG][2026-10-08T09:36:27.117065736Z] game finished: false
+[main(db)][DEBUG][2026-10-08T09:36:27.117213015Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T09:36:27.117474967Z] Taking a turn with: MiniMaxAgentCopy
+[main(db)][DEBUG][2026-10-08T09:36:29.685940738Z] selecting best move: White_Tower at position: (3/5) with score=80.0
+[main(db)][INFO][2026-10-08T09:36:29.686319856Z] Taking a turn with placement: White_Tower at position: (3/5)
+[main(db)][DEBUG][2026-10-08T09:36:29.686661697Z] 
+
+[main(db)][DEBUG][2026-10-08T09:36:29.687088448Z] Board state:
 Board[
-freeBuildings={1 Black Tavern=2, 2 Black Stable=0, 3 Black Inn=0, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=0, 10 Black Tower=1, 11 Black Academy=1, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=1, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=1, 20 White Castle=0, 21 White Tower=0, 22 White Academy=1, 23 Cathedral=0}, 
-placedBuildings=[Building: 23 Cathedral Position: (2/5) Direction _180, Building: 3 Black Inn Position: (6/2) Direction _0, Building: 21 White Tower Position: (5/7) Direction _180, Building: 2 Black Stable Position: (7/1) Direction _0, Building: 20 White Castle Position: (1/8) Direction _0, Building: 9 Black Castle Position: (6/5) Direction _0, Building: 14 White Inn Position: (8/8) Direction _0, Building: 3 Black Inn Position: (0/5) Direction _270, Building: 16 White Manor Position: (2/1) Direction _270, Building: 2 Black Stable Position: (6/6) Direction _90], 
+freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=2, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=1, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=1, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=1, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 10 Black Tower Position: (6/8) Direction _0, Building: 19 White Infirmary Position: (5/3) Direction _0, Building: 9 Black Castle Position: (8/3) Direction _270, Building: 20 White Castle Position: (2/8) Direction _180, Building: 8 Black Infirmary Position: (1/5) Direction _0, Building: 21 White Tower Position: (3/5) Direction _90], 
 board=
-, [0, 0, 4, 0, 0, 0, 0, 0, 0, 0]
-, [0, 0, 4, 4, 0, 0, 0, 2, 2, 0]
-, [0, 0, 4, 0, 0, 0, 2, 2, 0, 0]
-, [0, 0, 1, 0, 0, 0, 0, 2, 0, 0]
-, [2, 2, 1, 0, 0, 0, 0, 0, 0, 0]
-, [2, 1, 1, 1, 0, 2, 2, 2, 0, 0]
-, [0, 0, 1, 0, 4, 2, 2, 2, 0, 0]
-, [0, 0, 0, 0, 4, 4, 2, 0, 0, 0]
-, [4, 4, 4, 0, 0, 4, 4, 0, 4, 4]
-, [4, 5, 4, 0, 0, 0, 0, 0, 0, 4]
+, [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+, [0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+, [0, 0, 0, 0, 0, 4, 0, 1, 2, 2]
+, [0, 0, 0, 0, 4, 4, 4, 0, 2, 3]
+, [0, 2, 0, 0, 4, 4, 0, 0, 2, 2]
+, [2, 2, 2, 4, 4, 0, 0, 0, 0, 0]
+, [0, 2, 4, 4, 0, 0, 0, 0, 0, 0]
+, [0, 4, 0, 4, 0, 2, 2, 0, 0, 0]
+, [0, 4, 4, 4, 0, 0, 2, 2, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 2, 0, 0]
 ]
 
-[main(db)][DEBUG][2026-09-29T20:22:51.365833500Z] Current player: 4
+[main(db)][DEBUG][2026-10-08T09:36:29.687335070Z] Current player: 2
 
-[main(db)][DEBUG][2026-09-29T20:22:51.366626400Z] Last move: (6/6)
+[main(db)][DEBUG][2026-10-08T09:36:29.687544114Z] Last move: (3/5)
 
-[main(db)][DEBUG][2026-09-29T20:22:51.366626400Z] score: {2=32, 4=30}
-[main(db)][DEBUG][2026-09-29T20:22:51.367666900Z] game finished: false
-[main(db)][INFO][2026-09-29T20:22:51.367666900Z] ----------------------------------------------------
-[main(db)][INFO][2026-09-29T20:22:51.373650100Z] Taking a turn with placement: White_Stable at position: (5/0)
-[main(db)][INFO][2026-09-29T20:22:51.375650Z] 
+[main(db)][DEBUG][2026-10-08T09:36:29.687703027Z] score: White: 32, Black: 32
 
-[main(db)][DEBUG][2026-09-29T20:22:51.376647700Z] Board state:
+[main(db)][DEBUG][2026-10-08T09:36:29.688006638Z] game finished: false
+[main(db)][DEBUG][2026-10-08T09:36:29.688157176Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T09:36:29.688409366Z] Taking a turn with: MiniMaxAgent
+[main(db)][DEBUG][2026-10-08T09:36:53.259470987Z] selecting best move: Black_Academy at position: (2/3) with score=125.33333
+[main(db)][INFO][2026-10-08T09:36:53.259852402Z] Taking a turn with placement: Black_Academy at position: (2/3)
+[main(db)][DEBUG][2026-10-08T09:36:53.260078602Z] 
+
+[main(db)][DEBUG][2026-10-08T09:36:53.260381575Z] Board state:
 Board[
-freeBuildings={1 Black Tavern=2, 2 Black Stable=0, 3 Black Inn=0, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=0, 10 Black Tower=1, 11 Black Academy=1, 12 White Tavern=2, 13 White Stable=1, 14 White Inn=1, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=1, 20 White Castle=0, 21 White Tower=0, 22 White Academy=1, 23 Cathedral=0}, 
-placedBuildings=[Building: 23 Cathedral Position: (2/5) Direction _180, Building: 3 Black Inn Position: (6/2) Direction _0, Building: 21 White Tower Position: (5/7) Direction _180, Building: 2 Black Stable Position: (7/1) Direction _0, Building: 20 White Castle Position: (1/8) Direction _0, Building: 9 Black Castle Position: (6/5) Direction _0, Building: 14 White Inn Position: (8/8) Direction _0, Building: 3 Black Inn Position: (0/5) Direction _270, Building: 16 White Manor Position: (2/1) Direction _270, Building: 2 Black Stable Position: (6/6) Direction _90, Building: 13 White Stable Position: (5/0) Direction _0], 
+freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=2, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=1, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=1, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 10 Black Tower Position: (6/8) Direction _0, Building: 19 White Infirmary Position: (5/3) Direction _0, Building: 9 Black Castle Position: (8/3) Direction _270, Building: 20 White Castle Position: (2/8) Direction _180, Building: 8 Black Infirmary Position: (1/5) Direction _0, Building: 21 White Tower Position: (3/5) Direction _90, Building: 11 Black Academy Position: (2/3) Direction _0], 
 board=
-, [0, 0, 4, 0, 0, 4, 4, 0, 0, 0]
-, [0, 0, 4, 4, 0, 0, 0, 2, 2, 0]
-, [0, 0, 4, 0, 0, 0, 2, 2, 0, 0]
-, [0, 0, 1, 0, 0, 0, 0, 2, 0, 0]
-, [2, 2, 1, 0, 0, 0, 0, 0, 0, 0]
-, [2, 1, 1, 1, 0, 2, 2, 2, 0, 0]
-, [0, 0, 1, 0, 4, 2, 2, 2, 0, 0]
-, [0, 0, 0, 0, 4, 4, 2, 0, 0, 0]
-, [4, 4, 4, 0, 0, 4, 4, 0, 4, 4]
-, [4, 5, 4, 0, 0, 0, 0, 0, 0, 4]
+, [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+, [0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+, [0, 0, 2, 2, 0, 4, 0, 1, 2, 2]
+, [0, 2, 2, 0, 4, 4, 4, 0, 2, 3]
+, [0, 2, 2, 0, 4, 4, 0, 0, 2, 2]
+, [2, 2, 2, 4, 4, 0, 0, 0, 0, 0]
+, [0, 2, 4, 4, 0, 0, 0, 0, 0, 0]
+, [0, 4, 0, 4, 0, 2, 2, 0, 0, 0]
+, [0, 4, 4, 4, 0, 0, 2, 2, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 2, 0, 0]
 ]
 
-[main(db)][DEBUG][2026-09-29T20:22:51.377646600Z] Current player: 2
+[main(db)][DEBUG][2026-10-08T09:36:53.260565350Z] Current player: 4
 
-[main(db)][DEBUG][2026-09-29T20:22:51.377646600Z] Last move: (5/0)
+[main(db)][DEBUG][2026-10-08T09:36:53.260700642Z] Last move: (2/3)
 
-[main(db)][DEBUG][2026-09-29T20:22:51.378645900Z] score: {2=32, 4=28}
-[main(db)][DEBUG][2026-09-29T20:22:51.379644300Z] game finished: false
-[main(db)][INFO][2026-09-29T20:22:51.380643400Z] ----------------------------------------------------
-[main(db)][INFO][2026-09-29T20:22:51.384136600Z] Taking a turn with placement: Black_Manor at position: (8/3)
-[main(db)][INFO][2026-09-29T20:22:51.385178800Z] 
+[main(db)][DEBUG][2026-10-08T09:36:53.260838372Z] score: White: 32, Black: 27
 
-[main(db)][DEBUG][2026-09-29T20:22:51.385685100Z] Board state:
+[main(db)][DEBUG][2026-10-08T09:36:53.261091339Z] game finished: false
+[main(db)][DEBUG][2026-10-08T09:36:53.261215051Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T09:36:53.261446751Z] Taking a turn with: MiniMaxAgentCopy
+[main(db)][DEBUG][2026-10-08T09:36:55.168256525Z] selecting best move: White_Academy at position: (1/1) with score=60.0
+[main(db)][INFO][2026-10-08T09:36:55.168669139Z] Taking a turn with placement: White_Academy at position: (1/1)
+[main(db)][DEBUG][2026-10-08T09:36:55.168929459Z] 
+
+[main(db)][DEBUG][2026-10-08T09:36:55.169315727Z] Board state:
 Board[
-freeBuildings={1 Black Tavern=2, 2 Black Stable=0, 3 Black Inn=0, 4 Black Bridge=1, 5 Black Manor=0, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=0, 10 Black Tower=1, 11 Black Academy=1, 12 White Tavern=2, 13 White Stable=1, 14 White Inn=1, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=1, 20 White Castle=0, 21 White Tower=0, 22 White Academy=1, 23 Cathedral=0}, 
-placedBuildings=[Building: 23 Cathedral Position: (2/5) Direction _180, Building: 3 Black Inn Position: (6/2) Direction _0, Building: 21 White Tower Position: (5/7) Direction _180, Building: 2 Black Stable Position: (7/1) Direction _0, Building: 20 White Castle Position: (1/8) Direction _0, Building: 9 Black Castle Position: (6/5) Direction _0, Building: 14 White Inn Position: (8/8) Direction _0, Building: 3 Black Inn Position: (0/5) Direction _270, Building: 16 White Manor Position: (2/1) Direction _270, Building: 2 Black Stable Position: (6/6) Direction _90, Building: 13 White Stable Position: (5/0) Direction _0, Building: 5 Black Manor Position: (8/3) Direction _270], 
+freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=2, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=1, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 10 Black Tower Position: (6/8) Direction _0, Building: 19 White Infirmary Position: (5/3) Direction _0, Building: 9 Black Castle Position: (8/3) Direction _270, Building: 20 White Castle Position: (2/8) Direction _180, Building: 8 Black Infirmary Position: (1/5) Direction _0, Building: 21 White Tower Position: (3/5) Direction _90, Building: 11 Black Academy Position: (2/3) Direction _0, Building: 22 White Academy Position: (1/1) Direction _0], 
 board=
-, [0, 0, 4, 0, 0, 4, 4, 0, 0, 0]
-, [0, 0, 4, 4, 0, 0, 0, 2, 2, 0]
-, [0, 0, 4, 0, 0, 0, 2, 2, 2, 0]
-, [0, 0, 1, 0, 0, 0, 0, 2, 2, 2]
-, [2, 2, 1, 0, 0, 0, 0, 0, 2, 0]
-, [2, 1, 1, 1, 0, 2, 2, 2, 0, 0]
-, [0, 0, 1, 0, 4, 2, 2, 2, 0, 0]
-, [0, 0, 0, 0, 4, 4, 2, 0, 0, 0]
-, [4, 4, 4, 0, 0, 4, 4, 0, 4, 4]
-, [4, 5, 4, 0, 0, 0, 0, 0, 0, 4]
+, [4, 4, 0, 0, 0, 0, 0, 1, 0, 0]
+, [0, 4, 4, 0, 0, 0, 1, 1, 1, 1]
+, [0, 4, 2, 2, 0, 4, 0, 1, 2, 2]
+, [0, 2, 2, 0, 4, 4, 4, 0, 2, 3]
+, [0, 2, 2, 0, 4, 4, 0, 0, 2, 2]
+, [2, 2, 2, 4, 4, 0, 0, 0, 0, 0]
+, [0, 2, 4, 4, 0, 0, 0, 0, 0, 0]
+, [0, 4, 0, 4, 0, 2, 2, 0, 0, 0]
+, [0, 4, 4, 4, 0, 0, 2, 2, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 2, 0, 0]
 ]
 
-[main(db)][DEBUG][2026-09-29T20:22:51.386562200Z] Current player: 4
+[main(db)][DEBUG][2026-10-08T09:36:55.169525446Z] Current player: 2
 
-[main(db)][DEBUG][2026-09-29T20:22:51.387069500Z] Last move: (8/3)
+[main(db)][DEBUG][2026-10-08T09:36:55.169655557Z] Last move: (1/1)
 
-[main(db)][DEBUG][2026-09-29T20:22:51.387584900Z] score: {2=28, 4=28}
-[main(db)][DEBUG][2026-09-29T20:22:51.388092100Z] game finished: false
-[main(db)][INFO][2026-09-29T20:22:51.388853700Z] ----------------------------------------------------
-[main(db)][INFO][2026-09-29T20:22:51.391926400Z] Taking a turn with placement: White_Stable at position: (8/0)
-[main(db)][INFO][2026-09-29T20:22:51.392925400Z] 
+[main(db)][DEBUG][2026-10-08T09:36:55.169803886Z] score: White: 27, Black: 27
 
-[main(db)][DEBUG][2026-09-29T20:22:51.393971500Z] Board state:
+[main(db)][DEBUG][2026-10-08T09:36:55.170066065Z] game finished: false
+[main(db)][DEBUG][2026-10-08T09:36:55.170198870Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T09:36:55.170453358Z] Taking a turn with: MiniMaxAgent
+[main(db)][DEBUG][2026-10-08T09:37:12.335347721Z] selecting best move: Black_Abbey at position: (5/1) with score=169.9
+[main(db)][INFO][2026-10-08T09:37:12.335751703Z] Taking a turn with placement: Black_Abbey at position: (5/1)
+[main(db)][DEBUG][2026-10-08T09:37:12.335979298Z] 
+
+[main(db)][DEBUG][2026-10-08T09:37:12.336344159Z] Board state:
 Board[
-freeBuildings={1 Black Tavern=2, 2 Black Stable=0, 3 Black Inn=0, 4 Black Bridge=1, 5 Black Manor=0, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=0, 10 Black Tower=1, 11 Black Academy=1, 12 White Tavern=2, 13 White Stable=0, 14 White Inn=1, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=1, 20 White Castle=0, 21 White Tower=0, 22 White Academy=1, 23 Cathedral=0}, 
-placedBuildings=[Building: 23 Cathedral Position: (2/5) Direction _180, Building: 3 Black Inn Position: (6/2) Direction _0, Building: 21 White Tower Position: (5/7) Direction _180, Building: 2 Black Stable Position: (7/1) Direction _0, Building: 20 White Castle Position: (1/8) Direction _0, Building: 9 Black Castle Position: (6/5) Direction _0, Building: 14 White Inn Position: (8/8) Direction _0, Building: 3 Black Inn Position: (0/5) Direction _270, Building: 16 White Manor Position: (2/1) Direction _270, Building: 2 Black Stable Position: (6/6) Direction _90, Building: 13 White Stable Position: (5/0) Direction _0, Building: 5 Black Manor Position: (8/3) Direction _270, Building: 13 White Stable Position: (8/0) Direction _0], 
+freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=2, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=1, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=1, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 10 Black Tower Position: (6/8) Direction _0, Building: 19 White Infirmary Position: (5/3) Direction _0, Building: 9 Black Castle Position: (8/3) Direction _270, Building: 20 White Castle Position: (2/8) Direction _180, Building: 8 Black Infirmary Position: (1/5) Direction _0, Building: 21 White Tower Position: (3/5) Direction _90, Building: 11 Black Academy Position: (2/3) Direction _0, Building: 7 Black Abbey Position: (5/1) Direction _90], 
 board=
-, [0, 0, 4, 0, 0, 4, 4, 0, 4, 4]
-, [0, 0, 4, 4, 0, 0, 0, 2, 2, 0]
-, [0, 0, 4, 0, 0, 0, 2, 2, 2, 0]
-, [0, 0, 1, 0, 0, 0, 0, 2, 2, 2]
-, [2, 2, 1, 0, 0, 0, 0, 0, 2, 0]
-, [2, 1, 1, 1, 0, 2, 2, 2, 0, 0]
-, [0, 0, 1, 0, 4, 2, 2, 2, 0, 0]
-, [0, 0, 0, 0, 4, 4, 2, 0, 0, 0]
-, [4, 4, 4, 0, 0, 4, 4, 0, 4, 4]
-, [4, 5, 4, 0, 0, 0, 0, 0, 0, 4]
+, [3, 3, 3, 3, 3, 2, 0, 1, 0, 0]
+, [3, 3, 3, 3, 2, 2, 1, 1, 1, 1]
+, [3, 3, 2, 2, 2, 4, 0, 1, 2, 2]
+, [3, 2, 2, 0, 4, 4, 4, 0, 2, 3]
+, [3, 2, 2, 0, 4, 4, 0, 0, 2, 2]
+, [2, 2, 2, 4, 4, 0, 0, 0, 0, 0]
+, [0, 2, 4, 4, 0, 0, 0, 0, 0, 0]
+, [0, 4, 0, 4, 0, 2, 2, 0, 0, 0]
+, [0, 4, 4, 4, 0, 0, 2, 2, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 2, 0, 0]
 ]
 
-[main(db)][DEBUG][2026-09-29T20:22:51.394923700Z] Current player: 2
+[main(db)][DEBUG][2026-10-08T09:37:12.336570643Z] Current player: 4
 
-[main(db)][DEBUG][2026-09-29T20:22:51.394923700Z] Last move: (8/0)
+[main(db)][DEBUG][2026-10-08T09:37:12.336723620Z] Last move: (5/1)
 
-[main(db)][DEBUG][2026-09-29T20:22:51.395922400Z] score: {2=28, 4=26}
-[main(db)][DEBUG][2026-09-29T20:22:51.397105Z] game finished: false
-[main(db)][INFO][2026-09-29T20:22:51.397105Z] ----------------------------------------------------
-[main(db)][INFO][2026-09-29T20:22:51.402054200Z] Taking a turn with placement: Black_Tavern at position: (4/2)
-[main(db)][INFO][2026-09-29T20:22:51.402786100Z] 
+[main(db)][DEBUG][2026-10-08T09:37:12.336874167Z] score: White: 32, Black: 23
 
-[main(db)][DEBUG][2026-09-29T20:22:51.403766700Z] Board state:
+[main(db)][DEBUG][2026-10-08T09:37:12.337171401Z] game finished: false
+[main(db)][DEBUG][2026-10-08T09:37:12.337308876Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T09:37:12.337560324Z] Taking a turn with: MiniMaxAgentCopy
+[main(db)][DEBUG][2026-10-08T09:37:13.786784030Z] selecting best move: White_Academy at position: (5/6) with score=-20.0
+[main(db)][INFO][2026-10-08T09:37:13.787210006Z] Taking a turn with placement: White_Academy at position: (5/6)
+[main(db)][DEBUG][2026-10-08T09:37:13.787461579Z] 
+
+[main(db)][DEBUG][2026-10-08T09:37:13.787794340Z] Board state:
 Board[
-freeBuildings={1 Black Tavern=1, 2 Black Stable=0, 3 Black Inn=0, 4 Black Bridge=1, 5 Black Manor=0, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=0, 10 Black Tower=1, 11 Black Academy=1, 12 White Tavern=2, 13 White Stable=0, 14 White Inn=1, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=1, 20 White Castle=0, 21 White Tower=0, 22 White Academy=1, 23 Cathedral=0}, 
-placedBuildings=[Building: 23 Cathedral Position: (2/5) Direction _180, Building: 3 Black Inn Position: (6/2) Direction _0, Building: 21 White Tower Position: (5/7) Direction _180, Building: 2 Black Stable Position: (7/1) Direction _0, Building: 20 White Castle Position: (1/8) Direction _0, Building: 9 Black Castle Position: (6/5) Direction _0, Building: 14 White Inn Position: (8/8) Direction _0, Building: 3 Black Inn Position: (0/5) Direction _270, Building: 16 White Manor Position: (2/1) Direction _270, Building: 2 Black Stable Position: (6/6) Direction _90, Building: 13 White Stable Position: (5/0) Direction _0, Building: 5 Black Manor Position: (8/3) Direction _270, Building: 13 White Stable Position: (8/0) Direction _0, Building: 1 Black Tavern Position: (4/2) Direction _0], 
+freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=2, 4 Black Bridge=1, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=1, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 10 Black Tower Position: (6/8) Direction _0, Building: 19 White Infirmary Position: (5/3) Direction _0, Building: 9 Black Castle Position: (8/3) Direction _270, Building: 20 White Castle Position: (2/8) Direction _180, Building: 8 Black Infirmary Position: (1/5) Direction _0, Building: 21 White Tower Position: (3/5) Direction _90, Building: 11 Black Academy Position: (2/3) Direction _0, Building: 7 Black Abbey Position: (5/1) Direction _90, Building: 22 White Academy Position: (5/6) Direction _270], 
 board=
-, [0, 0, 4, 0, 0, 4, 4, 0, 4, 4]
-, [0, 0, 4, 4, 0, 0, 0, 2, 2, 0]
-, [0, 0, 4, 0, 2, 0, 2, 2, 2, 0]
-, [0, 0, 1, 0, 0, 0, 0, 2, 2, 2]
-, [2, 2, 1, 0, 0, 0, 0, 0, 2, 0]
-, [2, 1, 1, 1, 0, 2, 2, 2, 0, 0]
-, [0, 0, 1, 0, 4, 2, 2, 2, 0, 0]
-, [0, 0, 0, 0, 4, 4, 2, 0, 0, 0]
-, [4, 4, 4, 0, 0, 4, 4, 0, 4, 4]
-, [4, 5, 4, 0, 0, 0, 0, 0, 0, 4]
+, [3, 3, 3, 3, 3, 2, 0, 1, 0, 0]
+, [3, 3, 3, 3, 2, 2, 1, 1, 1, 1]
+, [3, 3, 2, 2, 2, 4, 0, 1, 2, 2]
+, [3, 2, 2, 0, 4, 4, 4, 0, 2, 3]
+, [3, 2, 2, 0, 4, 4, 0, 0, 2, 2]
+, [2, 2, 2, 4, 4, 4, 0, 0, 0, 0]
+, [0, 2, 4, 4, 4, 4, 4, 0, 0, 0]
+, [0, 4, 0, 4, 4, 2, 2, 0, 0, 0]
+, [0, 4, 4, 4, 0, 0, 2, 2, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 2, 0, 0]
 ]
 
-[main(db)][DEBUG][2026-09-29T20:22:51.403766700Z] Current player: 4
+[main(db)][DEBUG][2026-10-08T09:37:13.788018962Z] Current player: 2
 
-[main(db)][DEBUG][2026-09-29T20:22:51.404806400Z] Last move: (4/2)
+[main(db)][DEBUG][2026-10-08T09:37:13.788153059Z] Last move: (5/6)
 
-[main(db)][DEBUG][2026-09-29T20:22:51.404806400Z] score: {2=27, 4=26}
-[main(db)][DEBUG][2026-09-29T20:22:51.405764200Z] game finished: false
-[main(db)][INFO][2026-09-29T20:22:51.405764200Z] ----------------------------------------------------
-[main(db)][INFO][2026-09-29T20:22:51.408725400Z] Taking a turn with placement: White_Tavern at position: (3/0)
-[main(db)][INFO][2026-09-29T20:22:51.409999400Z] 
+[main(db)][DEBUG][2026-10-08T09:37:13.788286511Z] score: White: 27, Black: 23
 
-[main(db)][DEBUG][2026-09-29T20:22:51.411523700Z] Board state:
+[main(db)][DEBUG][2026-10-08T09:37:13.788562164Z] game finished: false
+[main(db)][DEBUG][2026-10-08T09:37:13.788702618Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T09:37:13.788937901Z] Taking a turn with: MiniMaxAgent
+[main(db)][DEBUG][2026-10-08T09:37:30.994543661Z] selecting best move: Black_Bridge at position: (7/6) with score=219.53334
+[main(db)][INFO][2026-10-08T09:37:30.995024958Z] Taking a turn with placement: Black_Bridge at position: (7/6)
+[main(db)][DEBUG][2026-10-08T09:37:30.995248637Z] 
+
+[main(db)][DEBUG][2026-10-08T09:37:30.995641949Z] Board state:
 Board[
-freeBuildings={1 Black Tavern=1, 2 Black Stable=0, 3 Black Inn=0, 4 Black Bridge=1, 5 Black Manor=0, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=0, 10 Black Tower=1, 11 Black Academy=1, 12 White Tavern=1, 13 White Stable=0, 14 White Inn=1, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=1, 20 White Castle=0, 21 White Tower=0, 22 White Academy=1, 23 Cathedral=0}, 
-placedBuildings=[Building: 23 Cathedral Position: (2/5) Direction _180, Building: 3 Black Inn Position: (6/2) Direction _0, Building: 21 White Tower Position: (5/7) Direction _180, Building: 2 Black Stable Position: (7/1) Direction _0, Building: 20 White Castle Position: (1/8) Direction _0, Building: 9 Black Castle Position: (6/5) Direction _0, Building: 14 White Inn Position: (8/8) Direction _0, Building: 3 Black Inn Position: (0/5) Direction _270, Building: 16 White Manor Position: (2/1) Direction _270, Building: 2 Black Stable Position: (6/6) Direction _90, Building: 13 White Stable Position: (5/0) Direction _0, Building: 5 Black Manor Position: (8/3) Direction _270, Building: 13 White Stable Position: (8/0) Direction _0, Building: 1 Black Tavern Position: (4/2) Direction _0, Building: 12 White Tavern Position: (3/0) Direction _0], 
+freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=2, 4 Black Bridge=0, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=1, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 10 Black Tower Position: (6/8) Direction _0, Building: 19 White Infirmary Position: (5/3) Direction _0, Building: 9 Black Castle Position: (8/3) Direction _270, Building: 20 White Castle Position: (2/8) Direction _180, Building: 8 Black Infirmary Position: (1/5) Direction _0, Building: 21 White Tower Position: (3/5) Direction _90, Building: 11 Black Academy Position: (2/3) Direction _0, Building: 7 Black Abbey Position: (5/1) Direction _90, Building: 22 White Academy Position: (5/6) Direction _270, Building: 4 Black Bridge Position: (7/6) Direction _0], 
 board=
-, [0, 0, 4, 4, 0, 4, 4, 0, 4, 4]
-, [0, 0, 4, 4, 0, 0, 0, 2, 2, 0]
-, [0, 0, 4, 0, 2, 0, 2, 2, 2, 0]
-, [0, 0, 1, 0, 0, 0, 0, 2, 2, 2]
-, [2, 2, 1, 0, 0, 0, 0, 0, 2, 0]
-, [2, 1, 1, 1, 0, 2, 2, 2, 0, 0]
-, [0, 0, 1, 0, 4, 2, 2, 2, 0, 0]
-, [0, 0, 0, 0, 4, 4, 2, 0, 0, 0]
-, [4, 4, 4, 0, 0, 4, 4, 0, 4, 4]
-, [4, 5, 4, 0, 0, 0, 0, 0, 0, 4]
+, [3, 3, 3, 3, 3, 2, 0, 1, 0, 0]
+, [3, 3, 3, 3, 2, 2, 1, 1, 1, 1]
+, [3, 3, 2, 2, 2, 4, 0, 1, 2, 2]
+, [3, 2, 2, 0, 4, 4, 4, 0, 2, 3]
+, [3, 2, 2, 0, 4, 4, 0, 0, 2, 2]
+, [2, 2, 2, 4, 4, 4, 0, 2, 0, 0]
+, [0, 2, 4, 4, 4, 4, 4, 2, 0, 0]
+, [0, 4, 0, 4, 4, 2, 2, 2, 0, 0]
+, [0, 4, 4, 4, 0, 0, 2, 2, 0, 0]
+, [0, 0, 0, 0, 0, 0, 0, 2, 0, 0]
 ]
 
-[main(db)][DEBUG][2026-09-29T20:22:51.412034Z] Current player: 2
+[main(db)][DEBUG][2026-10-08T09:37:30.995895071Z] Current player: 4
 
-[main(db)][DEBUG][2026-09-29T20:22:51.412561700Z] Last move: (3/0)
+[main(db)][DEBUG][2026-10-08T09:37:30.996045191Z] Last move: (7/6)
 
-[main(db)][DEBUG][2026-09-29T20:22:51.413069700Z] score: {2=27, 4=25}
-[main(db)][DEBUG][2026-09-29T20:22:51.413069700Z] game finished: false
-[main(db)][INFO][2026-09-29T20:22:51.414065700Z] ----------------------------------------------------
-[main(db)][INFO][2026-09-29T20:22:51.416106800Z] Taking a turn with placement: Black_Tavern at position: (1/1)
-[main(db)][INFO][2026-09-29T20:22:51.417104200Z] 
+[main(db)][DEBUG][2026-10-08T09:37:30.996192124Z] score: White: 27, Black: 20
 
-[main(db)][DEBUG][2026-09-29T20:22:51.417876600Z] Board state:
+[main(db)][DEBUG][2026-10-08T09:37:30.996429219Z] game finished: false
+[main(db)][DEBUG][2026-10-08T09:37:30.996668952Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T09:37:30.996944913Z] Taking a turn with: MiniMaxAgentCopy
+[main(db)][DEBUG][2026-10-08T09:37:32.146413636Z] selecting best move: White_Manor at position: (5/9) with score=0.0
+[main(db)][INFO][2026-10-08T09:37:32.146836352Z] Taking a turn with placement: White_Manor at position: (5/9)
+[main(db)][DEBUG][2026-10-08T09:37:32.147046747Z] 
+
+[main(db)][DEBUG][2026-10-08T09:37:32.147316552Z] Board state:
 Board[
-freeBuildings={1 Black Tavern=0, 2 Black Stable=0, 3 Black Inn=0, 4 Black Bridge=1, 5 Black Manor=0, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=0, 10 Black Tower=1, 11 Black Academy=1, 12 White Tavern=1, 13 White Stable=0, 14 White Inn=1, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=1, 20 White Castle=0, 21 White Tower=0, 22 White Academy=1, 23 Cathedral=0}, 
-placedBuildings=[Building: 23 Cathedral Position: (2/5) Direction _180, Building: 3 Black Inn Position: (6/2) Direction _0, Building: 21 White Tower Position: (5/7) Direction _180, Building: 2 Black Stable Position: (7/1) Direction _0, Building: 20 White Castle Position: (1/8) Direction _0, Building: 9 Black Castle Position: (6/5) Direction _0, Building: 14 White Inn Position: (8/8) Direction _0, Building: 3 Black Inn Position: (0/5) Direction _270, Building: 16 White Manor Position: (2/1) Direction _270, Building: 2 Black Stable Position: (6/6) Direction _90, Building: 13 White Stable Position: (5/0) Direction _0, Building: 5 Black Manor Position: (8/3) Direction _270, Building: 13 White Stable Position: (8/0) Direction _0, Building: 1 Black Tavern Position: (4/2) Direction _0, Building: 12 White Tavern Position: (3/0) Direction _0, Building: 1 Black Tavern Position: (1/1) Direction _0], 
+freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=2, 4 Black Bridge=0, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 10 Black Tower Position: (6/8) Direction _0, Building: 19 White Infirmary Position: (5/3) Direction _0, Building: 9 Black Castle Position: (8/3) Direction _270, Building: 20 White Castle Position: (2/8) Direction _180, Building: 8 Black Infirmary Position: (1/5) Direction _0, Building: 21 White Tower Position: (3/5) Direction _90, Building: 11 Black Academy Position: (2/3) Direction _0, Building: 7 Black Abbey Position: (5/1) Direction _90, Building: 22 White Academy Position: (5/6) Direction _270, Building: 4 Black Bridge Position: (7/6) Direction _0, Building: 16 White Manor Position: (5/9) Direction _180], 
 board=
-, [0, 0, 4, 4, 0, 4, 4, 0, 4, 4]
-, [0, 2, 4, 4, 0, 0, 0, 2, 2, 0]
-, [0, 0, 4, 0, 2, 0, 2, 2, 2, 0]
-, [0, 0, 1, 0, 0, 0, 0, 2, 2, 2]
-, [2, 2, 1, 0, 0, 0, 0, 0, 2, 0]
-, [2, 1, 1, 1, 0, 2, 2, 2, 0, 0]
-, [0, 0, 1, 0, 4, 2, 2, 2, 0, 0]
-, [0, 0, 0, 0, 4, 4, 2, 0, 0, 0]
-, [4, 4, 4, 0, 0, 4, 4, 0, 4, 4]
-, [4, 5, 4, 0, 0, 0, 0, 0, 0, 4]
+, [3, 3, 3, 3, 3, 2, 0, 1, 0, 0]
+, [3, 3, 3, 3, 2, 2, 1, 1, 1, 1]
+, [3, 3, 2, 2, 2, 4, 0, 1, 2, 2]
+, [3, 2, 2, 0, 4, 4, 4, 0, 2, 3]
+, [3, 2, 2, 0, 4, 4, 0, 0, 2, 2]
+, [2, 2, 2, 4, 4, 4, 0, 2, 0, 0]
+, [0, 2, 4, 4, 4, 4, 4, 2, 0, 0]
+, [0, 4, 0, 4, 4, 2, 2, 2, 0, 0]
+, [0, 4, 4, 4, 0, 4, 2, 2, 0, 0]
+, [0, 0, 0, 0, 4, 4, 4, 2, 0, 0]
 ]
 
-[main(db)][DEBUG][2026-09-29T20:22:51.418386200Z] Current player: 4
+[main(db)][DEBUG][2026-10-08T09:37:32.147534472Z] Current player: 2
 
-[main(db)][DEBUG][2026-09-29T20:22:51.418386200Z] Last move: (1/1)
+[main(db)][DEBUG][2026-10-08T09:37:32.147697564Z] Last move: (5/9)
 
-[main(db)][DEBUG][2026-09-29T20:22:51.419380700Z] score: {2=26, 4=25}
-[main(db)][DEBUG][2026-09-29T20:22:51.420418200Z] game finished: false
-[main(db)][INFO][2026-09-29T20:22:51.420418200Z] ----------------------------------------------------
-[main(db)][INFO][2026-09-29T20:22:51.423459700Z] Taking a turn with placement: White_Tavern at position: (3/6)
-[main(db)][INFO][2026-09-29T20:22:51.423459700Z] 
+[main(db)][DEBUG][2026-10-08T09:37:32.147986242Z] score: White: 23, Black: 20
 
-[main(db)][DEBUG][2026-09-29T20:22:51.424455500Z] Board state:
+[main(db)][DEBUG][2026-10-08T09:37:32.148316418Z] game finished: false
+[main(db)][DEBUG][2026-10-08T09:37:32.148477687Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T09:37:32.148708040Z] Taking a turn with: MiniMaxAgent
+[main(db)][DEBUG][2026-10-08T09:37:46.540930631Z] selecting best move: Black_Inn at position: (7/3) with score=211.5
+[main(db)][INFO][2026-10-08T09:37:46.541345244Z] Taking a turn with placement: Black_Inn at position: (7/3)
+[main(db)][DEBUG][2026-10-08T09:37:46.541615021Z] 
+
+[main(db)][DEBUG][2026-10-08T09:37:46.541898657Z] Board state:
 Board[
-freeBuildings={1 Black Tavern=0, 2 Black Stable=0, 3 Black Inn=0, 4 Black Bridge=1, 5 Black Manor=0, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=0, 10 Black Tower=1, 11 Black Academy=1, 12 White Tavern=0, 13 White Stable=0, 14 White Inn=1, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=1, 20 White Castle=0, 21 White Tower=0, 22 White Academy=1, 23 Cathedral=0}, 
-placedBuildings=[Building: 23 Cathedral Position: (2/5) Direction _180, Building: 3 Black Inn Position: (6/2) Direction _0, Building: 21 White Tower Position: (5/7) Direction _180, Building: 2 Black Stable Position: (7/1) Direction _0, Building: 20 White Castle Position: (1/8) Direction _0, Building: 9 Black Castle Position: (6/5) Direction _0, Building: 14 White Inn Position: (8/8) Direction _0, Building: 3 Black Inn Position: (0/5) Direction _270, Building: 16 White Manor Position: (2/1) Direction _270, Building: 2 Black Stable Position: (6/6) Direction _90, Building: 13 White Stable Position: (5/0) Direction _0, Building: 5 Black Manor Position: (8/3) Direction _270, Building: 13 White Stable Position: (8/0) Direction _0, Building: 1 Black Tavern Position: (4/2) Direction _0, Building: 12 White Tavern Position: (3/0) Direction _0, Building: 1 Black Tavern Position: (1/1) Direction _0, Building: 12 White Tavern Position: (3/6) Direction _0], 
+freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=1, 4 Black Bridge=0, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=2, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 10 Black Tower Position: (6/8) Direction _0, Building: 19 White Infirmary Position: (5/3) Direction _0, Building: 9 Black Castle Position: (8/3) Direction _270, Building: 20 White Castle Position: (2/8) Direction _180, Building: 8 Black Infirmary Position: (1/5) Direction _0, Building: 21 White Tower Position: (3/5) Direction _90, Building: 11 Black Academy Position: (2/3) Direction _0, Building: 7 Black Abbey Position: (5/1) Direction _90, Building: 22 White Academy Position: (5/6) Direction _270, Building: 4 Black Bridge Position: (7/6) Direction _0, Building: 16 White Manor Position: (5/9) Direction _180, Building: 3 Black Inn Position: (7/3) Direction _90], 
 board=
-, [0, 0, 4, 4, 0, 4, 4, 0, 4, 4]
-, [0, 2, 4, 4, 0, 0, 0, 2, 2, 0]
-, [0, 0, 4, 0, 2, 0, 2, 2, 2, 0]
-, [0, 0, 1, 0, 0, 0, 0, 2, 2, 2]
-, [2, 2, 1, 0, 0, 0, 0, 0, 2, 0]
-, [2, 1, 1, 1, 0, 2, 2, 2, 0, 0]
-, [0, 0, 1, 4, 4, 2, 2, 2, 0, 0]
-, [0, 0, 0, 0, 4, 4, 2, 0, 0, 0]
-, [4, 4, 4, 0, 0, 4, 4, 0, 4, 4]
-, [4, 5, 4, 0, 0, 0, 0, 0, 0, 4]
+, [3, 3, 3, 3, 3, 2, 0, 1, 0, 0]
+, [3, 3, 3, 3, 2, 2, 1, 1, 1, 1]
+, [3, 3, 2, 2, 2, 4, 0, 1, 2, 2]
+, [3, 2, 2, 0, 4, 4, 4, 2, 2, 3]
+, [3, 2, 2, 0, 4, 4, 2, 2, 2, 2]
+, [2, 2, 2, 4, 4, 4, 0, 2, 3, 3]
+, [0, 2, 4, 4, 4, 4, 4, 2, 3, 3]
+, [0, 4, 0, 4, 4, 2, 2, 2, 3, 3]
+, [0, 4, 4, 4, 0, 4, 2, 2, 3, 3]
+, [0, 0, 0, 0, 4, 4, 4, 2, 3, 3]
 ]
 
-[main(db)][DEBUG][2026-09-29T20:22:51.425041800Z] Current player: 2
+[main(db)][DEBUG][2026-10-08T09:37:46.542051165Z] Current player: 4
 
-[main(db)][DEBUG][2026-09-29T20:22:51.425559200Z] Last move: (3/6)
+[main(db)][DEBUG][2026-10-08T09:37:46.542172069Z] Last move: (7/3)
 
-[main(db)][DEBUG][2026-09-29T20:22:51.425559200Z] score: {2=26, 4=24}
-[main(db)][DEBUG][2026-09-29T20:22:51.426598900Z] game finished: false
-[main(db)][INFO][2026-09-29T20:22:51.426598900Z] ----------------------------------------------------
-[main(db)][INFO][2026-09-29T20:22:51.429098500Z] Taking a turn with placement: Black_Bridge at position: (6/9)
-[main(db)][INFO][2026-09-29T20:22:51.429761200Z] 
+[main(db)][DEBUG][2026-10-08T09:37:46.542297682Z] score: White: 23, Black: 17
 
-[main(db)][DEBUG][2026-09-29T20:22:51.430759300Z] Board state:
+[main(db)][DEBUG][2026-10-08T09:37:46.542511970Z] game finished: false
+[main(db)][DEBUG][2026-10-08T09:37:46.542633891Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T09:37:46.542855853Z] Taking a turn with: MiniMaxAgentCopy
+[main(db)][DEBUG][2026-10-08T09:37:47.304436269Z] selecting best move: White_Inn at position: (1/9) with score=-40.0
+[main(db)][INFO][2026-10-08T09:37:47.304865601Z] Taking a turn with placement: White_Inn at position: (1/9)
+[main(db)][DEBUG][2026-10-08T09:37:47.305131116Z] 
+
+[main(db)][DEBUG][2026-10-08T09:37:47.305429323Z] Board state:
 Board[
-freeBuildings={1 Black Tavern=0, 2 Black Stable=0, 3 Black Inn=0, 4 Black Bridge=0, 5 Black Manor=0, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=0, 10 Black Tower=1, 11 Black Academy=1, 12 White Tavern=0, 13 White Stable=0, 14 White Inn=1, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=1, 20 White Castle=0, 21 White Tower=0, 22 White Academy=1, 23 Cathedral=0}, 
-placedBuildings=[Building: 23 Cathedral Position: (2/5) Direction _180, Building: 3 Black Inn Position: (6/2) Direction _0, Building: 21 White Tower Position: (5/7) Direction _180, Building: 2 Black Stable Position: (7/1) Direction _0, Building: 20 White Castle Position: (1/8) Direction _0, Building: 9 Black Castle Position: (6/5) Direction _0, Building: 14 White Inn Position: (8/8) Direction _0, Building: 3 Black Inn Position: (0/5) Direction _270, Building: 16 White Manor Position: (2/1) Direction _270, Building: 2 Black Stable Position: (6/6) Direction _90, Building: 13 White Stable Position: (5/0) Direction _0, Building: 5 Black Manor Position: (8/3) Direction _270, Building: 13 White Stable Position: (8/0) Direction _0, Building: 1 Black Tavern Position: (4/2) Direction _0, Building: 12 White Tavern Position: (3/0) Direction _0, Building: 1 Black Tavern Position: (1/1) Direction _0, Building: 12 White Tavern Position: (3/6) Direction _0, Building: 4 Black Bridge Position: (6/9) Direction _90], 
+freeBuildings={1 Black Tavern=2, 2 Black Stable=2, 3 Black Inn=1, 4 Black Bridge=0, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=1, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 10 Black Tower Position: (6/8) Direction _0, Building: 19 White Infirmary Position: (5/3) Direction _0, Building: 9 Black Castle Position: (8/3) Direction _270, Building: 20 White Castle Position: (2/8) Direction _180, Building: 8 Black Infirmary Position: (1/5) Direction _0, Building: 21 White Tower Position: (3/5) Direction _90, Building: 11 Black Academy Position: (2/3) Direction _0, Building: 7 Black Abbey Position: (5/1) Direction _90, Building: 22 White Academy Position: (5/6) Direction _270, Building: 4 Black Bridge Position: (7/6) Direction _0, Building: 16 White Manor Position: (5/9) Direction _180, Building: 3 Black Inn Position: (7/3) Direction _90, Building: 14 White Inn Position: (1/9) Direction _180], 
 board=
-, [0, 0, 4, 4, 0, 4, 4, 0, 4, 4]
-, [0, 2, 4, 4, 0, 0, 0, 2, 2, 0]
-, [0, 0, 4, 0, 2, 0, 2, 2, 2, 0]
-, [0, 0, 1, 0, 0, 0, 0, 2, 2, 2]
-, [2, 2, 1, 0, 0, 0, 0, 0, 2, 0]
-, [2, 1, 1, 1, 0, 2, 2, 2, 0, 0]
-, [0, 0, 1, 4, 4, 2, 2, 2, 0, 0]
-, [0, 0, 0, 0, 4, 4, 2, 0, 0, 0]
-, [4, 4, 4, 0, 0, 4, 4, 0, 4, 4]
-, [4, 5, 4, 0, 0, 2, 2, 2, 0, 4]
+, [3, 3, 3, 3, 3, 2, 0, 1, 0, 0]
+, [3, 3, 3, 3, 2, 2, 1, 1, 1, 1]
+, [3, 3, 2, 2, 2, 4, 0, 1, 2, 2]
+, [3, 2, 2, 0, 4, 4, 4, 2, 2, 3]
+, [3, 2, 2, 0, 4, 4, 2, 2, 2, 2]
+, [2, 2, 2, 4, 4, 4, 0, 2, 3, 3]
+, [0, 2, 4, 4, 4, 4, 4, 2, 3, 3]
+, [0, 4, 0, 4, 4, 2, 2, 2, 3, 3]
+, [4, 4, 4, 4, 0, 4, 2, 2, 3, 3]
+, [4, 4, 0, 0, 4, 4, 4, 2, 3, 3]
 ]
 
-[main(db)][DEBUG][2026-09-29T20:22:51.431299500Z] Current player: 4
+[main(db)][DEBUG][2026-10-08T09:37:47.305579877Z] Current player: 2
 
-[main(db)][DEBUG][2026-09-29T20:22:51.431299500Z] Last move: (6/9)
+[main(db)][DEBUG][2026-10-08T09:37:47.305703256Z] Last move: (1/9)
 
-[main(db)][DEBUG][2026-09-29T20:22:51.432296Z] score: {2=23, 4=24}
-[main(db)][DEBUG][2026-09-29T20:22:51.432296Z] game finished: false
-[main(db)][INFO][2026-09-29T20:22:51.433294800Z] ----------------------------------------------------
-[main(db)][INFO][2026-09-29T20:22:51.435609800Z] Taking a turn with placement: White_Inn at position: (5/4)
-[main(db)][INFO][2026-09-29T20:22:51.436626100Z] 
+[main(db)][DEBUG][2026-10-08T09:37:47.305857219Z] score: White: 20, Black: 17
 
-[main(db)][DEBUG][2026-09-29T20:22:51.437131900Z] Board state:
+[main(db)][DEBUG][2026-10-08T09:37:47.306094022Z] game finished: false
+[main(db)][DEBUG][2026-10-08T09:37:47.306227155Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T09:37:47.306444360Z] Taking a turn with: MiniMaxAgent
+[main(db)][DEBUG][2026-10-08T09:37:53.534498140Z] selecting best move: Black_Stable at position: (8/0) with score=201.46666
+[main(db)][INFO][2026-10-08T09:37:53.534896654Z] Taking a turn with placement: Black_Stable at position: (8/0)
+[main(db)][DEBUG][2026-10-08T09:37:53.535088481Z] 
+
+[main(db)][DEBUG][2026-10-08T09:37:53.535362811Z] Board state:
 Board[
-freeBuildings={1 Black Tavern=0, 2 Black Stable=0, 3 Black Inn=0, 4 Black Bridge=0, 5 Black Manor=0, 6 Black Square=1, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=0, 10 Black Tower=1, 11 Black Academy=1, 12 White Tavern=0, 13 White Stable=0, 14 White Inn=0, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=1, 20 White Castle=0, 21 White Tower=0, 22 White Academy=1, 23 Cathedral=0}, 
-placedBuildings=[Building: 23 Cathedral Position: (2/5) Direction _180, Building: 3 Black Inn Position: (6/2) Direction _0, Building: 21 White Tower Position: (5/7) Direction _180, Building: 2 Black Stable Position: (7/1) Direction _0, Building: 20 White Castle Position: (1/8) Direction _0, Building: 9 Black Castle Position: (6/5) Direction _0, Building: 14 White Inn Position: (8/8) Direction _0, Building: 3 Black Inn Position: (0/5) Direction _270, Building: 16 White Manor Position: (2/1) Direction _270, Building: 2 Black Stable Position: (6/6) Direction _90, Building: 13 White Stable Position: (5/0) Direction _0, Building: 5 Black Manor Position: (8/3) Direction _270, Building: 13 White Stable Position: (8/0) Direction _0, Building: 1 Black Tavern Position: (4/2) Direction _0, Building: 12 White Tavern Position: (3/0) Direction _0, Building: 1 Black Tavern Position: (1/1) Direction _0, Building: 12 White Tavern Position: (3/6) Direction _0, Building: 4 Black Bridge Position: (6/9) Direction _90, Building: 14 White Inn Position: (5/4) Direction _180], 
+freeBuildings={1 Black Tavern=2, 2 Black Stable=1, 3 Black Inn=1, 4 Black Bridge=0, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=2, 14 White Inn=1, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 10 Black Tower Position: (6/8) Direction _0, Building: 19 White Infirmary Position: (5/3) Direction _0, Building: 9 Black Castle Position: (8/3) Direction _270, Building: 20 White Castle Position: (2/8) Direction _180, Building: 8 Black Infirmary Position: (1/5) Direction _0, Building: 21 White Tower Position: (3/5) Direction _90, Building: 11 Black Academy Position: (2/3) Direction _0, Building: 7 Black Abbey Position: (5/1) Direction _90, Building: 22 White Academy Position: (5/6) Direction _270, Building: 4 Black Bridge Position: (7/6) Direction _0, Building: 16 White Manor Position: (5/9) Direction _180, Building: 3 Black Inn Position: (7/3) Direction _90, Building: 14 White Inn Position: (1/9) Direction _180, Building: 2 Black Stable Position: (8/0) Direction _0], 
 board=
-, [0, 0, 4, 4, 0, 4, 4, 0, 4, 4]
-, [0, 2, 4, 4, 0, 0, 0, 2, 2, 0]
-, [0, 0, 4, 0, 2, 0, 2, 2, 2, 0]
-, [0, 0, 1, 0, 4, 0, 0, 2, 2, 2]
-, [2, 2, 1, 0, 4, 4, 0, 0, 2, 0]
-, [2, 1, 1, 1, 0, 2, 2, 2, 0, 0]
-, [0, 0, 1, 4, 4, 2, 2, 2, 0, 0]
-, [0, 0, 0, 0, 4, 4, 2, 0, 0, 0]
-, [4, 4, 4, 0, 0, 4, 4, 0, 4, 4]
-, [4, 5, 4, 0, 0, 2, 2, 2, 0, 4]
+, [3, 3, 3, 3, 3, 2, 0, 1, 2, 2]
+, [3, 3, 3, 3, 2, 2, 1, 1, 1, 1]
+, [3, 3, 2, 2, 2, 4, 0, 1, 2, 2]
+, [3, 2, 2, 0, 4, 4, 4, 2, 2, 3]
+, [3, 2, 2, 0, 4, 4, 2, 2, 2, 2]
+, [2, 2, 2, 4, 4, 4, 0, 2, 3, 3]
+, [0, 2, 4, 4, 4, 4, 4, 2, 3, 3]
+, [0, 4, 0, 4, 4, 2, 2, 2, 3, 3]
+, [4, 4, 4, 4, 0, 4, 2, 2, 3, 3]
+, [4, 4, 0, 0, 4, 4, 4, 2, 3, 3]
 ]
 
-[main(db)][DEBUG][2026-09-29T20:22:51.437131900Z] Current player: 2
+[main(db)][DEBUG][2026-10-08T09:37:53.535587894Z] Current player: 4
 
-[main(db)][DEBUG][2026-09-29T20:22:51.438129700Z] Last move: (5/4)
+[main(db)][DEBUG][2026-10-08T09:37:53.535826609Z] Last move: (8/0)
 
-[main(db)][DEBUG][2026-09-29T20:22:51.438129700Z] score: {2=23, 4=21}
-[main(db)][DEBUG][2026-09-29T20:22:51.439076300Z] game finished: false
-[main(db)][INFO][2026-09-29T20:22:51.439583700Z] ----------------------------------------------------
-[main(db)][INFO][2026-09-29T20:22:51.441734500Z] Taking a turn with placement: Black_Square at position: (8/5)
-[main(db)][INFO][2026-09-29T20:22:51.442748700Z] 
+[main(db)][DEBUG][2026-10-08T09:37:53.536125273Z] score: White: 20, Black: 15
 
-[main(db)][DEBUG][2026-09-29T20:22:51.443771200Z] Board state:
+[main(db)][DEBUG][2026-10-08T09:37:53.536407758Z] game finished: false
+[main(db)][DEBUG][2026-10-08T09:37:53.536583340Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T09:37:53.536969538Z] Taking a turn with: MiniMaxAgentCopy
+[main(db)][DEBUG][2026-10-08T09:37:54.004486101Z] selecting best move: White_Stable at position: (2/9) with score=-40.0
+[main(db)][INFO][2026-10-08T09:37:54.004843504Z] Taking a turn with placement: White_Stable at position: (2/9)
+[main(db)][DEBUG][2026-10-08T09:37:54.005044503Z] 
+
+[main(db)][DEBUG][2026-10-08T09:37:54.005346784Z] Board state:
 Board[
-freeBuildings={1 Black Tavern=0, 2 Black Stable=0, 3 Black Inn=0, 4 Black Bridge=0, 5 Black Manor=0, 6 Black Square=0, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=0, 10 Black Tower=1, 11 Black Academy=1, 12 White Tavern=0, 13 White Stable=0, 14 White Inn=0, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=1, 20 White Castle=0, 21 White Tower=0, 22 White Academy=1, 23 Cathedral=0}, 
-placedBuildings=[Building: 23 Cathedral Position: (2/5) Direction _180, Building: 3 Black Inn Position: (6/2) Direction _0, Building: 21 White Tower Position: (5/7) Direction _180, Building: 2 Black Stable Position: (7/1) Direction _0, Building: 20 White Castle Position: (1/8) Direction _0, Building: 9 Black Castle Position: (6/5) Direction _0, Building: 14 White Inn Position: (8/8) Direction _0, Building: 3 Black Inn Position: (0/5) Direction _270, Building: 16 White Manor Position: (2/1) Direction _270, Building: 2 Black Stable Position: (6/6) Direction _90, Building: 13 White Stable Position: (5/0) Direction _0, Building: 5 Black Manor Position: (8/3) Direction _270, Building: 13 White Stable Position: (8/0) Direction _0, Building: 1 Black Tavern Position: (4/2) Direction _0, Building: 12 White Tavern Position: (3/0) Direction _0, Building: 1 Black Tavern Position: (1/1) Direction _0, Building: 12 White Tavern Position: (3/6) Direction _0, Building: 4 Black Bridge Position: (6/9) Direction _90, Building: 14 White Inn Position: (5/4) Direction _180, Building: 6 Black Square Position: (8/5) Direction _0], 
+freeBuildings={1 Black Tavern=2, 2 Black Stable=1, 3 Black Inn=1, 4 Black Bridge=0, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=1, 14 White Inn=1, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 10 Black Tower Position: (6/8) Direction _0, Building: 19 White Infirmary Position: (5/3) Direction _0, Building: 9 Black Castle Position: (8/3) Direction _270, Building: 20 White Castle Position: (2/8) Direction _180, Building: 8 Black Infirmary Position: (1/5) Direction _0, Building: 21 White Tower Position: (3/5) Direction _90, Building: 11 Black Academy Position: (2/3) Direction _0, Building: 7 Black Abbey Position: (5/1) Direction _90, Building: 22 White Academy Position: (5/6) Direction _270, Building: 4 Black Bridge Position: (7/6) Direction _0, Building: 16 White Manor Position: (5/9) Direction _180, Building: 3 Black Inn Position: (7/3) Direction _90, Building: 14 White Inn Position: (1/9) Direction _180, Building: 2 Black Stable Position: (8/0) Direction _0, Building: 13 White Stable Position: (2/9) Direction _0], 
 board=
-, [0, 0, 4, 4, 0, 4, 4, 0, 4, 4]
-, [0, 2, 4, 4, 0, 0, 0, 2, 2, 0]
-, [0, 0, 4, 0, 2, 0, 2, 2, 2, 0]
-, [0, 0, 1, 0, 4, 0, 0, 2, 2, 2]
-, [2, 2, 1, 0, 4, 4, 0, 0, 2, 3]
-, [2, 1, 1, 1, 0, 2, 2, 2, 2, 2]
-, [0, 0, 1, 4, 4, 2, 2, 2, 2, 2]
-, [0, 0, 0, 0, 4, 4, 2, 0, 0, 0]
-, [4, 4, 4, 0, 0, 4, 4, 0, 4, 4]
-, [4, 5, 4, 0, 0, 2, 2, 2, 0, 4]
+, [3, 3, 3, 3, 3, 2, 0, 1, 2, 2]
+, [3, 3, 3, 3, 2, 2, 1, 1, 1, 1]
+, [3, 3, 2, 2, 2, 4, 0, 1, 2, 2]
+, [3, 2, 2, 0, 4, 4, 4, 2, 2, 3]
+, [3, 2, 2, 0, 4, 4, 2, 2, 2, 2]
+, [2, 2, 2, 4, 4, 4, 0, 2, 3, 3]
+, [0, 2, 4, 4, 4, 4, 4, 2, 3, 3]
+, [0, 4, 0, 4, 4, 2, 2, 2, 3, 3]
+, [4, 4, 4, 4, 0, 4, 2, 2, 3, 3]
+, [4, 4, 4, 4, 4, 4, 4, 2, 3, 3]
 ]
 
-[main(db)][DEBUG][2026-09-29T20:22:51.443771200Z] Current player: 4
+[main(db)][DEBUG][2026-10-08T09:37:54.005579497Z] Current player: 2
 
-[main(db)][DEBUG][2026-09-29T20:22:51.443771200Z] Last move: (8/5)
+[main(db)][DEBUG][2026-10-08T09:37:54.005788817Z] Last move: (2/9)
 
-[main(db)][DEBUG][2026-09-29T20:22:51.444765300Z] score: {2=19, 4=21}
-[main(db)][DEBUG][2026-09-29T20:22:51.445274700Z] game finished: false
-[main(db)][INFO][2026-09-29T20:22:51.446051500Z] ----------------------------------------------------
-[main(db)][INFO][2026-09-29T20:22:51.448248500Z] Taking a turn with placement: White_Bridge at position: (5/2)
-[main(db)][INFO][2026-09-29T20:22:51.449264800Z] 
+[main(db)][DEBUG][2026-10-08T09:37:54.005981538Z] score: White: 18, Black: 15
 
-[main(db)][DEBUG][2026-09-29T20:22:51.450060300Z] Board state:
+[main(db)][DEBUG][2026-10-08T09:37:54.006365911Z] game finished: false
+[main(db)][DEBUG][2026-10-08T09:37:54.006572817Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T09:37:54.006992490Z] Taking a turn with: MiniMaxAgent
+[main(db)][DEBUG][2026-10-08T09:37:57.638042074Z] selecting best move: Black_Stable at position: (0/6) with score=204.73332
+[main(db)][INFO][2026-10-08T09:37:57.638388307Z] Taking a turn with placement: Black_Stable at position: (0/6)
+[main(db)][DEBUG][2026-10-08T09:37:57.638646951Z] 
+
+[main(db)][DEBUG][2026-10-08T09:37:57.639041586Z] Board state:
 Board[
-freeBuildings={1 Black Tavern=0, 2 Black Stable=0, 3 Black Inn=0, 4 Black Bridge=0, 5 Black Manor=0, 6 Black Square=0, 7 Black Abbey=1, 8 Black Infirmary=1, 9 Black Castle=0, 10 Black Tower=1, 11 Black Academy=1, 12 White Tavern=0, 13 White Stable=0, 14 White Inn=0, 15 White Bridge=0, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=1, 20 White Castle=0, 21 White Tower=0, 22 White Academy=1, 23 Cathedral=0}, 
-placedBuildings=[Building: 23 Cathedral Position: (2/5) Direction _180, Building: 3 Black Inn Position: (6/2) Direction _0, Building: 21 White Tower Position: (5/7) Direction _180, Building: 2 Black Stable Position: (7/1) Direction _0, Building: 20 White Castle Position: (1/8) Direction _0, Building: 9 Black Castle Position: (6/5) Direction _0, Building: 14 White Inn Position: (8/8) Direction _0, Building: 3 Black Inn Position: (0/5) Direction _270, Building: 16 White Manor Position: (2/1) Direction _270, Building: 2 Black Stable Position: (6/6) Direction _90, Building: 13 White Stable Position: (5/0) Direction _0, Building: 5 Black Manor Position: (8/3) Direction _270, Building: 13 White Stable Position: (8/0) Direction _0, Building: 1 Black Tavern Position: (4/2) Direction _0, Building: 12 White Tavern Position: (3/0) Direction _0, Building: 1 Black Tavern Position: (1/1) Direction _0, Building: 12 White Tavern Position: (3/6) Direction _0, Building: 4 Black Bridge Position: (6/9) Direction _90, Building: 14 White Inn Position: (5/4) Direction _180, Building: 6 Black Square Position: (8/5) Direction _0, Building: 15 White Bridge Position: (5/2) Direction _0], 
+freeBuildings={1 Black Tavern=2, 2 Black Stable=0, 3 Black Inn=1, 4 Black Bridge=0, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=1, 14 White Inn=1, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 10 Black Tower Position: (6/8) Direction _0, Building: 19 White Infirmary Position: (5/3) Direction _0, Building: 9 Black Castle Position: (8/3) Direction _270, Building: 20 White Castle Position: (2/8) Direction _180, Building: 8 Black Infirmary Position: (1/5) Direction _0, Building: 21 White Tower Position: (3/5) Direction _90, Building: 11 Black Academy Position: (2/3) Direction _0, Building: 7 Black Abbey Position: (5/1) Direction _90, Building: 22 White Academy Position: (5/6) Direction _270, Building: 4 Black Bridge Position: (7/6) Direction _0, Building: 16 White Manor Position: (5/9) Direction _180, Building: 3 Black Inn Position: (7/3) Direction _90, Building: 14 White Inn Position: (1/9) Direction _180, Building: 2 Black Stable Position: (8/0) Direction _0, Building: 13 White Stable Position: (2/9) Direction _0, Building: 2 Black Stable Position: (0/6) Direction _90], 
 board=
-, [0, 0, 4, 4, 0, 4, 4, 0, 4, 4]
-, [0, 2, 4, 4, 0, 4, 0, 2, 2, 0]
-, [0, 0, 4, 0, 2, 4, 2, 2, 2, 0]
-, [0, 0, 1, 0, 4, 4, 0, 2, 2, 2]
-, [2, 2, 1, 0, 4, 4, 0, 0, 2, 3]
-, [2, 1, 1, 1, 0, 2, 2, 2, 2, 2]
-, [0, 0, 1, 4, 4, 2, 2, 2, 2, 2]
-, [0, 0, 0, 0, 4, 4, 2, 0, 0, 0]
-, [4, 4, 4, 0, 0, 4, 4, 0, 4, 4]
-, [4, 5, 4, 0, 0, 2, 2, 2, 0, 4]
+, [3, 3, 3, 3, 3, 2, 0, 1, 2, 2]
+, [3, 3, 3, 3, 2, 2, 1, 1, 1, 1]
+, [3, 3, 2, 2, 2, 4, 0, 1, 2, 2]
+, [3, 2, 2, 0, 4, 4, 4, 2, 2, 3]
+, [3, 2, 2, 0, 4, 4, 2, 2, 2, 2]
+, [2, 2, 2, 4, 4, 4, 0, 2, 3, 3]
+, [2, 2, 4, 4, 4, 4, 4, 2, 3, 3]
+, [2, 4, 0, 4, 4, 2, 2, 2, 3, 3]
+, [4, 4, 4, 4, 0, 4, 2, 2, 3, 3]
+, [4, 4, 4, 4, 4, 4, 4, 2, 3, 3]
 ]
 
-[main(db)][DEBUG][2026-09-29T20:22:51.450565900Z] Current player: 2
+[main(db)][DEBUG][2026-10-08T09:37:57.639284331Z] Current player: 4
 
-[main(db)][DEBUG][2026-09-29T20:22:51.451081100Z] Last move: (5/2)
+[main(db)][DEBUG][2026-10-08T09:37:57.639506346Z] Last move: (0/6)
 
-[main(db)][DEBUG][2026-09-29T20:22:51.451588Z] score: {2=19, 4=18}
-[main(db)][DEBUG][2026-09-29T20:22:51.452136300Z] game finished: false
-[main(db)][INFO][2026-09-29T20:22:51.452641700Z] ----------------------------------------------------
-[main(db)][INFO][2026-09-29T20:22:51.454433700Z] Taking a turn with placement: Black_Abbey at position: (1/6)
-[main(db)][INFO][2026-09-29T20:22:51.455551500Z] 
+[main(db)][DEBUG][2026-10-08T09:37:57.639721490Z] score: White: 18, Black: 13
 
-[main(db)][DEBUG][2026-09-29T20:22:51.456632500Z] Board state:
+[main(db)][DEBUG][2026-10-08T09:37:57.639991276Z] game finished: false
+[main(db)][DEBUG][2026-10-08T09:37:57.640104755Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T09:37:57.641234935Z] Taking a turn with: MiniMaxAgentCopy
+[main(db)][DEBUG][2026-10-08T09:37:57.870138193Z] selecting best move: White_Stable at position: (3/3) with score=-60.0
+[main(db)][INFO][2026-10-08T09:37:57.870508734Z] Taking a turn with placement: White_Stable at position: (3/3)
+[main(db)][DEBUG][2026-10-08T09:37:57.870734933Z] 
+
+[main(db)][DEBUG][2026-10-08T09:37:57.871097837Z] Board state:
 Board[
-freeBuildings={1 Black Tavern=0, 2 Black Stable=0, 3 Black Inn=0, 4 Black Bridge=0, 5 Black Manor=0, 6 Black Square=0, 7 Black Abbey=0, 8 Black Infirmary=1, 9 Black Castle=0, 10 Black Tower=1, 11 Black Academy=1, 12 White Tavern=0, 13 White Stable=0, 14 White Inn=0, 15 White Bridge=0, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=1, 20 White Castle=0, 21 White Tower=0, 22 White Academy=1, 23 Cathedral=0}, 
-placedBuildings=[Building: 23 Cathedral Position: (2/5) Direction _180, Building: 3 Black Inn Position: (6/2) Direction _0, Building: 21 White Tower Position: (5/7) Direction _180, Building: 2 Black Stable Position: (7/1) Direction _0, Building: 20 White Castle Position: (1/8) Direction _0, Building: 9 Black Castle Position: (6/5) Direction _0, Building: 14 White Inn Position: (8/8) Direction _0, Building: 3 Black Inn Position: (0/5) Direction _270, Building: 16 White Manor Position: (2/1) Direction _270, Building: 2 Black Stable Position: (6/6) Direction _90, Building: 13 White Stable Position: (5/0) Direction _0, Building: 5 Black Manor Position: (8/3) Direction _270, Building: 13 White Stable Position: (8/0) Direction _0, Building: 1 Black Tavern Position: (4/2) Direction _0, Building: 12 White Tavern Position: (3/0) Direction _0, Building: 1 Black Tavern Position: (1/1) Direction _0, Building: 12 White Tavern Position: (3/6) Direction _0, Building: 4 Black Bridge Position: (6/9) Direction _90, Building: 14 White Inn Position: (5/4) Direction _180, Building: 6 Black Square Position: (8/5) Direction _0, Building: 15 White Bridge Position: (5/2) Direction _0, Building: 7 Black Abbey Position: (1/6) Direction _0], 
+freeBuildings={1 Black Tavern=2, 2 Black Stable=0, 3 Black Inn=1, 4 Black Bridge=0, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=0, 14 White Inn=1, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 10 Black Tower Position: (6/8) Direction _0, Building: 19 White Infirmary Position: (5/3) Direction _0, Building: 9 Black Castle Position: (8/3) Direction _270, Building: 20 White Castle Position: (2/8) Direction _180, Building: 8 Black Infirmary Position: (1/5) Direction _0, Building: 21 White Tower Position: (3/5) Direction _90, Building: 11 Black Academy Position: (2/3) Direction _0, Building: 7 Black Abbey Position: (5/1) Direction _90, Building: 22 White Academy Position: (5/6) Direction _270, Building: 4 Black Bridge Position: (7/6) Direction _0, Building: 16 White Manor Position: (5/9) Direction _180, Building: 3 Black Inn Position: (7/3) Direction _90, Building: 14 White Inn Position: (1/9) Direction _180, Building: 2 Black Stable Position: (8/0) Direction _0, Building: 13 White Stable Position: (2/9) Direction _0, Building: 2 Black Stable Position: (0/6) Direction _90, Building: 13 White Stable Position: (3/3) Direction _90], 
 board=
-, [0, 0, 4, 4, 0, 4, 4, 0, 4, 4]
-, [0, 2, 4, 4, 0, 4, 0, 2, 2, 0]
-, [0, 0, 4, 0, 2, 4, 2, 2, 2, 0]
-, [0, 0, 1, 0, 4, 4, 0, 2, 2, 2]
-, [2, 2, 1, 0, 4, 4, 0, 0, 2, 3]
-, [2, 1, 1, 1, 0, 2, 2, 2, 2, 2]
-, [2, 2, 1, 4, 4, 2, 2, 2, 2, 2]
-, [0, 2, 2, 0, 4, 4, 2, 0, 0, 0]
-, [4, 4, 4, 0, 0, 4, 4, 0, 4, 4]
-, [4, 5, 4, 0, 0, 2, 2, 2, 0, 4]
+, [3, 3, 3, 3, 3, 2, 0, 1, 2, 2]
+, [3, 3, 3, 3, 2, 2, 1, 1, 1, 1]
+, [3, 3, 2, 2, 2, 4, 0, 1, 2, 2]
+, [3, 2, 2, 4, 4, 4, 4, 2, 2, 3]
+, [3, 2, 2, 4, 4, 4, 2, 2, 2, 2]
+, [2, 2, 2, 4, 4, 4, 0, 2, 3, 3]
+, [2, 2, 4, 4, 4, 4, 4, 2, 3, 3]
+, [2, 4, 0, 4, 4, 2, 2, 2, 3, 3]
+, [4, 4, 4, 4, 0, 4, 2, 2, 3, 3]
+, [4, 4, 4, 4, 4, 4, 4, 2, 3, 3]
 ]
 
-[main(db)][DEBUG][2026-09-29T20:22:51.457567900Z] Current player: 4
+[main(db)][DEBUG][2026-10-08T09:37:57.871260045Z] Current player: 2
 
-[main(db)][DEBUG][2026-09-29T20:22:51.458566300Z] Last move: (1/6)
+[main(db)][DEBUG][2026-10-08T09:37:57.871375056Z] Last move: (3/3)
 
-[main(db)][DEBUG][2026-09-29T20:22:51.459565800Z] score: {2=15, 4=18}
-[main(db)][DEBUG][2026-09-29T20:22:51.462070800Z] game finished: false
-[main(db)][INFO][2026-09-29T20:22:51.463069600Z] ----------------------------------------------------
-[main(db)][INFO][2026-09-29T20:22:51.466066600Z] Taking a turn with placement: White_Abbey at position: (4/8)
-[main(db)][INFO][2026-09-29T20:22:51.466066600Z] 
+[main(db)][DEBUG][2026-10-08T09:37:57.871498122Z] score: White: 16, Black: 13
 
-[main(db)][DEBUG][2026-09-29T20:22:51.467547Z] Board state:
+[main(db)][DEBUG][2026-10-08T09:37:57.871717832Z] game finished: false
+[main(db)][DEBUG][2026-10-08T09:37:57.871834671Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T09:37:57.872060196Z] Taking a turn with: MiniMaxAgent
+[main(db)][DEBUG][2026-10-08T09:37:59.163766361Z] selecting best move: Black_Tavern at position: (6/2) with score=201.20001
+[main(db)][INFO][2026-10-08T09:37:59.164297626Z] Taking a turn with placement: Black_Tavern at position: (6/2)
+[main(db)][DEBUG][2026-10-08T09:37:59.164494116Z] 
+
+[main(db)][DEBUG][2026-10-08T09:37:59.164900642Z] Board state:
 Board[
-freeBuildings={1 Black Tavern=0, 2 Black Stable=0, 3 Black Inn=0, 4 Black Bridge=0, 5 Black Manor=0, 6 Black Square=0, 7 Black Abbey=0, 8 Black Infirmary=1, 9 Black Castle=0, 10 Black Tower=1, 11 Black Academy=1, 12 White Tavern=0, 13 White Stable=0, 14 White Inn=0, 15 White Bridge=0, 16 White Manor=0, 17 White Square=1, 18 White Abbey=0, 19 White Infirmary=1, 20 White Castle=0, 21 White Tower=0, 22 White Academy=1, 23 Cathedral=0}, 
-placedBuildings=[Building: 23 Cathedral Position: (2/5) Direction _180, Building: 3 Black Inn Position: (6/2) Direction _0, Building: 21 White Tower Position: (5/7) Direction _180, Building: 2 Black Stable Position: (7/1) Direction _0, Building: 20 White Castle Position: (1/8) Direction _0, Building: 9 Black Castle Position: (6/5) Direction _0, Building: 14 White Inn Position: (8/8) Direction _0, Building: 3 Black Inn Position: (0/5) Direction _270, Building: 16 White Manor Position: (2/1) Direction _270, Building: 2 Black Stable Position: (6/6) Direction _90, Building: 13 White Stable Position: (5/0) Direction _0, Building: 5 Black Manor Position: (8/3) Direction _270, Building: 13 White Stable Position: (8/0) Direction _0, Building: 1 Black Tavern Position: (4/2) Direction _0, Building: 12 White Tavern Position: (3/0) Direction _0, Building: 1 Black Tavern Position: (1/1) Direction _0, Building: 12 White Tavern Position: (3/6) Direction _0, Building: 4 Black Bridge Position: (6/9) Direction _90, Building: 14 White Inn Position: (5/4) Direction _180, Building: 6 Black Square Position: (8/5) Direction _0, Building: 15 White Bridge Position: (5/2) Direction _0, Building: 7 Black Abbey Position: (1/6) Direction _0, Building: 18 White Abbey Position: (4/8) Direction _90], 
+freeBuildings={1 Black Tavern=1, 2 Black Stable=0, 3 Black Inn=1, 4 Black Bridge=0, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=2, 13 White Stable=0, 14 White Inn=1, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 10 Black Tower Position: (6/8) Direction _0, Building: 19 White Infirmary Position: (5/3) Direction _0, Building: 9 Black Castle Position: (8/3) Direction _270, Building: 20 White Castle Position: (2/8) Direction _180, Building: 8 Black Infirmary Position: (1/5) Direction _0, Building: 21 White Tower Position: (3/5) Direction _90, Building: 11 Black Academy Position: (2/3) Direction _0, Building: 7 Black Abbey Position: (5/1) Direction _90, Building: 22 White Academy Position: (5/6) Direction _270, Building: 4 Black Bridge Position: (7/6) Direction _0, Building: 16 White Manor Position: (5/9) Direction _180, Building: 3 Black Inn Position: (7/3) Direction _90, Building: 14 White Inn Position: (1/9) Direction _180, Building: 2 Black Stable Position: (8/0) Direction _0, Building: 13 White Stable Position: (2/9) Direction _0, Building: 2 Black Stable Position: (0/6) Direction _90, Building: 13 White Stable Position: (3/3) Direction _90, Building: 1 Black Tavern Position: (6/2) Direction _0], 
 board=
-, [0, 0, 4, 4, 0, 4, 4, 0, 4, 4]
-, [0, 2, 4, 4, 0, 4, 0, 2, 2, 0]
-, [0, 0, 4, 0, 2, 4, 2, 2, 2, 0]
-, [0, 0, 1, 0, 4, 4, 0, 2, 2, 2]
-, [2, 2, 1, 0, 4, 4, 0, 0, 2, 3]
-, [2, 1, 1, 1, 0, 2, 2, 2, 2, 2]
-, [2, 2, 1, 4, 4, 2, 2, 2, 2, 2]
-, [0, 2, 2, 4, 4, 4, 2, 0, 0, 0]
-, [4, 4, 4, 4, 4, 4, 4, 0, 4, 4]
-, [4, 5, 4, 5, 4, 2, 2, 2, 0, 4]
+, [3, 3, 3, 3, 3, 2, 0, 1, 2, 2]
+, [3, 3, 3, 3, 2, 2, 1, 1, 1, 1]
+, [3, 3, 2, 2, 2, 4, 2, 1, 2, 2]
+, [3, 2, 2, 4, 4, 4, 4, 2, 2, 3]
+, [3, 2, 2, 4, 4, 4, 2, 2, 2, 2]
+, [2, 2, 2, 4, 4, 4, 0, 2, 3, 3]
+, [2, 2, 4, 4, 4, 4, 4, 2, 3, 3]
+, [2, 4, 0, 4, 4, 2, 2, 2, 3, 3]
+, [4, 4, 4, 4, 0, 4, 2, 2, 3, 3]
+, [4, 4, 4, 4, 4, 4, 4, 2, 3, 3]
 ]
 
-[main(db)][DEBUG][2026-09-29T20:22:51.468512100Z] Current player: 2
+[main(db)][DEBUG][2026-10-08T09:37:59.165072238Z] Current player: 4
 
-[main(db)][DEBUG][2026-09-29T20:22:51.469561800Z] Last move: (4/8)
+[main(db)][DEBUG][2026-10-08T09:37:59.165189482Z] Last move: (6/2)
 
-[main(db)][DEBUG][2026-09-29T20:22:51.469561800Z] score: {2=15, 4=14}
-[main(db)][DEBUG][2026-09-29T20:22:51.472654900Z] game finished: false
-[main(db)][INFO][2026-09-29T20:22:51.472990900Z] ----------------------------------------------------
-[main(db)][WARN][2026-09-29T20:22:51.475655Z] No valid moves available
-[main(db)][WARN][2026-09-29T20:22:51.475655Z] No valid moves available
+[main(db)][DEBUG][2026-10-08T09:37:59.165295158Z] score: White: 16, Black: 12
+
+[main(db)][DEBUG][2026-10-08T09:37:59.165516917Z] game finished: false
+[main(db)][DEBUG][2026-10-08T09:37:59.165635677Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T09:37:59.165857433Z] Taking a turn with: MiniMaxAgentCopy
+[main(db)][DEBUG][2026-10-08T09:37:59.278814579Z] selecting best move: White_Tavern at position: (6/0) with score=-60.0
+[main(db)][INFO][2026-10-08T09:37:59.279195765Z] Taking a turn with placement: White_Tavern at position: (6/0)
+[main(db)][DEBUG][2026-10-08T09:37:59.279374657Z] 
+
+[main(db)][DEBUG][2026-10-08T09:37:59.279694484Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=1, 2 Black Stable=0, 3 Black Inn=1, 4 Black Bridge=0, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=1, 13 White Stable=0, 14 White Inn=1, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 10 Black Tower Position: (6/8) Direction _0, Building: 19 White Infirmary Position: (5/3) Direction _0, Building: 9 Black Castle Position: (8/3) Direction _270, Building: 20 White Castle Position: (2/8) Direction _180, Building: 8 Black Infirmary Position: (1/5) Direction _0, Building: 21 White Tower Position: (3/5) Direction _90, Building: 11 Black Academy Position: (2/3) Direction _0, Building: 7 Black Abbey Position: (5/1) Direction _90, Building: 22 White Academy Position: (5/6) Direction _270, Building: 4 Black Bridge Position: (7/6) Direction _0, Building: 16 White Manor Position: (5/9) Direction _180, Building: 3 Black Inn Position: (7/3) Direction _90, Building: 14 White Inn Position: (1/9) Direction _180, Building: 2 Black Stable Position: (8/0) Direction _0, Building: 13 White Stable Position: (2/9) Direction _0, Building: 2 Black Stable Position: (0/6) Direction _90, Building: 13 White Stable Position: (3/3) Direction _90, Building: 1 Black Tavern Position: (6/2) Direction _0, Building: 12 White Tavern Position: (6/0) Direction _0], 
+board=
+, [3, 3, 3, 3, 3, 2, 4, 1, 2, 2]
+, [3, 3, 3, 3, 2, 2, 1, 1, 1, 1]
+, [3, 3, 2, 2, 2, 4, 2, 1, 2, 2]
+, [3, 2, 2, 4, 4, 4, 4, 2, 2, 3]
+, [3, 2, 2, 4, 4, 4, 2, 2, 2, 2]
+, [2, 2, 2, 4, 4, 4, 0, 2, 3, 3]
+, [2, 2, 4, 4, 4, 4, 4, 2, 3, 3]
+, [2, 4, 0, 4, 4, 2, 2, 2, 3, 3]
+, [4, 4, 4, 4, 0, 4, 2, 2, 3, 3]
+, [4, 4, 4, 4, 4, 4, 4, 2, 3, 3]
+]
+
+[main(db)][DEBUG][2026-10-08T09:37:59.279876909Z] Current player: 2
+
+[main(db)][DEBUG][2026-10-08T09:37:59.279994810Z] Last move: (6/0)
+
+[main(db)][DEBUG][2026-10-08T09:37:59.280112869Z] score: White: 15, Black: 12
+
+[main(db)][DEBUG][2026-10-08T09:37:59.280327692Z] game finished: false
+[main(db)][DEBUG][2026-10-08T09:37:59.280447975Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T09:37:59.280653265Z] Taking a turn with: MiniMaxAgent
+[main(db)][DEBUG][2026-10-08T09:38:00.091966242Z] selecting best move: Black_Tavern at position: (2/7) with score=192.23334
+[main(db)][INFO][2026-10-08T09:38:00.092306090Z] Taking a turn with placement: Black_Tavern at position: (2/7)
+[main(db)][DEBUG][2026-10-08T09:38:00.092451997Z] 
+
+[main(db)][DEBUG][2026-10-08T09:38:00.092714007Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=0, 2 Black Stable=0, 3 Black Inn=1, 4 Black Bridge=0, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=1, 13 White Stable=0, 14 White Inn=1, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 10 Black Tower Position: (6/8) Direction _0, Building: 19 White Infirmary Position: (5/3) Direction _0, Building: 9 Black Castle Position: (8/3) Direction _270, Building: 20 White Castle Position: (2/8) Direction _180, Building: 8 Black Infirmary Position: (1/5) Direction _0, Building: 21 White Tower Position: (3/5) Direction _90, Building: 11 Black Academy Position: (2/3) Direction _0, Building: 7 Black Abbey Position: (5/1) Direction _90, Building: 22 White Academy Position: (5/6) Direction _270, Building: 4 Black Bridge Position: (7/6) Direction _0, Building: 16 White Manor Position: (5/9) Direction _180, Building: 3 Black Inn Position: (7/3) Direction _90, Building: 14 White Inn Position: (1/9) Direction _180, Building: 2 Black Stable Position: (8/0) Direction _0, Building: 13 White Stable Position: (2/9) Direction _0, Building: 2 Black Stable Position: (0/6) Direction _90, Building: 13 White Stable Position: (3/3) Direction _90, Building: 1 Black Tavern Position: (6/2) Direction _0, Building: 12 White Tavern Position: (6/0) Direction _0, Building: 1 Black Tavern Position: (2/7) Direction _0], 
+board=
+, [3, 3, 3, 3, 3, 2, 4, 1, 2, 2]
+, [3, 3, 3, 3, 2, 2, 1, 1, 1, 1]
+, [3, 3, 2, 2, 2, 4, 2, 1, 2, 2]
+, [3, 2, 2, 4, 4, 4, 4, 2, 2, 3]
+, [3, 2, 2, 4, 4, 4, 2, 2, 2, 2]
+, [2, 2, 2, 4, 4, 4, 0, 2, 3, 3]
+, [2, 2, 4, 4, 4, 4, 4, 2, 3, 3]
+, [2, 4, 2, 4, 4, 2, 2, 2, 3, 3]
+, [4, 4, 4, 4, 0, 4, 2, 2, 3, 3]
+, [4, 4, 4, 4, 4, 4, 4, 2, 3, 3]
+]
+
+[main(db)][DEBUG][2026-10-08T09:38:00.092859160Z] Current player: 4
+
+[main(db)][DEBUG][2026-10-08T09:38:00.092962282Z] Last move: (2/7)
+
+[main(db)][DEBUG][2026-10-08T09:38:00.093058671Z] score: White: 15, Black: 11
+
+[main(db)][DEBUG][2026-10-08T09:38:00.093472501Z] game finished: false
+[main(db)][DEBUG][2026-10-08T09:38:00.093613465Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T09:38:00.094041523Z] Taking a turn with: MiniMaxAgentCopy
+[main(db)][DEBUG][2026-10-08T09:38:00.138140776Z] selecting best move: White_Tavern at position: (6/5) with score=-120.0
+[main(db)][INFO][2026-10-08T09:38:00.138365149Z] Taking a turn with placement: White_Tavern at position: (6/5)
+[main(db)][DEBUG][2026-10-08T09:38:00.138581669Z] 
+
+[main(db)][DEBUG][2026-10-08T09:38:00.139022612Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=0, 2 Black Stable=0, 3 Black Inn=1, 4 Black Bridge=0, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=0, 13 White Stable=0, 14 White Inn=1, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 10 Black Tower Position: (6/8) Direction _0, Building: 19 White Infirmary Position: (5/3) Direction _0, Building: 9 Black Castle Position: (8/3) Direction _270, Building: 20 White Castle Position: (2/8) Direction _180, Building: 8 Black Infirmary Position: (1/5) Direction _0, Building: 21 White Tower Position: (3/5) Direction _90, Building: 11 Black Academy Position: (2/3) Direction _0, Building: 7 Black Abbey Position: (5/1) Direction _90, Building: 22 White Academy Position: (5/6) Direction _270, Building: 4 Black Bridge Position: (7/6) Direction _0, Building: 16 White Manor Position: (5/9) Direction _180, Building: 3 Black Inn Position: (7/3) Direction _90, Building: 14 White Inn Position: (1/9) Direction _180, Building: 2 Black Stable Position: (8/0) Direction _0, Building: 13 White Stable Position: (2/9) Direction _0, Building: 2 Black Stable Position: (0/6) Direction _90, Building: 13 White Stable Position: (3/3) Direction _90, Building: 1 Black Tavern Position: (6/2) Direction _0, Building: 12 White Tavern Position: (6/0) Direction _0, Building: 1 Black Tavern Position: (2/7) Direction _0, Building: 12 White Tavern Position: (6/5) Direction _0], 
+board=
+, [3, 3, 3, 3, 3, 2, 4, 1, 2, 2]
+, [3, 3, 3, 3, 2, 2, 1, 1, 1, 1]
+, [3, 3, 2, 2, 2, 4, 2, 1, 2, 2]
+, [3, 2, 2, 4, 4, 4, 4, 2, 2, 3]
+, [3, 2, 2, 4, 4, 4, 2, 2, 2, 2]
+, [2, 2, 2, 4, 4, 4, 4, 2, 3, 3]
+, [2, 2, 4, 4, 4, 4, 4, 2, 3, 3]
+, [2, 4, 2, 4, 4, 2, 2, 2, 3, 3]
+, [4, 4, 4, 4, 0, 4, 2, 2, 3, 3]
+, [4, 4, 4, 4, 4, 4, 4, 2, 3, 3]
+]
+
+[main(db)][DEBUG][2026-10-08T09:38:00.139268639Z] Current player: 2
+
+[main(db)][DEBUG][2026-10-08T09:38:00.139413262Z] Last move: (6/5)
+
+[main(db)][DEBUG][2026-10-08T09:38:00.139537883Z] score: White: 14, Black: 11
+
+[main(db)][DEBUG][2026-10-08T09:38:00.139995237Z] game finished: false
+[main(db)][DEBUG][2026-10-08T09:38:00.140125088Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T09:38:00.140558871Z] Taking a turn with: MiniMaxAgent
+[main(db)][DEBUG][2026-10-08T09:38:00.347301517Z] selecting best move: Black_Inn at position: (8/8) with score=192.20001
+[main(db)][INFO][2026-10-08T09:38:00.347663277Z] Taking a turn with placement: Black_Inn at position: (8/8)
+[main(db)][DEBUG][2026-10-08T09:38:00.348060818Z] 
+
+[main(db)][DEBUG][2026-10-08T09:38:00.348545009Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=0, 2 Black Stable=0, 3 Black Inn=0, 4 Black Bridge=0, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=0, 13 White Stable=0, 14 White Inn=1, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 10 Black Tower Position: (6/8) Direction _0, Building: 19 White Infirmary Position: (5/3) Direction _0, Building: 9 Black Castle Position: (8/3) Direction _270, Building: 20 White Castle Position: (2/8) Direction _180, Building: 8 Black Infirmary Position: (1/5) Direction _0, Building: 21 White Tower Position: (3/5) Direction _90, Building: 11 Black Academy Position: (2/3) Direction _0, Building: 7 Black Abbey Position: (5/1) Direction _90, Building: 22 White Academy Position: (5/6) Direction _270, Building: 4 Black Bridge Position: (7/6) Direction _0, Building: 16 White Manor Position: (5/9) Direction _180, Building: 3 Black Inn Position: (7/3) Direction _90, Building: 14 White Inn Position: (1/9) Direction _180, Building: 2 Black Stable Position: (8/0) Direction _0, Building: 13 White Stable Position: (2/9) Direction _0, Building: 2 Black Stable Position: (0/6) Direction _90, Building: 13 White Stable Position: (3/3) Direction _90, Building: 1 Black Tavern Position: (6/2) Direction _0, Building: 12 White Tavern Position: (6/0) Direction _0, Building: 1 Black Tavern Position: (2/7) Direction _0, Building: 12 White Tavern Position: (6/5) Direction _0, Building: 3 Black Inn Position: (8/8) Direction _0], 
+board=
+, [3, 3, 3, 3, 3, 2, 4, 1, 2, 2]
+, [3, 3, 3, 3, 2, 2, 1, 1, 1, 1]
+, [3, 3, 2, 2, 2, 4, 2, 1, 2, 2]
+, [3, 2, 2, 4, 4, 4, 4, 2, 2, 3]
+, [3, 2, 2, 4, 4, 4, 2, 2, 2, 2]
+, [2, 2, 2, 4, 4, 4, 4, 2, 3, 3]
+, [2, 2, 4, 4, 4, 4, 4, 2, 3, 3]
+, [2, 4, 2, 4, 4, 2, 2, 2, 3, 3]
+, [4, 4, 4, 4, 0, 4, 2, 2, 2, 2]
+, [4, 4, 4, 4, 4, 4, 4, 2, 3, 2]
+]
+
+[main(db)][DEBUG][2026-10-08T09:38:00.348731650Z] Current player: 4
+
+[main(db)][DEBUG][2026-10-08T09:38:00.348864622Z] Last move: (8/8)
+
+[main(db)][DEBUG][2026-10-08T09:38:00.348970991Z] score: White: 14, Black: 8
+
+[main(db)][DEBUG][2026-10-08T09:38:00.349357348Z] game finished: false
+[main(db)][DEBUG][2026-10-08T09:38:00.349464690Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T09:38:00.349855132Z] Taking a turn with: MiniMaxAgentCopy
+[main(db)][WARN][2026-10-08T09:38:00.350696273Z] No valid moves available
+[main(db)][INFO][2026-10-08T09:38:00.351056757Z] No valid moves for 4; passing turn
+[main(db)][DEBUG][2026-10-08T09:38:00.351283117Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=0, 2 Black Stable=0, 3 Black Inn=0, 4 Black Bridge=0, 5 Black Manor=1, 6 Black Square=1, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=0, 13 White Stable=0, 14 White Inn=1, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 10 Black Tower Position: (6/8) Direction _0, Building: 19 White Infirmary Position: (5/3) Direction _0, Building: 9 Black Castle Position: (8/3) Direction _270, Building: 20 White Castle Position: (2/8) Direction _180, Building: 8 Black Infirmary Position: (1/5) Direction _0, Building: 21 White Tower Position: (3/5) Direction _90, Building: 11 Black Academy Position: (2/3) Direction _0, Building: 7 Black Abbey Position: (5/1) Direction _90, Building: 22 White Academy Position: (5/6) Direction _270, Building: 4 Black Bridge Position: (7/6) Direction _0, Building: 16 White Manor Position: (5/9) Direction _180, Building: 3 Black Inn Position: (7/3) Direction _90, Building: 14 White Inn Position: (1/9) Direction _180, Building: 2 Black Stable Position: (8/0) Direction _0, Building: 13 White Stable Position: (2/9) Direction _0, Building: 2 Black Stable Position: (0/6) Direction _90, Building: 13 White Stable Position: (3/3) Direction _90, Building: 1 Black Tavern Position: (6/2) Direction _0, Building: 12 White Tavern Position: (6/0) Direction _0, Building: 1 Black Tavern Position: (2/7) Direction _0, Building: 12 White Tavern Position: (6/5) Direction _0, Building: 3 Black Inn Position: (8/8) Direction _0], 
+board=
+, [3, 3, 3, 3, 3, 2, 4, 1, 2, 2]
+, [3, 3, 3, 3, 2, 2, 1, 1, 1, 1]
+, [3, 3, 2, 2, 2, 4, 2, 1, 2, 2]
+, [3, 2, 2, 4, 4, 4, 4, 2, 2, 3]
+, [3, 2, 2, 4, 4, 4, 2, 2, 2, 2]
+, [2, 2, 2, 4, 4, 4, 4, 2, 3, 3]
+, [2, 2, 4, 4, 4, 4, 4, 2, 3, 3]
+, [2, 4, 2, 4, 4, 2, 2, 2, 3, 3]
+, [4, 4, 4, 4, 0, 4, 2, 2, 2, 2]
+, [4, 4, 4, 4, 4, 4, 4, 2, 3, 2]
+]
+
+[main(db)][DEBUG][2026-10-08T09:38:00.351428512Z] Current player: 2
+
+[main(db)][DEBUG][2026-10-08T09:38:00.351542747Z] Last move: pass
+
+[main(db)][DEBUG][2026-10-08T09:38:00.351648312Z] score: White: 14, Black: 8
+
+[main(db)][DEBUG][2026-10-08T09:38:00.352040568Z] game finished: false
+[main(db)][DEBUG][2026-10-08T09:38:00.352148414Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T09:38:00.352523084Z] Taking a turn with: MiniMaxAgent
+[main(db)][DEBUG][2026-10-08T09:38:00.389902891Z] selecting best move: Black_Square at position: (0/0) with score=189.33333
+[main(db)][INFO][2026-10-08T09:38:00.390156863Z] Taking a turn with placement: Black_Square at position: (0/0)
+[main(db)][DEBUG][2026-10-08T09:38:00.390317888Z] 
+
+[main(db)][DEBUG][2026-10-08T09:38:00.390551463Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=0, 2 Black Stable=0, 3 Black Inn=0, 4 Black Bridge=0, 5 Black Manor=1, 6 Black Square=0, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=0, 13 White Stable=0, 14 White Inn=1, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 10 Black Tower Position: (6/8) Direction _0, Building: 19 White Infirmary Position: (5/3) Direction _0, Building: 9 Black Castle Position: (8/3) Direction _270, Building: 20 White Castle Position: (2/8) Direction _180, Building: 8 Black Infirmary Position: (1/5) Direction _0, Building: 21 White Tower Position: (3/5) Direction _90, Building: 11 Black Academy Position: (2/3) Direction _0, Building: 7 Black Abbey Position: (5/1) Direction _90, Building: 22 White Academy Position: (5/6) Direction _270, Building: 4 Black Bridge Position: (7/6) Direction _0, Building: 16 White Manor Position: (5/9) Direction _180, Building: 3 Black Inn Position: (7/3) Direction _90, Building: 14 White Inn Position: (1/9) Direction _180, Building: 2 Black Stable Position: (8/0) Direction _0, Building: 13 White Stable Position: (2/9) Direction _0, Building: 2 Black Stable Position: (0/6) Direction _90, Building: 13 White Stable Position: (3/3) Direction _90, Building: 1 Black Tavern Position: (6/2) Direction _0, Building: 12 White Tavern Position: (6/0) Direction _0, Building: 1 Black Tavern Position: (2/7) Direction _0, Building: 12 White Tavern Position: (6/5) Direction _0, Building: 3 Black Inn Position: (8/8) Direction _0, Building: 6 Black Square Position: (0/0) Direction _0], 
+board=
+, [2, 2, 3, 3, 3, 2, 4, 1, 2, 2]
+, [2, 2, 3, 3, 2, 2, 1, 1, 1, 1]
+, [3, 3, 2, 2, 2, 4, 2, 1, 2, 2]
+, [3, 2, 2, 4, 4, 4, 4, 2, 2, 3]
+, [3, 2, 2, 4, 4, 4, 2, 2, 2, 2]
+, [2, 2, 2, 4, 4, 4, 4, 2, 3, 3]
+, [2, 2, 4, 4, 4, 4, 4, 2, 3, 3]
+, [2, 4, 2, 4, 4, 2, 2, 2, 3, 3]
+, [4, 4, 4, 4, 0, 4, 2, 2, 2, 2]
+, [4, 4, 4, 4, 4, 4, 4, 2, 3, 2]
+]
+
+[main(db)][DEBUG][2026-10-08T09:38:00.390904423Z] Current player: 4
+
+[main(db)][DEBUG][2026-10-08T09:38:00.391188752Z] Last move: (0/0)
+
+[main(db)][DEBUG][2026-10-08T09:38:00.391322824Z] score: White: 14, Black: 4
+
+[main(db)][DEBUG][2026-10-08T09:38:00.391721340Z] game finished: false
+[main(db)][DEBUG][2026-10-08T09:38:00.391861904Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T09:38:00.392250346Z] Taking a turn with: MiniMaxAgentCopy
+[main(db)][WARN][2026-10-08T09:38:00.393073061Z] No valid moves available
+[main(db)][INFO][2026-10-08T09:38:00.393209455Z] No valid moves for 4; passing turn
+[main(db)][DEBUG][2026-10-08T09:38:00.393397610Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=0, 2 Black Stable=0, 3 Black Inn=0, 4 Black Bridge=0, 5 Black Manor=1, 6 Black Square=0, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=0, 13 White Stable=0, 14 White Inn=1, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 10 Black Tower Position: (6/8) Direction _0, Building: 19 White Infirmary Position: (5/3) Direction _0, Building: 9 Black Castle Position: (8/3) Direction _270, Building: 20 White Castle Position: (2/8) Direction _180, Building: 8 Black Infirmary Position: (1/5) Direction _0, Building: 21 White Tower Position: (3/5) Direction _90, Building: 11 Black Academy Position: (2/3) Direction _0, Building: 7 Black Abbey Position: (5/1) Direction _90, Building: 22 White Academy Position: (5/6) Direction _270, Building: 4 Black Bridge Position: (7/6) Direction _0, Building: 16 White Manor Position: (5/9) Direction _180, Building: 3 Black Inn Position: (7/3) Direction _90, Building: 14 White Inn Position: (1/9) Direction _180, Building: 2 Black Stable Position: (8/0) Direction _0, Building: 13 White Stable Position: (2/9) Direction _0, Building: 2 Black Stable Position: (0/6) Direction _90, Building: 13 White Stable Position: (3/3) Direction _90, Building: 1 Black Tavern Position: (6/2) Direction _0, Building: 12 White Tavern Position: (6/0) Direction _0, Building: 1 Black Tavern Position: (2/7) Direction _0, Building: 12 White Tavern Position: (6/5) Direction _0, Building: 3 Black Inn Position: (8/8) Direction _0, Building: 6 Black Square Position: (0/0) Direction _0], 
+board=
+, [2, 2, 3, 3, 3, 2, 4, 1, 2, 2]
+, [2, 2, 3, 3, 2, 2, 1, 1, 1, 1]
+, [3, 3, 2, 2, 2, 4, 2, 1, 2, 2]
+, [3, 2, 2, 4, 4, 4, 4, 2, 2, 3]
+, [3, 2, 2, 4, 4, 4, 2, 2, 2, 2]
+, [2, 2, 2, 4, 4, 4, 4, 2, 3, 3]
+, [2, 2, 4, 4, 4, 4, 4, 2, 3, 3]
+, [2, 4, 2, 4, 4, 2, 2, 2, 3, 3]
+, [4, 4, 4, 4, 0, 4, 2, 2, 2, 2]
+, [4, 4, 4, 4, 4, 4, 4, 2, 3, 2]
+]
+
+[main(db)][DEBUG][2026-10-08T09:38:00.393542330Z] Current player: 2
+
+[main(db)][DEBUG][2026-10-08T09:38:00.393644242Z] Last move: pass
+
+[main(db)][DEBUG][2026-10-08T09:38:00.393756772Z] score: White: 14, Black: 4
+
+[main(db)][DEBUG][2026-10-08T09:38:00.394131560Z] game finished: false
+[main(db)][DEBUG][2026-10-08T09:38:00.394243669Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T09:38:00.394617332Z] Taking a turn with: MiniMaxAgent
+[main(db)][DEBUG][2026-10-08T09:38:00.397549526Z] selecting best move: Black_Manor at position: (8/6) with score=189.33333
+[main(db)][INFO][2026-10-08T09:38:00.397815246Z] Taking a turn with placement: Black_Manor at position: (8/6)
+[main(db)][DEBUG][2026-10-08T09:38:00.397982983Z] 
+
+[main(db)][DEBUG][2026-10-08T09:38:00.398158342Z] Board state:
+Board[
+freeBuildings={1 Black Tavern=0, 2 Black Stable=0, 3 Black Inn=0, 4 Black Bridge=0, 5 Black Manor=0, 6 Black Square=0, 7 Black Abbey=0, 8 Black Infirmary=0, 9 Black Castle=0, 10 Black Tower=0, 11 Black Academy=0, 12 White Tavern=0, 13 White Stable=0, 14 White Inn=1, 15 White Bridge=1, 16 White Manor=0, 17 White Square=1, 18 White Abbey=1, 19 White Infirmary=0, 20 White Castle=0, 21 White Tower=0, 22 White Academy=0, 23 Cathedral=0}, 
+placedBuildings=[Building: 23 Cathedral Position: (7/1) Direction _270, Building: 10 Black Tower Position: (6/8) Direction _0, Building: 19 White Infirmary Position: (5/3) Direction _0, Building: 9 Black Castle Position: (8/3) Direction _270, Building: 20 White Castle Position: (2/8) Direction _180, Building: 8 Black Infirmary Position: (1/5) Direction _0, Building: 21 White Tower Position: (3/5) Direction _90, Building: 11 Black Academy Position: (2/3) Direction _0, Building: 7 Black Abbey Position: (5/1) Direction _90, Building: 22 White Academy Position: (5/6) Direction _270, Building: 4 Black Bridge Position: (7/6) Direction _0, Building: 16 White Manor Position: (5/9) Direction _180, Building: 3 Black Inn Position: (7/3) Direction _90, Building: 14 White Inn Position: (1/9) Direction _180, Building: 2 Black Stable Position: (8/0) Direction _0, Building: 13 White Stable Position: (2/9) Direction _0, Building: 2 Black Stable Position: (0/6) Direction _90, Building: 13 White Stable Position: (3/3) Direction _90, Building: 1 Black Tavern Position: (6/2) Direction _0, Building: 12 White Tavern Position: (6/0) Direction _0, Building: 1 Black Tavern Position: (2/7) Direction _0, Building: 12 White Tavern Position: (6/5) Direction _0, Building: 3 Black Inn Position: (8/8) Direction _0, Building: 6 Black Square Position: (0/0) Direction _0, Building: 5 Black Manor Position: (8/6) Direction _270], 
+board=
+, [2, 2, 3, 3, 3, 2, 4, 1, 2, 2]
+, [2, 2, 3, 3, 2, 2, 1, 1, 1, 1]
+, [3, 3, 2, 2, 2, 4, 2, 1, 2, 2]
+, [3, 2, 2, 4, 4, 4, 4, 2, 2, 3]
+, [3, 2, 2, 4, 4, 4, 2, 2, 2, 2]
+, [2, 2, 2, 4, 4, 4, 4, 2, 2, 3]
+, [2, 2, 4, 4, 4, 4, 4, 2, 2, 2]
+, [2, 4, 2, 4, 4, 2, 2, 2, 2, 3]
+, [4, 4, 4, 4, 0, 4, 2, 2, 2, 2]
+, [4, 4, 4, 4, 4, 4, 4, 2, 3, 2]
+]
+
+[main(db)][DEBUG][2026-10-08T09:38:00.398283544Z] Current player: 4
+
+[main(db)][DEBUG][2026-10-08T09:38:00.398391529Z] Last move: (8/6)
+
+[main(db)][DEBUG][2026-10-08T09:38:00.398490658Z] score: White: 14, Black: 0
+
+[main(db)][DEBUG][2026-10-08T09:38:00.400215347Z] game finished: true
+[main(db)][DEBUG][2026-10-08T09:38:00.400490964Z] ----------------------------------------------------
+[main(db)][INFO][2026-10-08T09:38:00.401621959Z] Game finished with score: {2=0, 4=14}

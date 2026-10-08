@@ -2,6 +2,7 @@ package main.bot.ai
 
 import de.fhkiel.ki.cathedral.game.Placement
 import de.fhkiel.ki.cathedral.game.Game
+import de.fhkiel.ki.cathedral.game.Color
 
 import java.nio.charset.StandardCharsets
 import java.nio.file.Files
@@ -59,8 +60,9 @@ class Utils {
         fun logGame(game: Game) {
             write("DEBUG", "Board state:\n${game.board}\n")
             write("DEBUG", "Current player: ${game.currentPlayer}\n")
-            write("DEBUG", "Last move: ${game.turns.last().action.position()}\n")
-            write("DEBUG", "score: ${game.score()}")
+            val lastAction = game.turns.last().action
+            write("DEBUG", "Last move: ${lastAction?.position() ?: "pass"}\n")
+            write("DEBUG", "score: White: ${game.score()[Color.White]}, Black: ${game.score()[Color.Black]}\n")
             write("DEBUG", "game finished: ${game.isFinished()}")
         }
 

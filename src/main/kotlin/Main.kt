@@ -8,9 +8,13 @@ import de.fhkiel.ki.cathedral.game.Direction
 import de.fhkiel.ki.cathedral.game.Position
 
 import main.bot.ai.RandomAgent
+import main.bot.ai.MiniMaxAgent
 import main.bot.ai.Utils.Companion.logger
+import de.fhkiel.ki.cathedral.game.Color
+import main.bot.ai.MiniMaxAgentCopy
 
 import java.util.Optional
+import kotlin.random.Random
 
 fun main() {
     logger.info("starting Main")
@@ -19,22 +23,47 @@ fun main() {
 
 fun testRandomAgent() {
     val game = Game()
-    val agent = RandomAgent()
+    val randomAgent = RandomAgent()
+    val miniMaxAgent = MiniMaxAgent()
+    val miniMaxAgentCompare = MiniMaxAgentCopy() // White (2. player after cathedral)
+
+    val enableRandomness = false
+
+    var t: Optional<Placement> = Optional.empty()
 
     while (!game.isFinished()) {
-        val t: Optional<Placement> = agent.calculateTurn(game, 1, 0)
+        if (game.currentPlayer == Color.White) {
+            if (Random.nextInt(1, 5) == 3 && enableRandomness) {
+                logger.info("Taking a turn with random agent")
+                t = randomAgent.calculateTurn(game, 10, 0)
+            } else {
+                logger.info("Taking a turn with: ${miniMaxAgentCompare.name()}")
+                t = miniMaxAgentCompare.calculateTurn(game, 10, 0)
+            }
+        } else {
+            logger.info("Taking a turn with: ${miniMaxAgent.name()}")
+            t = miniMaxAgent.calculateTurn(game, 10, 0)
+        }
         if (!t.isPresent) {
-            logger.warn("No valid moves available")
-            return
+            logger.info("No valid moves for ${game.currentPlayer}; passing turn")
+            game.passTurn()
+            logger.logGame(game)
+            logger.debug("----------------------------------------------------")
+            continue
         }
         val placement = t.get()
         logger.info("Taking a turn with placement: ${placement.building().name} at position: ${placement.position()}")
 
-        game.takeTurn(placement)
+        if (!game.takeTurn(placement)) {
+            logger.error("Selected placement was rejected by the engine: $placement")
+            game.passTurn()
+        }
         logger.debug("\n")
         logger.logGame(game)
         logger.debug("----------------------------------------------------")
     }
+
+    logger.info("Game finished with score: ${game.score()}")
 }
 
 fun testEnv() {
