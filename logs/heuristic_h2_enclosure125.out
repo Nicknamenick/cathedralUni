@@ -1,0 +1,285 @@
+> Task :checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :compileKotlin UP-TO-DATE
+> Task :compileJava NO-SOURCE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+
+> Task :run
+[main(db)][INFO][2026-10-23T17:03:16.200677182Z] starting Main
+[eval 5][INFO][2026-10-23T17:03:16.268769474Z] Starting game 5: modified MiniMaxAgent plays 4, baseline MinimaxBotCopy plays the other color
+[eval 4][INFO][2026-10-23T17:03:16.268814254Z] Starting game 4: modified MiniMaxAgent plays 2, baseline MinimaxBotCopy plays the other color
+[eval 1][INFO][2026-10-23T17:03:16.268769459Z] Starting game 1: modified MiniMaxAgent plays 4, baseline MinimaxBotCopy plays the other color
+[eval 3][INFO][2026-10-23T17:03:16.268769685Z] Starting game 3: modified MiniMaxAgent plays 4, baseline MinimaxBotCopy plays the other color
+[eval 2][INFO][2026-10-23T17:03:16.268813508Z] Starting game 2: modified MiniMaxAgent plays 2, baseline MinimaxBotCopy plays the other color
+[eval 4][INFO][2026-10-23T17:03:16.286428436Z] MinimaxBotCopy places Blue_Cathedral at position (2/2) for 1
+[eval 1][INFO][2026-10-23T17:03:16.286428453Z] MinimaxBotCopy places Blue_Cathedral at position (2/2) for 1
+[eval 5][INFO][2026-10-23T17:03:16.286428497Z] MinimaxBotCopy places Blue_Cathedral at position (2/2) for 1
+[eval 3][INFO][2026-10-23T17:03:16.286428709Z] MinimaxBotCopy places Blue_Cathedral at position (2/2) for 1
+[eval 2][INFO][2026-10-23T17:03:16.286476457Z] MinimaxBotCopy places Blue_Cathedral at position (2/2) for 1
+[main(db)][DEBUG][2026-10-23T17:03:24.294529897Z] selecting best move: Black_Tower at position: (1/1) score=566.35 depth=5 nodes=187678 time=8000ms
+[main(db)][DEBUG][2026-10-23T17:03:24.294582937Z] selecting best move: Black_Tower at position: (1/1) score=566.35 depth=5 nodes=179198 time=8000ms
+[eval 5][INFO][2026-10-23T17:03:24.294833079Z] MinimaxBotCopy places Black_Tower at position (1/1) for 2
+[main(db)][DEBUG][2026-10-23T17:03:24.294535326Z] selecting best move: Black_Tower at position: (1/1) score=566.35 depth=5 nodes=148399 time=8000ms
+[eval 3][INFO][2026-10-23T17:03:24.295012590Z] MinimaxBotCopy places Black_Tower at position (1/1) for 2
+[main(db)][DEBUG][2026-10-23T17:03:24.294857021Z] selecting best move: Black_Tower at position: (1/1) score=567.85 depth=5 nodes=183880 time=8000ms
+[eval 1][INFO][2026-10-23T17:03:24.295246749Z] MinimaxBotCopy places Black_Tower at position (1/1) for 2
+[eval 2][INFO][2026-10-23T17:03:24.295389342Z] MiniMaxAgent places Black_Tower at position (1/1) for 2
+[main(db)][DEBUG][2026-10-23T17:03:24.295682539Z] selecting best move: Black_Tower at position: (1/1) score=567.85 depth=5 nodes=169185 time=8000ms
+[eval 4][INFO][2026-10-23T17:03:24.295875317Z] MiniMaxAgent places Black_Tower at position (1/1) for 2
+[main(db)][DEBUG][2026-10-23T17:03:32.295361949Z] selecting best move: White_Castle at position: (6/8) score=281.0 depth=5 nodes=142190 time=8000ms
+[eval 5][INFO][2026-10-23T17:03:32.295661896Z] MiniMaxAgent places White_Castle at position (6/8) for 4
+[main(db)][DEBUG][2026-10-23T17:03:32.295639623Z] selecting best move: White_Castle at position: (6/8) score=281.0 depth=5 nodes=161710 time=8000ms
+[main(db)][DEBUG][2026-10-23T17:03:32.295780264Z] selecting best move: White_Castle at position: (6/8) score=281.0 depth=5 nodes=177887 time=8000ms
+[eval 3][INFO][2026-10-23T17:03:32.295959969Z] MiniMaxAgent places White_Castle at position (6/8) for 4
+[main(db)][DEBUG][2026-10-23T17:03:32.295774664Z] selecting best move: White_Castle at position: (6/8) score=281.0 depth=5 nodes=164652 time=8000ms
+[eval 2][INFO][2026-10-23T17:03:32.296124902Z] MinimaxBotCopy places White_Castle at position (6/8) for 4
+[main(db)][DEBUG][2026-10-23T17:03:32.296254595Z] selecting best move: White_Castle at position: (6/8) score=281.0 depth=5 nodes=152250 time=8000ms
+[eval 1][INFO][2026-10-23T17:03:32.296358686Z] MiniMaxAgent places White_Castle at position (6/8) for 4
+[eval 4][INFO][2026-10-23T17:03:32.296464167Z] MinimaxBotCopy places White_Castle at position (6/8) for 4
+[main(db)][DEBUG][2026-10-23T17:03:40.296077635Z] selecting best move: Black_Castle at position: (8/6) score=640.895 depth=5 nodes=208835 time=8000ms
+[eval 5][INFO][2026-10-23T17:03:40.296419601Z] MinimaxBotCopy places Black_Castle at position (8/6) for 2
+[main(db)][DEBUG][2026-10-23T17:03:40.296580440Z] selecting best move: Black_Castle at position: (8/6) score=640.895 depth=5 nodes=203627 time=8000ms
+[main(db)][DEBUG][2026-10-23T17:03:40.296712672Z] selecting best move: Black_Castle at position: (8/6) score=644.395 depth=5 nodes=196419 time=8000ms
+[eval 3][INFO][2026-10-23T17:03:40.296779411Z] MinimaxBotCopy places Black_Castle at position (8/6) for 2
+[main(db)][DEBUG][2026-10-23T17:03:40.296648405Z] selecting best move: Black_Castle at position: (8/6) score=640.895 depth=5 nodes=200792 time=8000ms
+[eval 2][INFO][2026-10-23T17:03:40.296895457Z] MiniMaxAgent places Black_Castle at position (8/6) for 2
+[eval 1][INFO][2026-10-23T17:03:40.297009521Z] MinimaxBotCopy places Black_Castle at position (8/6) for 2
+[main(db)][DEBUG][2026-10-23T17:03:40.296750628Z] selecting best move: Black_Castle at position: (8/6) score=644.395 depth=5 nodes=207856 time=8000ms
+[eval 4][INFO][2026-10-23T17:03:40.297251166Z] MiniMaxAgent places Black_Castle at position (8/6) for 2
+[main(db)][DEBUG][2026-10-23T17:03:48.296889644Z] selecting best move: White_Academy at position: (1/4) score=447.84497 depth=5 nodes=218931 time=8000ms
+[main(db)][DEBUG][2026-10-23T17:03:48.297094704Z] selecting best move: White_Academy at position: (1/4) score=447.84497 depth=5 nodes=194723 time=8000ms
+[eval 5][INFO][2026-10-23T17:03:48.297267105Z] MiniMaxAgent places White_Academy at position (1/4) for 4
+[main(db)][DEBUG][2026-10-23T17:03:48.297303264Z] selecting best move: White_Academy at position: (1/4) score=447.84497 depth=5 nodes=200422 time=8000ms
+[eval 3][INFO][2026-10-23T17:03:48.297516691Z] MiniMaxAgent places White_Academy at position (1/4) for 4
+[main(db)][DEBUG][2026-10-23T17:03:48.297269498Z] selecting best move: White_Academy at position: (1/4) score=446.34497 depth=5 nodes=229211 time=8000ms
+[eval 1][INFO][2026-10-23T17:03:48.297620326Z] MiniMaxAgent places White_Academy at position (1/4) for 4
+[main(db)][DEBUG][2026-10-23T17:03:48.297661325Z] selecting best move: White_Academy at position: (1/4) score=446.34497 depth=5 nodes=205081 time=8000ms
+[eval 2][INFO][2026-10-23T17:03:48.297735258Z] MinimaxBotCopy places White_Academy at position (1/4) for 4
+[eval 4][INFO][2026-10-23T17:03:48.297918724Z] MinimaxBotCopy places White_Academy at position (1/4) for 4
+[main(db)][DEBUG][2026-10-23T17:03:56.297760399Z] selecting best move: Black_Infirmary at position: (6/1) score=687.345 depth=5 nodes=238950 time=8000ms
+[main(db)][DEBUG][2026-10-23T17:03:56.297954474Z] selecting best move: Black_Infirmary at position: (6/1) score=687.345 depth=5 nodes=273823 time=8000ms
+[eval 5][INFO][2026-10-23T17:03:56.298088070Z] MinimaxBotCopy places Black_Infirmary at position (6/1) for 2
+[main(db)][DEBUG][2026-10-23T17:03:56.297897962Z] selecting best move: Black_Infirmary at position: (6/1) score=687.345 depth=5 nodes=251317 time=8000ms
+[eval 3][INFO][2026-10-23T17:03:56.298234329Z] MinimaxBotCopy places Black_Infirmary at position (6/1) for 2
+[main(db)][DEBUG][2026-10-23T17:03:56.298308150Z] selecting best move: Black_Infirmary at position: (6/1) score=692.345 depth=5 nodes=270389 time=8000ms
+[eval 1][INFO][2026-10-23T17:03:56.298363631Z] MinimaxBotCopy places Black_Infirmary at position (6/1) for 2
+[main(db)][DEBUG][2026-10-23T17:03:56.298048793Z] selecting best move: Black_Infirmary at position: (6/1) score=692.345 depth=5 nodes=234514 time=8000ms
+[eval 4][INFO][2026-10-23T17:03:56.298459995Z] MiniMaxAgent places Black_Infirmary at position (6/1) for 2
+[eval 2][INFO][2026-10-23T17:03:56.298749879Z] MiniMaxAgent places Black_Infirmary at position (6/1) for 2
+[main(db)][DEBUG][2026-10-23T17:04:04.298442681Z] selecting best move: White_Tower at position: (6/6) score=469.625 depth=5 nodes=234230 time=8000ms
+[main(db)][DEBUG][2026-10-23T17:04:04.298745498Z] selecting best move: White_Tower at position: (6/6) score=468.125 depth=5 nodes=249361 time=8000ms
+[eval 5][INFO][2026-10-23T17:04:04.298927916Z] MiniMaxAgent places White_Tower at position (6/6) for 4
+[eval 4][INFO][2026-10-23T17:04:04.299038817Z] MinimaxBotCopy places White_Tower at position (6/6) for 4
+[main(db)][DEBUG][2026-10-23T17:04:04.298666261Z] selecting best move: White_Tower at position: (6/6) score=469.625 depth=5 nodes=215335 time=8000ms
+[main(db)][DEBUG][2026-10-23T17:04:04.298633946Z] selecting best move: White_Tower at position: (6/6) score=469.625 depth=5 nodes=226649 time=8000ms
+[eval 3][INFO][2026-10-23T17:04:04.299242498Z] MiniMaxAgent places White_Tower at position (6/6) for 4
+[main(db)][DEBUG][2026-10-23T17:04:04.299151837Z] selecting best move: White_Tower at position: (6/6) score=468.125 depth=5 nodes=228726 time=8000ms
+[eval 1][INFO][2026-10-23T17:04:04.299383606Z] MiniMaxAgent places White_Tower at position (6/6) for 4
+[eval 2][INFO][2026-10-23T17:04:04.299557198Z] MinimaxBotCopy places White_Tower at position (6/6) for 4
+[main(db)][DEBUG][2026-10-23T17:04:12.299417872Z] selecting best move: Black_Academy at position: (7/4) score=575.8 depth=6 nodes=279853 time=8000ms
+[main(db)][DEBUG][2026-10-23T17:04:12.299777870Z] selecting best move: Black_Academy at position: (7/4) score=719.145 depth=5 nodes=256808 time=8000ms
+[eval 5][INFO][2026-10-23T17:04:12.299887293Z] MinimaxBotCopy places Black_Academy at position (7/4) for 2
+[eval 1][INFO][2026-10-23T17:04:12.300040264Z] MinimaxBotCopy places Black_Academy at position (7/4) for 2
+[main(db)][DEBUG][2026-10-23T17:04:12.299747305Z] selecting best move: Black_Academy at position: (7/4) score=719.145 depth=5 nodes=249091 time=8000ms
+[main(db)][DEBUG][2026-10-23T17:04:12.299417887Z] selecting best move: Black_Academy at position: (7/4) score=575.8 depth=6 nodes=255225 time=8000ms
+[eval 3][INFO][2026-10-23T17:04:12.300225759Z] MinimaxBotCopy places Black_Academy at position (7/4) for 2
+[eval 4][INFO][2026-10-23T17:04:12.300407107Z] MiniMaxAgent places Black_Academy at position (7/4) for 2
+[main(db)][DEBUG][2026-10-23T17:04:12.299938143Z] selecting best move: Black_Academy at position: (7/4) score=575.8 depth=6 nodes=265365 time=8000ms
+[eval 2][INFO][2026-10-23T17:04:12.300605811Z] MiniMaxAgent places Black_Academy at position (7/4) for 2
+[main(db)][DEBUG][2026-10-23T17:04:20.300425165Z] selecting best move: White_Manor at position: (3/9) score=690.075 depth=5 nodes=282217 time=8000ms
+[eval 5][INFO][2026-10-23T17:04:20.301018269Z] MiniMaxAgent places White_Manor at position (3/9) for 4
+[main(db)][DEBUG][2026-10-23T17:04:20.300848176Z] selecting best move: White_Manor at position: (3/9) score=688.575 depth=5 nodes=248740 time=8000ms
+[main(db)][DEBUG][2026-10-23T17:04:20.300786262Z] selecting best move: White_Manor at position: (3/9) score=688.575 depth=5 nodes=266632 time=8000ms
+[eval 2][INFO][2026-10-23T17:04:20.301238952Z] MinimaxBotCopy places White_Manor at position (3/9) for 4
+[main(db)][DEBUG][2026-10-23T17:04:20.300764313Z] selecting best move: White_Manor at position: (3/9) score=690.075 depth=5 nodes=242662 time=8000ms
+[eval 4][INFO][2026-10-23T17:04:20.301477827Z] MinimaxBotCopy places White_Manor at position (3/9) for 4
+[main(db)][DEBUG][2026-10-23T17:04:20.300425109Z] selecting best move: White_Manor at position: (3/9) score=690.075 depth=5 nodes=271723 time=8000ms
+[eval 3][INFO][2026-10-23T17:04:20.301585885Z] MiniMaxAgent places White_Manor at position (3/9) for 4
+[eval 1][INFO][2026-10-23T17:04:20.301748637Z] MiniMaxAgent places White_Manor at position (3/9) for 4
+[main(db)][DEBUG][2026-10-23T17:04:28.301383822Z] selecting best move: Black_Square at position: (8/8) score=635.925 depth=6 nodes=288399 time=8000ms
+[eval 5][INFO][2026-10-23T17:04:28.301747852Z] MinimaxBotCopy places Black_Square at position (8/8) for 2
+[main(db)][DEBUG][2026-10-23T17:04:28.301756196Z] selecting best move: Black_Square at position: (8/8) score=637.425 depth=6 nodes=279984 time=8000ms
+[main(db)][DEBUG][2026-10-23T17:04:28.301792579Z] selecting best move: Black_Square at position: (8/8) score=637.425 depth=6 nodes=310585 time=8000ms
+[eval 2][INFO][2026-10-23T17:04:28.301973463Z] MiniMaxAgent places Black_Square at position (8/8) for 2
+[main(db)][DEBUG][2026-10-23T17:04:28.302016446Z] selecting best move: Black_Square at position: (8/8) score=635.925 depth=6 nodes=268915 time=8000ms
+[eval 4][INFO][2026-10-23T17:04:28.302091770Z] MiniMaxAgent places Black_Square at position (8/8) for 2
+[main(db)][DEBUG][2026-10-23T17:04:28.302102233Z] selecting best move: Black_Square at position: (8/8) score=635.925 depth=6 nodes=278163 time=8000ms
+[eval 3][INFO][2026-10-23T17:04:28.302281103Z] MinimaxBotCopy places Black_Square at position (8/8) for 2
+[eval 1][INFO][2026-10-23T17:04:28.302394026Z] MinimaxBotCopy places Black_Square at position (8/8) for 2
+[main(db)][DEBUG][2026-10-23T17:04:36.302108765Z] selecting best move: White_Square at position: (4/3) score=743.575 depth=6 nodes=283579 time=8000ms
+[main(db)][DEBUG][2026-10-23T17:04:36.302240572Z] selecting best move: White_Square at position: (4/3) score=743.575 depth=6 nodes=323762 time=8000ms
+[eval 5][INFO][2026-10-23T17:04:36.302397580Z] MiniMaxAgent places White_Square at position (4/3) for 4
+[main(db)][DEBUG][2026-10-23T17:04:36.302487172Z] selecting best move: White_Square at position: (4/3) score=743.575 depth=6 nodes=303652 time=8000ms
+[eval 2][INFO][2026-10-23T17:04:36.302545564Z] MinimaxBotCopy places White_Square at position (4/3) for 4
+[eval 4][INFO][2026-10-23T17:04:36.302640646Z] MinimaxBotCopy places White_Square at position (4/3) for 4
+[main(db)][DEBUG][2026-10-23T17:04:36.302733799Z] selecting best move: White_Square at position: (4/3) score=743.575 depth=6 nodes=294721 time=8000ms
+[main(db)][DEBUG][2026-10-23T17:04:36.302761333Z] selecting best move: White_Square at position: (4/3) score=743.575 depth=6 nodes=303700 time=8000ms
+[eval 3][INFO][2026-10-23T17:04:36.302929523Z] MiniMaxAgent places White_Square at position (4/3) for 4
+[eval 1][INFO][2026-10-23T17:04:36.303013501Z] MiniMaxAgent places White_Square at position (4/3) for 4
+[main(db)][DEBUG][2026-10-23T17:04:44.302798090Z] selecting best move: Black_Bridge at position: (9/3) score=755.025 depth=6 nodes=306638 time=8000ms
+[eval 2][INFO][2026-10-23T17:04:44.303139814Z] MiniMaxAgent places Black_Bridge at position (9/3) for 2
+[main(db)][DEBUG][2026-10-23T17:04:44.302788106Z] selecting best move: Black_Bridge at position: (9/3) score=753.525 depth=6 nodes=308697 time=8000ms
+[main(db)][DEBUG][2026-10-23T17:04:44.302857944Z] selecting best move: Black_Bridge at position: (9/3) score=755.025 depth=6 nodes=306733 time=8000ms
+[eval 5][INFO][2026-10-23T17:04:44.303386628Z] MinimaxBotCopy places Black_Bridge at position (9/3) for 2
+[eval 4][INFO][2026-10-23T17:04:44.303511112Z] MiniMaxAgent places Black_Bridge at position (9/3) for 2
+[main(db)][DEBUG][2026-10-23T17:04:44.303282609Z] selecting best move: Black_Bridge at position: (9/3) score=753.525 depth=6 nodes=313731 time=8000ms
+[main(db)][DEBUG][2026-10-23T17:04:44.303235918Z] selecting best move: Black_Bridge at position: (9/3) score=753.525 depth=6 nodes=278806 time=8000ms
+[eval 3][INFO][2026-10-23T17:04:44.303666303Z] MinimaxBotCopy places Black_Bridge at position (9/3) for 2
+[eval 1][INFO][2026-10-23T17:04:44.303763608Z] MinimaxBotCopy places Black_Bridge at position (9/3) for 2
+[main(db)][DEBUG][2026-10-23T17:04:52.303510580Z] selecting best move: White_Inn at position: (1/9) score=826.125 depth=6 nodes=297463 time=8000ms
+[main(db)][DEBUG][2026-10-23T17:04:52.303896457Z] selecting best move: White_Inn at position: (1/9) score=827.625 depth=6 nodes=328500 time=8000ms
+[eval 2][INFO][2026-10-23T17:04:52.303966197Z] MinimaxBotCopy places White_Inn at position (1/9) for 4
+[main(db)][DEBUG][2026-10-23T17:04:52.303786296Z] selecting best move: White_Inn at position: (1/9) score=827.625 depth=6 nodes=325973 time=8000ms
+[eval 3][INFO][2026-10-23T17:04:52.304137541Z] MiniMaxAgent places White_Inn at position (1/9) for 4
+[main(db)][DEBUG][2026-10-23T17:04:52.303784926Z] selecting best move: White_Inn at position: (1/9) score=826.125 depth=6 nodes=316223 time=8000ms
+[eval 5][INFO][2026-10-23T17:04:52.304274189Z] MiniMaxAgent places White_Inn at position (1/9) for 4
+[eval 4][INFO][2026-10-23T17:04:52.304388341Z] MinimaxBotCopy places White_Inn at position (1/9) for 4
+[main(db)][DEBUG][2026-10-23T17:04:52.303999520Z] selecting best move: White_Inn at position: (1/9) score=827.625 depth=6 nodes=298586 time=8000ms
+[eval 1][INFO][2026-10-23T17:04:52.304594545Z] MiniMaxAgent places White_Inn at position (1/9) for 4
+[main(db)][DEBUG][2026-10-23T17:05:00.304491743Z] selecting best move: Black_Abbey at position: (3/4) score=742.475 depth=6 nodes=356718 time=8000ms
+[eval 3][INFO][2026-10-23T17:05:00.304863182Z] MinimaxBotCopy places Black_Abbey at position (3/4) for 2
+[main(db)][DEBUG][2026-10-23T17:05:00.304752445Z] selecting best move: Black_Abbey at position: (3/4) score=742.475 depth=6 nodes=321524 time=8000ms
+[eval 5][INFO][2026-10-23T17:05:00.305043874Z] MinimaxBotCopy places Black_Abbey at position (3/4) for 2
+[main(db)][DEBUG][2026-10-23T17:05:00.304711729Z] selecting best move: Black_Abbey at position: (3/4) score=743.975 depth=6 nodes=326239 time=8000ms
+[main(db)][DEBUG][2026-10-23T17:05:00.304491838Z] selecting best move: Black_Abbey at position: (3/4) score=743.975 depth=6 nodes=312463 time=8000ms
+[eval 4][INFO][2026-10-23T17:05:00.305193264Z] MiniMaxAgent places Black_Abbey at position (3/4) for 2
+[eval 2][INFO][2026-10-23T17:05:00.305330130Z] MiniMaxAgent places Black_Abbey at position (3/4) for 2
+[main(db)][DEBUG][2026-10-23T17:05:00.304887134Z] selecting best move: Black_Abbey at position: (3/4) score=742.475 depth=6 nodes=326895 time=8000ms
+[eval 1][INFO][2026-10-23T17:05:00.305538879Z] MinimaxBotCopy places Black_Abbey at position (3/4) for 2
+[main(db)][DEBUG][2026-10-23T17:05:08.305198720Z] selecting best move: White_Bridge at position: (3/6) score=517.575 depth=6 nodes=331014 time=8000ms
+[eval 3][INFO][2026-10-23T17:05:08.305560610Z] MiniMaxAgent places White_Bridge at position (3/6) for 4
+[main(db)][DEBUG][2026-10-23T17:05:08.305433333Z] selecting best move: White_Bridge at position: (3/6) score=517.575 depth=6 nodes=369338 time=8000ms
+[main(db)][DEBUG][2026-10-23T17:05:08.305764609Z] selecting best move: White_Bridge at position: (3/6) score=517.575 depth=6 nodes=347448 time=8000ms
+[eval 4][INFO][2026-10-23T17:05:08.305802414Z] MinimaxBotCopy places White_Bridge at position (3/6) for 4
+[eval 1][INFO][2026-10-23T17:05:08.305894092Z] MiniMaxAgent places White_Bridge at position (3/6) for 4
+[main(db)][DEBUG][2026-10-23T17:05:08.305287414Z] selecting best move: White_Bridge at position: (3/6) score=517.575 depth=6 nodes=358245 time=8000ms
+[eval 5][INFO][2026-10-23T17:05:08.306134184Z] MiniMaxAgent places White_Bridge at position (3/6) for 4
+[main(db)][DEBUG][2026-10-23T17:05:08.305677036Z] selecting best move: White_Bridge at position: (3/6) score=517.575 depth=6 nodes=346717 time=8000ms
+[eval 2][INFO][2026-10-23T17:05:08.306398218Z] MinimaxBotCopy places White_Bridge at position (3/6) for 4
+[main(db)][DEBUG][2026-10-23T17:05:16.306023868Z] selecting best move: Black_Manor at position: (4/0) score=748.375 depth=6 nodes=377027 time=8000ms
+[eval 3][INFO][2026-10-23T17:05:16.306328464Z] MinimaxBotCopy places Black_Manor at position (4/0) for 2
+[main(db)][DEBUG][2026-10-23T17:05:16.306114974Z] selecting best move: Black_Manor at position: (4/0) score=748.375 depth=6 nodes=352496 time=8000ms
+[main(db)][DEBUG][2026-10-23T17:05:16.306070945Z] selecting best move: Black_Manor at position: (4/0) score=749.875 depth=6 nodes=355383 time=8000ms
+[eval 1][INFO][2026-10-23T17:05:16.306525255Z] MinimaxBotCopy places Black_Manor at position (4/0) for 2
+[main(db)][DEBUG][2026-10-23T17:05:16.306640948Z] selecting best move: Black_Manor at position: (4/0) score=749.875 depth=6 nodes=354757 time=8000ms
+[eval 4][INFO][2026-10-23T17:05:16.306701811Z] MiniMaxAgent places Black_Manor at position (4/0) for 2
+[eval 2][INFO][2026-10-23T17:05:16.306787916Z] MiniMaxAgent places Black_Manor at position (4/0) for 2
+[main(db)][DEBUG][2026-10-23T17:05:16.306504395Z] selecting best move: Black_Manor at position: (4/0) score=748.375 depth=6 nodes=351833 time=8000ms
+[eval 5][INFO][2026-10-23T17:05:16.306945848Z] MinimaxBotCopy places Black_Manor at position (4/0) for 2
+[main(db)][DEBUG][2026-10-23T17:05:24.306656497Z] selecting best move: White_Inn at position: (1/6) score=541.9 depth=7 nodes=349093 time=8000ms
+[main(db)][DEBUG][2026-10-23T17:05:24.306845689Z] selecting best move: White_Inn at position: (1/6) score=541.9 depth=7 nodes=422718 time=8000ms
+[eval 3][INFO][2026-10-23T17:05:24.307001296Z] MiniMaxAgent places White_Inn at position (1/6) for 4
+[main(db)][DEBUG][2026-10-23T17:05:24.307036343Z] selecting best move: White_Inn at position: (1/6) score=541.9 depth=7 nodes=379474 time=8000ms
+[eval 1][INFO][2026-10-23T17:05:24.307142719Z] MiniMaxAgent places White_Inn at position (1/6) for 4
+[main(db)][DEBUG][2026-10-23T17:05:24.307190606Z] selecting best move: White_Inn at position: (1/6) score=541.9 depth=7 nodes=372600 time=8000ms
+[eval 2][INFO][2026-10-23T17:05:24.307238228Z] MinimaxBotCopy places White_Inn at position (1/6) for 4
+[main(db)][DEBUG][2026-10-23T17:05:24.307127157Z] selecting best move: White_Inn at position: (1/6) score=541.9 depth=7 nodes=364988 time=8000ms
+[eval 5][INFO][2026-10-23T17:05:24.307344343Z] MiniMaxAgent places White_Inn at position (1/6) for 4
+[eval 4][INFO][2026-10-23T17:05:24.307485994Z] MinimaxBotCopy places White_Inn at position (1/6) for 4
+[main(db)][DEBUG][2026-10-23T17:05:32.307363467Z] selecting best move: Black_Tavern at position: (0/3) score=791.98 depth=6 nodes=365672 time=8000ms
+[main(db)][DEBUG][2026-10-23T17:05:32.307485872Z] selecting best move: Black_Tavern at position: (0/3) score=791.98 depth=6 nodes=381997 time=8000ms
+[eval 3][INFO][2026-10-23T17:05:32.307693338Z] MinimaxBotCopy places Black_Tavern at position (0/3) for 2
+[main(db)][DEBUG][2026-10-23T17:05:32.307385550Z] selecting best move: Black_Tavern at position: (0/3) score=791.98 depth=6 nodes=418607 time=8000ms
+[eval 2][INFO][2026-10-23T17:05:32.307810983Z] MiniMaxAgent places Black_Tavern at position (0/3) for 2
+[main(db)][DEBUG][2026-10-23T17:05:32.307846616Z] selecting best move: Black_Tavern at position: (0/3) score=791.98 depth=6 nodes=400990 time=8000ms
+[eval 1][INFO][2026-10-23T17:05:32.307895308Z] MinimaxBotCopy places Black_Tavern at position (0/3) for 2
+[main(db)][DEBUG][2026-10-23T17:05:32.307733609Z] selecting best move: Black_Tavern at position: (0/3) score=791.98 depth=6 nodes=387106 time=8000ms
+[eval 4][INFO][2026-10-23T17:05:32.307976075Z] MiniMaxAgent places Black_Tavern at position (0/3) for 2
+[eval 5][INFO][2026-10-23T17:05:32.308092974Z] MinimaxBotCopy places Black_Tavern at position (0/3) for 2
+[main(db)][DEBUG][2026-10-23T17:05:39.747045454Z] selecting best move: White_Stable at position: (5/6) score=477.2 depth=8 nodes=407362 time=7438ms
+[eval 1][INFO][2026-10-23T17:05:39.747315149Z] MiniMaxAgent places White_Stable at position (5/6) for 4
+[main(db)][DEBUG][2026-10-23T17:05:40.013560337Z] selecting best move: White_Stable at position: (5/6) score=477.2 depth=8 nodes=407362 time=7705ms
+[eval 4][INFO][2026-10-23T17:05:40.013923018Z] MinimaxBotCopy places White_Stable at position (5/6) for 4
+[main(db)][DEBUG][2026-10-23T17:05:40.115890167Z] selecting best move: White_Stable at position: (5/6) score=477.2 depth=8 nodes=407362 time=7807ms
+[eval 5][INFO][2026-10-23T17:05:40.116154584Z] MiniMaxAgent places White_Stable at position (5/6) for 4
+[main(db)][DEBUG][2026-10-23T17:05:40.212348358Z] selecting best move: White_Stable at position: (5/6) score=477.2 depth=8 nodes=407362 time=7904ms
+[eval 3][INFO][2026-10-23T17:05:40.212715006Z] MiniMaxAgent places White_Stable at position (5/6) for 4
+[main(db)][DEBUG][2026-10-23T17:05:40.308211597Z] selecting best move: White_Stable at position: (5/6) score=477.2 depth=8 nodes=394113 time=8000ms
+[eval 2][INFO][2026-10-23T17:05:40.308575944Z] MinimaxBotCopy places White_Stable at position (5/6) for 4
+[main(db)][DEBUG][2026-10-23T17:05:40.726155455Z] selecting best move: Black_Tavern at position: (3/1) score=727.05505 depth=8 nodes=56789 time=978ms
+[eval 1][INFO][2026-10-23T17:05:40.726597261Z] MinimaxBotCopy places Black_Tavern at position (3/1) for 2
+[main(db)][DEBUG][2026-10-23T17:05:41.138915507Z] selecting best move: Black_Tavern at position: (3/1) score=727.05505 depth=8 nodes=56789 time=1022ms
+[eval 5][INFO][2026-10-23T17:05:41.139335011Z] MinimaxBotCopy places Black_Tavern at position (3/1) for 2
+[main(db)][DEBUG][2026-10-23T17:05:41.279052730Z] selecting best move: White_Tavern at position: (0/7) score=456.72498 depth=8 nodes=30599 time=552ms
+[eval 1][INFO][2026-10-23T17:05:41.279401396Z] MiniMaxAgent places White_Tavern at position (0/7) for 4
+[main(db)][DEBUG][2026-10-23T17:05:41.364887995Z] selecting best move: Black_Stable at position: (7/0) score=729.30505 depth=8 nodes=5535 time=84ms
+[eval 1][INFO][2026-10-23T17:05:41.365143900Z] MinimaxBotCopy places Black_Stable at position (7/0) for 2
+[main(db)][DEBUG][2026-10-23T17:05:41.416133419Z] selecting best move: White_Tavern at position: (5/2) score=456.72498 depth=8 nodes=3620 time=50ms
+[eval 1][INFO][2026-10-23T17:05:41.416397606Z] MiniMaxAgent places White_Tavern at position (5/2) for 4
+[main(db)][DEBUG][2026-10-23T17:05:41.417189138Z] selecting best move: Black_Tavern at position: (3/1) score=727.05505 depth=8 nodes=56690 time=1108ms
+[eval 2][INFO][2026-10-23T17:05:41.417385193Z] MiniMaxAgent places Black_Tavern at position (3/1) for 2
+[main(db)][DEBUG][2026-10-23T17:05:41.417721826Z] selecting best move: Black_Tavern at position: (3/1) score=727.05505 depth=8 nodes=56789 time=1204ms
+[eval 3][INFO][2026-10-23T17:05:41.417881982Z] MinimaxBotCopy places Black_Tavern at position (3/1) for 2
+[main(db)][DEBUG][2026-10-23T17:05:41.435009032Z] selecting best move: Black_Stable at position: (9/0) score=729.30505 depth=8 nodes=1006 time=18ms
+[eval 1][INFO][2026-10-23T17:05:41.435277044Z] MinimaxBotCopy places Black_Stable at position (9/0) for 2
+[main(db)][DEBUG][2026-10-23T17:05:41.440172761Z] selecting best move: White_Stable at position: (1/8) score=464.59998 depth=8 nodes=400 time=4ms
+[eval 1][INFO][2026-10-23T17:05:41.440371125Z] MiniMaxAgent places White_Stable at position (1/8) for 4
+[main(db)][DEBUG][2026-10-23T17:05:41.442392796Z] selecting best move: Black_Inn at position: (8/3) score=759.58 depth=8 nodes=180 time=1ms
+[eval 1][INFO][2026-10-23T17:05:41.442543513Z] MinimaxBotCopy places Black_Inn at position (8/3) for 2
+[main(db)][DEBUG][2026-10-23T17:05:41.447873324Z] selecting best move: Black_Tavern at position: (3/1) score=727.05505 depth=8 nodes=56690 time=1433ms
+[eval 4][INFO][2026-10-23T17:05:41.448151296Z] MiniMaxAgent places Black_Tavern at position (3/1) for 2
+[eval 1][INFO][2026-10-23T17:05:41.450561498Z] Game 1 finished after 26 turns in 145173ms: Black=3, White=9; modified MiniMaxAgent as 4 -> LOSS; maxCandidateMove=8001ms, candidateTimeouts=0
+[main(db)][DEBUG][2026-10-23T17:05:41.639358750Z] selecting best move: White_Tavern at position: (0/7) score=456.72498 depth=8 nodes=30599 time=499ms
+[eval 5][INFO][2026-10-23T17:05:41.639629637Z] MiniMaxAgent places White_Tavern at position (0/7) for 4
+[main(db)][DEBUG][2026-10-23T17:05:41.722040921Z] selecting best move: Black_Stable at position: (7/0) score=729.30505 depth=8 nodes=5535 time=82ms
+[eval 5][INFO][2026-10-23T17:05:41.722265966Z] MinimaxBotCopy places Black_Stable at position (7/0) for 2
+[main(db)][DEBUG][2026-10-23T17:05:41.775013734Z] selecting best move: White_Tavern at position: (5/2) score=456.72498 depth=8 nodes=3620 time=52ms
+[eval 5][INFO][2026-10-23T17:05:41.775308787Z] MiniMaxAgent places White_Tavern at position (5/2) for 4
+[main(db)][DEBUG][2026-10-23T17:05:41.787886173Z] selecting best move: Black_Stable at position: (9/0) score=729.30505 depth=8 nodes=1006 time=12ms
+[eval 5][INFO][2026-10-23T17:05:41.788089359Z] MinimaxBotCopy places Black_Stable at position (9/0) for 2
+[main(db)][DEBUG][2026-10-23T17:05:41.792702479Z] selecting best move: White_Stable at position: (1/8) score=464.59998 depth=8 nodes=400 time=4ms
+[eval 5][INFO][2026-10-23T17:05:41.792874085Z] MiniMaxAgent places White_Stable at position (1/8) for 4
+[main(db)][DEBUG][2026-10-23T17:05:41.794795431Z] selecting best move: Black_Inn at position: (8/3) score=759.58 depth=8 nodes=180 time=1ms
+[eval 5][INFO][2026-10-23T17:05:41.794955546Z] MinimaxBotCopy places Black_Inn at position (8/3) for 2
+[eval 5][INFO][2026-10-23T17:05:41.795648421Z] Game 5 finished after 26 turns in 145526ms: Black=3, White=9; modified MiniMaxAgent as 4 -> LOSS; maxCandidateMove=8000ms, candidateTimeouts=0
+[main(db)][DEBUG][2026-10-23T17:05:41.885822407Z] selecting best move: White_Tavern at position: (0/7) score=456.72498 depth=8 nodes=30599 time=467ms
+[eval 3][INFO][2026-10-23T17:05:41.886042985Z] MiniMaxAgent places White_Tavern at position (0/7) for 4
+[main(db)][DEBUG][2026-10-23T17:05:41.908203627Z] selecting best move: White_Tavern at position: (0/7) score=456.72498 depth=8 nodes=30599 time=490ms
+[eval 2][INFO][2026-10-23T17:05:41.908408884Z] MinimaxBotCopy places White_Tavern at position (0/7) for 4
+[main(db)][DEBUG][2026-10-23T17:05:41.941334266Z] selecting best move: White_Tavern at position: (0/7) score=456.72498 depth=8 nodes=30599 time=492ms
+[eval 4][INFO][2026-10-23T17:05:41.941589578Z] MinimaxBotCopy places White_Tavern at position (0/7) for 4
+[main(db)][DEBUG][2026-10-23T17:05:41.966386123Z] selecting best move: Black_Stable at position: (7/0) score=729.30505 depth=8 nodes=5535 time=80ms
+[eval 3][INFO][2026-10-23T17:05:41.966564696Z] MinimaxBotCopy places Black_Stable at position (7/0) for 2
+[main(db)][DEBUG][2026-10-23T17:05:41.992097321Z] selecting best move: Black_Stable at position: (7/0) score=729.30505 depth=8 nodes=5535 time=83ms
+[eval 2][INFO][2026-10-23T17:05:41.992332721Z] MiniMaxAgent places Black_Stable at position (7/0) for 2
+[main(db)][DEBUG][2026-10-23T17:05:42.017196974Z] selecting best move: White_Tavern at position: (5/2) score=456.72498 depth=8 nodes=3620 time=50ms
+[eval 3][INFO][2026-10-23T17:05:42.017407978Z] MiniMaxAgent places White_Tavern at position (5/2) for 4
+[main(db)][DEBUG][2026-10-23T17:05:42.028911519Z] selecting best move: Black_Stable at position: (7/0) score=729.30505 depth=8 nodes=5535 time=87ms
+[eval 4][INFO][2026-10-23T17:05:42.029116293Z] MiniMaxAgent places Black_Stable at position (7/0) for 2
+[main(db)][DEBUG][2026-10-23T17:05:42.030235434Z] selecting best move: Black_Stable at position: (9/0) score=729.30505 depth=8 nodes=1006 time=12ms
+[eval 3][INFO][2026-10-23T17:05:42.030406746Z] MinimaxBotCopy places Black_Stable at position (9/0) for 2
+[main(db)][DEBUG][2026-10-23T17:05:42.035111508Z] selecting best move: White_Stable at position: (1/8) score=464.59998 depth=8 nodes=400 time=4ms
+[eval 3][INFO][2026-10-23T17:05:42.035249674Z] MiniMaxAgent places White_Stable at position (1/8) for 4
+[main(db)][DEBUG][2026-10-23T17:05:42.037237423Z] selecting best move: Black_Inn at position: (8/3) score=759.58 depth=8 nodes=180 time=1ms
+[eval 3][INFO][2026-10-23T17:05:42.037338371Z] MinimaxBotCopy places Black_Inn at position (8/3) for 2
+[eval 3][INFO][2026-10-23T17:05:42.037851547Z] Game 3 finished after 26 turns in 145768ms: Black=3, White=9; modified MiniMaxAgent as 4 -> LOSS; maxCandidateMove=8000ms, candidateTimeouts=0
+[main(db)][DEBUG][2026-10-23T17:05:42.039352030Z] selecting best move: White_Tavern at position: (5/2) score=456.72498 depth=8 nodes=3620 time=46ms
+[eval 2][INFO][2026-10-23T17:05:42.039469295Z] MinimaxBotCopy places White_Tavern at position (5/2) for 4
+[main(db)][DEBUG][2026-10-23T17:05:42.053018037Z] selecting best move: Black_Stable at position: (9/0) score=729.30505 depth=8 nodes=1006 time=13ms
+[eval 2][INFO][2026-10-23T17:05:42.053176155Z] MiniMaxAgent places Black_Stable at position (9/0) for 2
+[main(db)][DEBUG][2026-10-23T17:05:42.057873856Z] selecting best move: White_Stable at position: (1/8) score=464.59998 depth=8 nodes=400 time=4ms
+[eval 2][INFO][2026-10-23T17:05:42.057983499Z] MinimaxBotCopy places White_Stable at position (1/8) for 4
+[main(db)][DEBUG][2026-10-23T17:05:42.059926303Z] selecting best move: Black_Inn at position: (8/3) score=759.58 depth=8 nodes=180 time=1ms
+[eval 2][INFO][2026-10-23T17:05:42.060014892Z] MiniMaxAgent places Black_Inn at position (8/3) for 2
+[eval 2][INFO][2026-10-23T17:05:42.060659543Z] Game 2 finished after 26 turns in 145791ms: Black=3, White=9; modified MiniMaxAgent as 2 -> WIN; maxCandidateMove=8007ms, candidateTimeouts=0
+[main(db)][DEBUG][2026-10-23T17:05:42.077112788Z] selecting best move: White_Tavern at position: (5/2) score=456.72498 depth=8 nodes=3620 time=47ms
+[eval 4][INFO][2026-10-23T17:05:42.077324375Z] MinimaxBotCopy places White_Tavern at position (5/2) for 4
+[main(db)][DEBUG][2026-10-23T17:05:42.089594309Z] selecting best move: Black_Stable at position: (9/0) score=729.30505 depth=8 nodes=1006 time=11ms
+[eval 4][INFO][2026-10-23T17:05:42.089813497Z] MiniMaxAgent places Black_Stable at position (9/0) for 2
+[main(db)][DEBUG][2026-10-23T17:05:42.094184163Z] selecting best move: White_Stable at position: (1/8) score=464.59998 depth=8 nodes=400 time=4ms
+[eval 4][INFO][2026-10-23T17:05:42.094323383Z] MinimaxBotCopy places White_Stable at position (1/8) for 4
+[main(db)][DEBUG][2026-10-23T17:05:42.096314089Z] selecting best move: Black_Inn at position: (8/3) score=759.58 depth=8 nodes=180 time=1ms
+[eval 4][INFO][2026-10-23T17:05:42.096393646Z] MiniMaxAgent places Black_Inn at position (8/3) for 2
+[eval 4][INFO][2026-10-23T17:05:42.096852957Z] Game 4 finished after 26 turns in 145827ms: Black=3, White=9; modified MiniMaxAgent as 2 -> WIN; maxCandidateMove=8008ms, candidateTimeouts=0
+[main(db)][INFO][2026-10-23T17:05:42.103332070Z] Completed 5 evaluation games in 145.9s
+[main(db)][INFO][2026-10-23T17:05:42.103648041Z] Result of Eval (modified MiniMaxAgent = candidate):
+[main(db)][INFO][2026-10-23T17:05:42.106208677Z] game 1: modified agent as 4 -> LOSS (Black=3, White=9, candidate=9, baseline=3, time=145173ms, maxCandidateMove=8001ms, candidateTimeouts=0)
+[main(db)][INFO][2026-10-23T17:05:42.106305175Z] game 2: modified agent as 2 -> WIN (Black=3, White=9, candidate=3, baseline=9, time=145791ms, maxCandidateMove=8007ms, candidateTimeouts=0)
+[main(db)][INFO][2026-10-23T17:05:42.106353177Z] game 3: modified agent as 4 -> LOSS (Black=3, White=9, candidate=9, baseline=3, time=145768ms, maxCandidateMove=8000ms, candidateTimeouts=0)
+[main(db)][INFO][2026-10-23T17:05:42.106388170Z] game 4: modified agent as 2 -> WIN (Black=3, White=9, candidate=3, baseline=9, time=145827ms, maxCandidateMove=8008ms, candidateTimeouts=0)
+[main(db)][INFO][2026-10-23T17:05:42.106420540Z] game 5: modified agent as 4 -> LOSS (Black=3, White=9, candidate=9, baseline=3, time=145526ms, maxCandidateMove=8000ms, candidateTimeouts=0)
+[main(db)][INFO][2026-10-23T17:05:42.109484081Z] Summary over 5 games for modified MiniMaxAgent: wins=2, losses=3, draws=0, winRate=40.0%, avgCandidateScore=6.60, avgBaselineScore=5.40, maxCandidateMove=8008ms, maxBaselineMove=8007ms, candidateTimeouts=0, baselineTimeouts=0
+
+BUILD SUCCESSFUL in 2m 26s
+2 actionable tasks: 1 executed, 1 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.2.1/userguide/configuration_cache_enabling.html

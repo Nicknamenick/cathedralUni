@@ -1,0 +1,54 @@
+# Discarded Changes
+
+## 2026-10-23: `maxDepth = 16`
+
+- File: `src/main/kotlin/ai/MiniMaxAgent.kt`
+- Change: `maxDepth` from 8 to 16.
+- Reason: some moves completed depth 8 in 2-3 seconds, leaving budget unused.
+- Evaluation: 5 games against the frozen depth-8 baseline.
+- Result: 2 wins, 3 losses, 0 draws.
+- Candidate max move 8,006ms; 0 timeouts.
+- Average candidate 6.40; average baseline 5.60.
+- Outcome: identical to the baseline; no measurable improvement.
+- Action: reverted `maxDepth` to 8. Deeper endgame iterations did not change the
+  chosen moves or the final scores in these games.
+
+## 2026-10-23: `maxMovesPerBranch = 20`
+
+- File: `src/main/kotlin/ai/MiniMaxAgent.kt`
+- Change: `maxMovesPerBranch` from 28 to 20.
+- Reason: fewer branches per node should allow deeper iterations.
+- Evaluation: 5 games against the frozen branch-28 baseline.
+- Result: 1 win, 4 losses, 0 draws.
+- Candidate max move 8,008ms; 0 timeouts.
+- Average candidate 11.80; average baseline 4.00.
+- Outcome: clearly worse. A prior run of the same setting had produced 3W-2L,
+  confirming that the time-limited search has run-to-run variance. The repeat
+  result is not good enough to keep.
+- Action: reverted `maxMovesPerBranch` to 28.
+
+## 2026-10-23: heuristic H2, `strategicEnclosure` 1.0 -> 1.25
+
+- File: `src/main/kotlin/ai/Scoring.kt`
+- Change: strategic-enclosure weight 1.0 -> 1.25.
+- Baseline: frozen H1 scoring (`remainingDelta` 7.5).
+- Evaluation: 5 games against the frozen H1 scoring copy.
+- Result: 2 wins, 3 losses, 0 draws.
+- Candidate max move 8,008ms; 0 timeouts.
+- Average candidate 6.60; baseline 5.40 (margin +1.20).
+- Comparison: H1 had 6.00 vs 6.00 (margin 0.00); H2 is worse.
+- Action: reverted `strategicEnclosure` to 1.0.
+
+## 2026-10-23: heuristic H3, `territoryControl` 2.0 -> 2.5
+
+- File: `src/main/kotlin/ai/Scoring.kt`
+- Change: territory-control weight 2.0 -> 2.5.
+- Baseline: frozen H1 scoring (`remainingDelta` 7.5).
+- Evaluation: 5 games against the frozen H1 scoring copy.
+- Result: 1 win, 4 losses, 0 draws.
+- Candidate max move 8,008ms; 0 timeouts.
+- Average candidate 9.00; baseline 4.20.
+- Outcome: clearly worse than H1.
+- Action: reverted `territoryControl` to 2.0. Final scoring is H1.
+
+

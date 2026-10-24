@@ -17,3 +17,18 @@ dependencies {
 kotlin {
     jvmToolchain(21)
 }
+
+tasks.register<JavaExec>("run") {
+    group = "application"
+    description = "Runs the Cathedral agent. Use -PappArgs=\"eval 5\" to pass program arguments."
+    mainClass.set("main.bot.MainKt")
+    classpath = sourceSets["main"].runtimeClasspath
+    jvmArgs("-Xmx8g")
+
+    val programArguments = (project.findProperty("appArgs") as String?)
+        ?.trim()
+        ?.split(Regex("\\s+"))
+        ?.filter { it.isNotEmpty() }
+        ?: emptyList()
+    setArgs(programArguments)
+}

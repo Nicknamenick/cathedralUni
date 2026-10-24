@@ -1,0 +1,6 @@
+[main(db)][INFO][2026-10-23T15:53:19.875053633Z] starting Main
+[eval 1][INFO][2026-10-23T15:53:19.951721070Z] Starting game 1: MiniMaxAgentCopy plays 4, MiniMaxAgent plays the other color
+[main(db)][DEBUG][2026-10-23T15:53:30.030791173Z] selecting best move: Blue_Cathedral at position: (7/5) with score=0.0
+[eval 1][INFO][2026-10-23T15:53:30.031397665Z] MiniMaxAgent places Blue_Cathedral at position (7/5) for 1
+[main(db)][DEBUG][2026-10-23T15:54:07.226685980Z] selecting best move: Black_Tower at position: (4/8) with score=507.39996
+[eval 1][INFO][2026-10-23T15:54:07.227072718Z] MiniMaxAgent places Black_Tower at position (4/8) for 2

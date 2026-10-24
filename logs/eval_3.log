@@ -1,0 +1,459 @@
+[eval 3][INFO][2026-10-23T15:55:30.636292084Z] Starting game 3: modified MiniMaxAgent plays 4, baseline MiniMaxAgentCopy plays the other color
+[eval 3][INFO][2026-10-23T15:55:42.704164889Z] MiniMaxAgentCopy places Blue_Cathedral at position (1/8) for 1
+[eval 3][INFO][2026-10-23T15:56:23.887869396Z] MiniMaxAgentCopy places Black_Castle at position (9/7) for 2
+[eval 3][INFO][2026-10-23T15:56:52.076192790Z] MiniMaxAgent places White_Tower at position (1/2) for 4
+[eval 3][INFO][2026-10-23T15:57:13.183336533Z] MiniMaxAgentCopy places Black_Academy at position (6/1) for 2
+[eval 3][INFO][2026-10-23T15:57:33.275086303Z] MiniMaxAgent places White_Castle at position (6/8) for 4
+[eval 3][INFO][2026-10-23T15:57:50.025161928Z] MiniMaxAgentCopy places Black_Square at position (3/0) for 2
+[eval 3][INFO][2026-10-23T15:58:04.931427924Z] MiniMaxAgent places White_Academy at position (8/4) for 4
+[eval 3][INFO][2026-10-23T15:58:18.114031384Z] MiniMaxAgentCopy places Black_Tower at position (6/6) for 2
+[eval 3][INFO][2026-10-23T15:58:28.735922465Z] MiniMaxAgent places White_Abbey at position (9/1) for 4
+[eval 3][INFO][2026-10-23T15:58:38.188592664Z] MiniMaxAgentCopy places Black_Bridge at position (4/8) for 2
+[eval 3][INFO][2026-10-23T15:58:48.274408340Z] MiniMaxAgent places White_Castle at position (1/5) for 4
+[eval 3][INFO][2026-10-23T15:58:55.175767598Z] MiniMaxAgentCopy places Black_Infirmary at position (3/6) for 2
+[eval 3][INFO][2026-10-23T15:59:00.775443313Z] MiniMaxAgent places White_Bridge at position (7/2) for 4
+[eval 3][INFO][2026-10-23T15:59:06.355581479Z] MiniMaxAgentCopy places Black_Stable at position (1/0) for 2
+[eval 3][INFO][2026-10-23T15:59:10.766337259Z] MiniMaxAgent places White_Manor at position (2/3) for 4
+[eval 3][INFO][2026-10-23T15:59:15.409679293Z] MiniMaxAgentCopy places Black_Abbey at position (4/2) for 2
+[eval 3][INFO][2026-10-23T15:59:17.832770157Z] MiniMaxAgent places White_Stable at position (0/0) for 4
+[eval 3][INFO][2026-10-23T15:59:21.552988700Z] MiniMaxAgentCopy places Black_Manor at position (5/5) for 2
+[eval 3][INFO][2026-10-23T15:59:22.786818297Z] MiniMaxAgent places White_Stable at position (2/9) for 4
+[eval 3][INFO][2026-10-23T15:59:24.519850710Z] MiniMaxAgentCopy places Black_Stable at position (5/9) for 2
+[eval 3][INFO][2026-10-23T15:59:25.043150955Z] MiniMaxAgent places White_Tavern at position (9/5) for 4
+[eval 3][INFO][2026-10-23T15:59:25.730738027Z] MiniMaxAgentCopy places Black_Tavern at position (6/3) for 2
+[eval 3][INFO][2026-10-23T15:59:26.001817835Z] MiniMaxAgent places White_Tavern at position (0/7) for 4
+[eval 3][INFO][2026-10-23T15:59:26.053479284Z] MiniMaxAgentCopy places Black_Inn at position (8/9) for 2
+[eval 3][INFO][2026-10-23T15:59:26.054508134Z] No valid moves for 4; passing turn
+[eval 3][INFO][2026-10-23T15:59:26.072377624Z] MiniMaxAgentCopy places Black_Tavern at position (0/9) for 2
+[eval 3][INFO][2026-10-23T15:59:26.073488398Z] Game 3 finished after 25 turns in 235436ms: Black=3, White=15; modified MiniMaxAgent as 4 -> LOSS
+[eval 3][INFO][2026-10-23T16:01:40.169171541Z] Starting game 3: modified MiniMaxAgent plays 4, baseline MiniMaxAgentCopy plays the other color
+[eval 3][INFO][2026-10-23T16:01:50.765273577Z] MiniMaxAgentCopy places Blue_Cathedral at position (1/8) for 1
+[eval 3][INFO][2026-10-23T16:02:34.865106354Z] MiniMaxAgentCopy places Black_Castle at position (9/7) for 2
+[eval 3][INFO][2026-10-23T16:03:05.504569753Z] MiniMaxAgent places White_Tower at position (1/2) for 4
+[eval 3][INFO][2026-10-23T16:03:27.674975267Z] MiniMaxAgentCopy places Black_Academy at position (6/1) for 2
+[eval 3][INFO][2026-10-23T16:03:48.431169528Z] MiniMaxAgent places White_Castle at position (5/8) for 4
+[eval 3][INFO][2026-10-23T16:04:04.911879470Z] MiniMaxAgentCopy places Black_Square at position (3/0) for 2
+[eval 3][INFO][2026-10-23T16:04:22.586573673Z] MiniMaxAgent places White_Academy at position (8/3) for 4
+[eval 3][INFO][2026-10-23T16:04:36.550566939Z] MiniMaxAgentCopy places Black_Tower at position (7/6) for 2
+[eval 3][INFO][2026-10-23T16:04:48.575876112Z] MiniMaxAgent places White_Infirmary at position (1/5) for 4
+[eval 3][INFO][2026-10-23T16:04:56.554185405Z] MiniMaxAgentCopy places Black_Inn at position (5/3) for 2
+[eval 3][INFO][2026-10-23T16:05:03.005445970Z] MiniMaxAgent places White_Abbey at position (4/6) for 4
+[eval 3][INFO][2026-10-23T16:05:10.935628944Z] MiniMaxAgentCopy places Black_Manor at position (8/2) for 2
+[eval 3][INFO][2026-10-23T16:05:18.365131157Z] MiniMaxAgent places White_Inn at position (8/9) for 4
+[eval 3][INFO][2026-10-23T16:05:23.343618743Z] MiniMaxAgentCopy places Black_Bridge at position (9/4) for 2
+[eval 3][INFO][2026-10-23T16:05:29.681145851Z] MiniMaxAgent places White_Academy at position (3/3) for 4
+[eval 3][INFO][2026-10-23T16:05:33.000825804Z] MiniMaxAgentCopy places Black_Stable at position (1/0) for 2
+[eval 3][INFO][2026-10-23T16:05:37.101431301Z] MiniMaxAgent places White_Manor at position (2/9) for 4
+[eval 3][INFO][2026-10-23T16:05:39.927594290Z] MiniMaxAgentCopy places Black_Inn at position (4/5) for 2
+[eval 3][INFO][2026-10-23T16:05:42.846230258Z] MiniMaxAgent places White_Stable at position (0/0) for 4
+[eval 3][INFO][2026-10-23T16:05:44.268687907Z] MiniMaxAgentCopy places Black_Stable at position (4/2) for 2
+[eval 3][INFO][2026-10-23T16:05:46.297385162Z] MiniMaxAgent places White_Inn at position (6/7) for 4
+[eval 3][INFO][2026-10-23T16:05:46.699223459Z] MiniMaxAgentCopy places Black_Tavern at position (9/9) for 2
+[eval 3][INFO][2026-10-23T16:05:47.693194304Z] MiniMaxAgent places White_Stable at position (0/6) for 4
+[eval 3][INFO][2026-10-23T16:05:47.839053359Z] MiniMaxAgentCopy places Black_Tavern at position (8/3) for 2
+[eval 3][INFO][2026-10-23T16:05:47.886692903Z] MiniMaxAgent places White_Tavern at position (0/8) for 4
+[eval 3][INFO][2026-10-23T16:05:47.887549208Z] No valid moves for 2; passing turn
+[eval 3][INFO][2026-10-23T16:05:47.910311823Z] MiniMaxAgent places White_Tavern at position (3/7) for 4
+[eval 3][INFO][2026-10-23T16:05:47.911218709Z] Game 3 finished after 26 turns in 247740ms: Black=9, White=7; modified MiniMaxAgent as 4 -> WIN
+[eval 3][INFO][2026-10-23T16:07:20.000577616Z] Starting game 3: modified MiniMaxAgent plays 4, baseline MiniMaxAgentCopy plays the other color
+[eval 3][INFO][2026-10-23T16:07:31.414714297Z] MiniMaxAgentCopy places Blue_Cathedral at position (1/8) for 1
+[eval 3][INFO][2026-10-23T16:08:14.710531646Z] MiniMaxAgentCopy places Black_Castle at position (9/7) for 2
+[eval 3][INFO][2026-10-23T16:08:49.395691063Z] MiniMaxAgent places White_Tower at position (1/1) for 4
+[eval 3][INFO][2026-10-23T16:09:12.921753340Z] MiniMaxAgentCopy places Black_Academy at position (6/1) for 2
+[eval 3][INFO][2026-10-23T16:09:38.730914324Z] MiniMaxAgent places White_Castle at position (6/8) for 4
+[eval 3][INFO][2026-10-23T16:09:56.511417353Z] MiniMaxAgentCopy places Black_Infirmary at position (3/1) for 2
+[eval 3][INFO][2026-10-23T16:10:14.634828587Z] MiniMaxAgent places White_Academy at position (8/4) for 4
+[eval 3][INFO][2026-10-23T16:10:28.241964425Z] MiniMaxAgentCopy places Black_Tower at position (3/3) for 2
+[eval 3][INFO][2026-10-23T16:10:39.206501816Z] MiniMaxAgent places White_Infirmary at position (1/3) for 4
+[eval 3][INFO][2026-10-23T16:10:48.331921706Z] MiniMaxAgentCopy places Black_Manor at position (8/2) for 2
+[eval 3][INFO][2026-10-23T16:10:55.238033889Z] MiniMaxAgent places White_Manor at position (7/6) for 4
+[eval 3][INFO][2026-10-23T16:11:01.810807959Z] MiniMaxAgentCopy places Black_Castle at position (4/6) for 2
+[eval 3][INFO][2026-10-23T16:11:06.667765505Z] MiniMaxAgent places White_Abbey at position (1/5) for 4
+[eval 3][INFO][2026-10-23T16:11:10.277032994Z] MiniMaxAgentCopy places Black_Tavern at position (9/3) for 2
+[eval 3][INFO][2026-10-23T16:11:14.867738597Z] MiniMaxAgent places White_Inn at position (4/8) for 4
+[eval 3][INFO][2026-10-23T16:11:17.715879478Z] MiniMaxAgentCopy places Black_Stable at position (3/9) for 2
+[eval 3][INFO][2026-10-23T16:11:21.162297243Z] MiniMaxAgent places White_Bridge at position (9/6) for 4
+[eval 3][INFO][2026-10-23T16:11:23.588568793Z] MiniMaxAgentCopy places Black_Bridge at position (6/4) for 2
+[eval 3][INFO][2026-10-23T16:11:25.444825401Z] MiniMaxAgent places White_Stable at position (2/6) for 4
+[eval 3][INFO][2026-10-23T16:11:26.591762426Z] MiniMaxAgentCopy places Black_Inn at position (8/0) for 2
+[eval 3][INFO][2026-10-23T16:11:28.086800907Z] MiniMaxAgent places White_Inn at position (9/8) for 4
+[eval 3][INFO][2026-10-23T16:11:28.752622584Z] MiniMaxAgentCopy places Black_Tavern at position (2/9) for 2
+[eval 3][INFO][2026-10-23T16:11:29.017446401Z] MiniMaxAgent places White_Stable at position (0/4) for 4
+[eval 3][INFO][2026-10-23T16:11:29.136328218Z] MiniMaxAgentCopy places Black_Stable at position (4/4) for 2
+[eval 3][INFO][2026-10-23T16:11:29.178328401Z] MiniMaxAgent places White_Tavern at position (2/2) for 4
+[eval 3][INFO][2026-10-23T16:11:29.180075857Z] No valid moves for 2; passing turn
+[eval 3][INFO][2026-10-23T16:11:29.190054317Z] MiniMaxAgent places White_Tavern at position (0/7) for 4
+[eval 3][INFO][2026-10-23T16:11:29.191044037Z] Game 3 finished after 26 turns in 249190ms: Black=11, White=4; modified MiniMaxAgent as 4 -> WIN
+[eval 3][INFO][2026-10-23T16:11:52.795949102Z] Starting game 3: modified MiniMaxAgent plays 4, baseline MiniMaxAgentCopy plays the other color
+[eval 3][INFO][2026-10-23T16:12:04.288702631Z] MiniMaxAgentCopy places Blue_Cathedral at position (1/8) for 1
+[eval 3][INFO][2026-10-23T16:12:48.312315213Z] MiniMaxAgentCopy places Black_Castle at position (9/7) for 2
+[eval 3][INFO][2026-10-23T16:13:24.161447127Z] MiniMaxAgent places White_Tower at position (1/1) for 4
+[eval 3][INFO][2026-10-23T16:13:48.091261385Z] MiniMaxAgentCopy places Black_Academy at position (6/1) for 2
+[eval 3][INFO][2026-10-23T16:14:13.920373481Z] MiniMaxAgent places White_Castle at position (6/8) for 4
+[eval 3][INFO][2026-10-23T16:14:32.005175196Z] MiniMaxAgentCopy places Black_Infirmary at position (3/1) for 2
+[eval 3][INFO][2026-10-23T16:14:49.513751871Z] MiniMaxAgent places White_Academy at position (8/4) for 4
+[eval 3][INFO][2026-10-23T16:15:02.838187473Z] MiniMaxAgentCopy places Black_Abbey at position (7/6) for 2
+[eval 3][INFO][2026-10-23T16:15:15.775660784Z] MiniMaxAgent places White_Infirmary at position (1/3) for 4
+[eval 3][INFO][2026-10-23T16:15:24.566397851Z] MiniMaxAgentCopy places Black_Bridge at position (6/4) for 2
+[eval 3][INFO][2026-10-23T16:15:33.301993160Z] MiniMaxAgent places White_Manor at position (1/6) for 4
+[eval 3][INFO][2026-10-23T16:15:40.644854371Z] MiniMaxAgentCopy places Black_Inn at position (4/8) for 2
+[eval 3][INFO][2026-10-23T16:15:45.147340574Z] MiniMaxAgent places White_Academy at position (4/6) for 4
+[eval 3][INFO][2026-10-23T16:15:51.545384352Z] MiniMaxAgentCopy places Black_Tower at position (8/2) for 2
+[eval 3][INFO][2026-10-23T16:15:54.940549899Z] MiniMaxAgent places White_Abbey at position (4/2) for 4
+[eval 3][INFO][2026-10-23T16:15:58.340147389Z] MiniMaxAgentCopy places Black_Manor at position (5/4) for 2
+[eval 3][INFO][2026-10-23T16:16:00.398655488Z] MiniMaxAgent places White_Stable at position (8/9) for 4
+[eval 3][INFO][2026-10-23T16:16:02.920080240Z] MiniMaxAgentCopy places Black_Square at position (2/4) for 2
+[eval 3][INFO][2026-10-23T16:16:03.585379786Z] MiniMaxAgent places White_Bridge at position (5/7) for 4
+[eval 3][INFO][2026-10-23T16:16:04.685670131Z] MiniMaxAgentCopy places Black_Tavern at position (9/4) for 2
+[eval 3][INFO][2026-10-23T16:16:05.012730425Z] MiniMaxAgent places White_Stable at position (0/4) for 4
+[eval 3][INFO][2026-10-23T16:16:05.691873362Z] MiniMaxAgentCopy places Black_Tavern at position (9/5) for 2
+[eval 3][INFO][2026-10-23T16:16:05.881652717Z] MiniMaxAgent places White_Tavern at position (2/2) for 4
+[eval 3][INFO][2026-10-23T16:16:06.099596374Z] MiniMaxAgentCopy places Black_Inn at position (8/0) for 2
+[eval 3][INFO][2026-10-23T16:16:06.148668296Z] MiniMaxAgent places White_Tavern at position (0/7) for 4
+[eval 3][INFO][2026-10-23T16:16:06.166887412Z] MiniMaxAgentCopy places Black_Stable at position (4/0) for 2
+[eval 3][INFO][2026-10-23T16:16:06.167860203Z] No valid moves for 4; passing turn
+[eval 3][INFO][2026-10-23T16:16:06.173420118Z] MiniMaxAgentCopy places Black_Stable at position (8/3) for 2
+[eval 3][INFO][2026-10-23T16:16:06.174058936Z] Game 3 finished after 27 turns in 253377ms: Black=0, White=10; modified MiniMaxAgent as 4 -> LOSS
+[eval 3][INFO][2026-10-23T16:16:40.618493047Z] Starting game 3: modified MiniMaxAgent plays 4, baseline MiniMaxAgentCopy plays the other color
+[eval 3][INFO][2026-10-23T16:16:51.658098102Z] MiniMaxAgentCopy places Blue_Cathedral at position (1/8) for 1
+[eval 3][INFO][2026-10-23T16:17:35.507178049Z] MiniMaxAgentCopy places Black_Castle at position (9/7) for 2
+[eval 3][INFO][2026-10-23T16:18:10.491422003Z] MiniMaxAgent places White_Tower at position (1/1) for 4
+[eval 3][INFO][2026-10-23T16:18:33.632090026Z] MiniMaxAgentCopy places Black_Academy at position (6/1) for 2
+[eval 3][INFO][2026-10-23T16:18:59.316571387Z] MiniMaxAgent places White_Castle at position (6/8) for 4
+[eval 3][INFO][2026-10-23T16:19:16.259392377Z] MiniMaxAgentCopy places Black_Infirmary at position (3/1) for 2
+[eval 3][INFO][2026-10-23T16:19:34.248194473Z] MiniMaxAgent places White_Academy at position (8/4) for 4
+[eval 3][INFO][2026-10-23T16:19:49.082408425Z] MiniMaxAgentCopy places Black_Abbey at position (7/6) for 2
+[eval 3][INFO][2026-10-23T16:20:00.884742110Z] MiniMaxAgent places White_Infirmary at position (1/3) for 4
+[eval 3][INFO][2026-10-23T16:20:10.322577307Z] MiniMaxAgentCopy places Black_Bridge at position (6/4) for 2
+[eval 3][INFO][2026-10-23T16:20:19.248146187Z] MiniMaxAgent places White_Academy at position (4/6) for 4
+[eval 3][INFO][2026-10-23T16:20:25.190792597Z] MiniMaxAgentCopy places Black_Tower at position (8/2) for 2
+[eval 3][INFO][2026-10-23T16:20:32.825791840Z] MiniMaxAgent places White_Manor at position (4/3) for 4
+[eval 3][INFO][2026-10-23T16:20:36.544160438Z] MiniMaxAgentCopy places Black_Stable at position (9/4) for 2
+[eval 3][INFO][2026-10-23T16:20:44.217101163Z] MiniMaxAgent places White_Square at position (2/8) for 4
+[eval 3][INFO][2026-10-23T16:20:47.744529139Z] MiniMaxAgentCopy places Black_Stable at position (8/9) for 2
+[eval 3][INFO][2026-10-23T16:20:52.482083294Z] MiniMaxAgent places White_Abbey at position (1/8) for 4
+[eval 3][INFO][2026-10-23T16:20:54.321673157Z] MiniMaxAgentCopy places Black_Inn at position (8/0) for 2
+[eval 3][INFO][2026-10-23T16:20:57.467643857Z] MiniMaxAgent places White_Bridge at position (0/5) for 4
+[eval 3][INFO][2026-10-23T16:20:58.924982245Z] MiniMaxAgentCopy places Black_Tavern at position (2/2) for 2
+[eval 3][INFO][2026-10-23T16:21:01.924173922Z] MiniMaxAgent places White_Tavern at position (4/9) for 4
+[eval 3][INFO][2026-10-23T16:21:03.064877710Z] MiniMaxAgentCopy places Black_Tavern at position (6/7) for 2
+[eval 3][INFO][2026-10-23T16:21:05.053127928Z] MiniMaxAgent places White_Stable at position (4/2) for 4
+[eval 3][INFO][2026-10-23T16:21:05.434759262Z] MiniMaxAgentCopy places Black_Inn at position (8/5) for 2
+[eval 3][INFO][2026-10-23T16:21:05.642382369Z] MiniMaxAgent places White_Stable at position (5/4) for 4
+[eval 3][INFO][2026-10-23T16:21:05.643715120Z] No valid moves for 2; passing turn
+[eval 3][INFO][2026-10-23T16:21:05.777807649Z] MiniMaxAgent places White_Tavern at position (5/6) for 4
+[eval 3][INFO][2026-10-23T16:21:05.779442241Z] No valid moves for 2; passing turn
+[eval 3][INFO][2026-10-23T16:21:05.830017243Z] MiniMaxAgent places White_Inn at position (2/4) for 4
+[eval 3][INFO][2026-10-23T16:21:05.831561177Z] No valid moves for 2; passing turn
+[eval 3][INFO][2026-10-23T16:21:05.840541518Z] MiniMaxAgent places White_Inn at position (1/5) for 4
+[eval 3][INFO][2026-10-23T16:21:05.841368780Z] Game 3 finished after 28 turns in 265222ms: Black=8, White=0; modified MiniMaxAgent as 4 -> WIN
+[eval 3][INFO][2026-10-23T16:21:29.886376995Z] Starting game 3: modified MiniMaxAgent plays 4, baseline MiniMaxAgentCopy plays the other color
+[eval 3][INFO][2026-10-23T16:21:40.213037076Z] MiniMaxAgentCopy places Blue_Cathedral at position (1/8) for 1
+[eval 3][INFO][2026-10-23T16:22:27.467282850Z] MiniMaxAgentCopy places Black_Castle at position (9/7) for 2
+[eval 3][INFO][2026-10-23T16:23:01.674932485Z] MiniMaxAgent places White_Tower at position (1/1) for 4
+[eval 3][INFO][2026-10-23T16:23:22.760243410Z] MiniMaxAgentCopy places Black_Academy at position (6/1) for 2
+[eval 3][INFO][2026-10-23T16:23:40.999943742Z] MiniMaxAgent places White_Castle at position (6/8) for 4
+[eval 3][INFO][2026-10-23T16:23:52.901560167Z] MiniMaxAgentCopy places Black_Infirmary at position (3/1) for 2
+[eval 3][INFO][2026-10-23T16:24:04.576930600Z] MiniMaxAgent places White_Academy at position (8/4) for 4
+[eval 3][INFO][2026-10-23T16:24:12.953368341Z] MiniMaxAgentCopy places Black_Abbey at position (7/6) for 2
+[eval 3][INFO][2026-10-23T16:24:21.970482979Z] MiniMaxAgent places White_Infirmary at position (1/3) for 4
+[eval 3][INFO][2026-10-23T16:24:28.393291423Z] MiniMaxAgentCopy places Black_Bridge at position (6/4) for 2
+[eval 3][INFO][2026-10-23T16:24:33.980301126Z] MiniMaxAgent places White_Academy at position (4/6) for 4
+[eval 3][INFO][2026-10-23T16:24:38.062880356Z] MiniMaxAgentCopy places Black_Tower at position (8/2) for 2
+[eval 3][INFO][2026-10-23T16:24:42.741021420Z] MiniMaxAgent places White_Manor at position (4/3) for 4
+[eval 3][INFO][2026-10-23T16:24:45.026969992Z] MiniMaxAgentCopy places Black_Stable at position (9/4) for 2
+[eval 3][INFO][2026-10-23T16:24:49.185227381Z] MiniMaxAgent places White_Square at position (2/8) for 4
+[eval 3][INFO][2026-10-23T16:24:51.286303225Z] MiniMaxAgentCopy places Black_Stable at position (8/9) for 2
+[eval 3][INFO][2026-10-23T16:24:54.670779986Z] MiniMaxAgent places White_Abbey at position (1/8) for 4
+[eval 3][INFO][2026-10-23T16:24:56.134886079Z] MiniMaxAgentCopy places Black_Inn at position (8/0) for 2
+[eval 3][INFO][2026-10-23T16:24:58.535901991Z] MiniMaxAgent places White_Bridge at position (0/5) for 4
+[eval 3][INFO][2026-10-23T16:24:59.540355546Z] MiniMaxAgentCopy places Black_Tavern at position (2/2) for 2
+[eval 3][INFO][2026-10-23T16:25:01.583823874Z] MiniMaxAgent places White_Tavern at position (4/9) for 4
+[eval 3][INFO][2026-10-23T16:25:02.313658393Z] MiniMaxAgentCopy places Black_Tavern at position (6/7) for 2
+[eval 3][INFO][2026-10-23T16:25:03.532244768Z] MiniMaxAgent places White_Stable at position (4/2) for 4
+[eval 3][INFO][2026-10-23T16:25:03.758246190Z] MiniMaxAgentCopy places Black_Inn at position (8/5) for 2
+[eval 3][INFO][2026-10-23T16:25:03.902435003Z] MiniMaxAgent places White_Stable at position (5/4) for 4
+[eval 3][INFO][2026-10-23T16:25:03.903430012Z] No valid moves for 2; passing turn
+[eval 3][INFO][2026-10-23T16:25:04.000549282Z] MiniMaxAgent places White_Tavern at position (5/6) for 4
+[eval 3][INFO][2026-10-23T16:25:04.002545132Z] No valid moves for 2; passing turn
+[eval 3][INFO][2026-10-23T16:25:04.055437549Z] MiniMaxAgent places White_Inn at position (2/4) for 4
+[eval 3][INFO][2026-10-23T16:25:04.058111317Z] No valid moves for 2; passing turn
+[eval 3][INFO][2026-10-23T16:25:04.069928701Z] MiniMaxAgent places White_Inn at position (1/5) for 4
+[eval 3][INFO][2026-10-23T16:25:04.071017179Z] Game 3 finished after 28 turns in 214184ms: Black=8, White=0; modified MiniMaxAgent as 4 -> WIN
+[eval 3][INFO][2026-10-23T16:36:56.359989292Z] Starting game 3: modified MiniMaxAgent plays 4, baseline MinimaxBotCopy plays the other color
+[eval 3][INFO][2026-10-23T16:37:03.607152570Z] MinimaxBotCopy places Blue_Cathedral at position (1/8) for 1
+[eval 3][INFO][2026-10-23T16:37:35.419531746Z] MinimaxBotCopy places Black_Castle at position (9/7) for 2
+[eval 3][INFO][2026-10-23T16:37:43.420356764Z] MiniMaxAgent places White_Castle at position (6/0) for 4
+[eval 3][INFO][2026-10-23T16:37:57.993205042Z] MinimaxBotCopy places Black_Tower at position (1/1) for 2
+[eval 3][INFO][2026-10-23T16:38:05.994711158Z] MiniMaxAgent places White_Tower at position (6/3) for 4
+[eval 3][INFO][2026-10-23T16:38:18.242649209Z] MinimaxBotCopy places Black_Academy at position (6/8) for 2
+[eval 3][INFO][2026-10-23T16:38:26.243520440Z] MiniMaxAgent places White_Infirmary at position (1/4) for 4
+[eval 3][INFO][2026-10-23T16:38:33.147457424Z] MinimaxBotCopy places Black_Infirmary at position (8/2) for 2
+[eval 3][INFO][2026-10-23T16:38:41.148338438Z] MiniMaxAgent places White_Manor at position (4/4) for 4
+[eval 3][INFO][2026-10-23T16:38:46.518068709Z] MinimaxBotCopy places Black_Tower at position (8/4) for 2
+[eval 3][INFO][2026-10-23T16:38:54.518668722Z] MiniMaxAgent places White_Bridge at position (3/0) for 4
+[eval 3][INFO][2026-10-23T16:38:58.443938982Z] MinimaxBotCopy places Black_Inn at position (8/0) for 2
+[eval 3][INFO][2026-10-23T16:39:06.444661122Z] MiniMaxAgent places White_Academy at position (2/6) for 4
+[eval 3][INFO][2026-10-23T16:39:09.182815313Z] MinimaxBotCopy places Black_Manor at position (4/7) for 2
+[eval 3][INFO][2026-10-23T16:39:17.183401709Z] MiniMaxAgent places White_Abbey at position (7/6) for 4
+[eval 3][INFO][2026-10-23T16:39:18.704818239Z] MinimaxBotCopy places Black_Bridge at position (3/9) for 2
+[eval 3][INFO][2026-10-23T16:39:26.705557139Z] MiniMaxAgent places White_Inn at position (0/3) for 4
+[eval 3][INFO][2026-10-23T16:39:27.503623387Z] MinimaxBotCopy places Black_Inn at position (4/5) for 2
+[eval 3][INFO][2026-10-23T16:39:35.504088860Z] MiniMaxAgent places White_Stable at position (0/6) for 4
+[eval 3][INFO][2026-10-23T16:39:35.795183594Z] MinimaxBotCopy places Black_Stable at position (6/1) for 2
+[eval 3][INFO][2026-10-23T16:39:42.716888676Z] MiniMaxAgent places White_Tavern at position (8/7) for 4
+[eval 3][INFO][2026-10-23T16:39:42.887030536Z] MinimaxBotCopy places Black_Tavern at position (7/3) for 2
+[eval 3][INFO][2026-10-23T16:39:43.950651276Z] MiniMaxAgent places White_Tavern at position (0/9) for 4
+[eval 3][INFO][2026-10-23T16:39:44.050803736Z] MinimaxBotCopy places Black_Stable at position (7/9) for 2
+[eval 3][INFO][2026-10-23T16:39:44.150840556Z] MiniMaxAgent places White_Inn at position (0/1) for 4
+[eval 3][INFO][2026-10-23T16:39:44.176582053Z] MinimaxBotCopy places Black_Tavern at position (3/7) for 2
+[eval 3][INFO][2026-10-23T16:39:44.183044935Z] MiniMaxAgent places White_Stable at position (3/2) for 4
+[eval 3][INFO][2026-10-23T16:39:44.183380150Z] Game 3 finished after 27 turns in 167823ms: Black=8, White=4; modified MiniMaxAgent as 4 -> WIN; maxCandidateMove=8001ms, candidateTimeouts=0
+[eval 3][INFO][2026-10-23T16:40:51.396804409Z] Starting game 3: modified MiniMaxAgent plays 4, baseline MinimaxBotCopy plays the other color
+[eval 3][INFO][2026-10-23T16:40:51.413626354Z] MinimaxBotCopy places Blue_Cathedral at position (2/2) for 1
+[eval 3][INFO][2026-10-23T16:40:59.424428915Z] MinimaxBotCopy places Black_Tower at position (1/1) for 2
+[eval 3][INFO][2026-10-23T16:41:07.425712046Z] MiniMaxAgent places White_Castle at position (6/8) for 4
+[eval 3][INFO][2026-10-23T16:41:15.426413812Z] MinimaxBotCopy places Black_Castle at position (8/6) for 2
+[eval 3][INFO][2026-10-23T16:41:23.427079108Z] MiniMaxAgent places White_Academy at position (1/4) for 4
+[eval 3][INFO][2026-10-23T16:41:31.428240244Z] MinimaxBotCopy places Black_Infirmary at position (6/1) for 2
+[eval 3][INFO][2026-10-23T16:41:39.428754326Z] MiniMaxAgent places White_Tower at position (6/6) for 4
+[eval 3][INFO][2026-10-23T16:41:47.430161236Z] MinimaxBotCopy places Black_Academy at position (7/4) for 2
+[eval 3][INFO][2026-10-23T16:41:55.431441042Z] MiniMaxAgent places White_Manor at position (3/9) for 4
+[eval 3][INFO][2026-10-23T16:42:03.432957242Z] MinimaxBotCopy places Black_Square at position (8/8) for 2
+[eval 3][INFO][2026-10-23T16:42:11.434282892Z] MiniMaxAgent places White_Square at position (4/3) for 4
+[eval 3][INFO][2026-10-23T16:42:19.434950769Z] MinimaxBotCopy places Black_Bridge at position (9/3) for 2
+[eval 3][INFO][2026-10-23T16:42:27.435850614Z] MiniMaxAgent places White_Inn at position (1/9) for 4
+[eval 3][INFO][2026-10-23T16:42:35.436559173Z] MinimaxBotCopy places Black_Inn at position (8/0) for 2
+[eval 3][INFO][2026-10-23T16:42:43.437289705Z] MiniMaxAgent places White_Abbey at position (4/0) for 4
+[eval 3][INFO][2026-10-23T16:42:51.437923151Z] MinimaxBotCopy places Black_Manor at position (3/5) for 2
+[eval 3][INFO][2026-10-23T16:42:59.438618348Z] MiniMaxAgent places White_Inn at position (3/7) for 4
+[eval 3][INFO][2026-10-23T16:43:07.439468291Z] MinimaxBotCopy places Black_Abbey at position (5/7) for 2
+[eval 3][INFO][2026-10-23T16:43:09.748079902Z] MiniMaxAgent places White_Tavern at position (0/3) for 4
+[eval 3][INFO][2026-10-23T16:43:11.323351390Z] MinimaxBotCopy places Black_Tavern at position (3/0) for 2
+[eval 3][INFO][2026-10-23T16:43:11.567521002Z] MiniMaxAgent places White_Tavern at position (6/7) for 4
+[eval 3][INFO][2026-10-23T16:43:11.641466544Z] MinimaxBotCopy places Black_Tavern at position (2/4) for 2
+[eval 3][INFO][2026-10-23T16:43:11.655318919Z] MiniMaxAgent places White_Stable at position (0/7) for 4
+[eval 3][INFO][2026-10-23T16:43:11.661759969Z] MinimaxBotCopy places Black_Inn at position (7/3) for 2
+[eval 3][INFO][2026-10-23T16:43:11.663158316Z] MiniMaxAgent places White_Stable at position (0/5) for 4
+[eval 3][INFO][2026-10-23T16:43:11.663572017Z] Game 3 finished after 25 turns in 140266ms: Black=4, White=8; modified MiniMaxAgent as 4 -> LOSS; maxCandidateMove=8000ms, candidateTimeouts=0
+[eval 3][INFO][2026-10-23T16:43:38.388982036Z] Starting game 3: modified MiniMaxAgent plays 4, baseline MinimaxBotCopy plays the other color
+[eval 3][INFO][2026-10-23T16:43:38.403443117Z] MinimaxBotCopy places Blue_Cathedral at position (2/2) for 1
+[eval 3][INFO][2026-10-23T16:43:46.412375021Z] MinimaxBotCopy places Black_Tower at position (1/1) for 2
+[eval 3][INFO][2026-10-23T16:43:54.413169654Z] MiniMaxAgent places White_Tower at position (8/8) for 4
+[eval 3][INFO][2026-10-23T16:44:02.414474659Z] MinimaxBotCopy places Black_Castle at position (7/1) for 2
+[eval 3][INFO][2026-10-23T16:44:10.415065524Z] MiniMaxAgent places White_Academy at position (3/8) for 4
+[eval 3][INFO][2026-10-23T16:44:18.415647245Z] MinimaxBotCopy places Black_Academy at position (1/7) for 2
+[eval 3][INFO][2026-10-23T16:44:26.416474397Z] MiniMaxAgent places White_Castle at position (8/3) for 4
+[eval 3][INFO][2026-10-23T16:44:34.417317580Z] MinimaxBotCopy places Black_Infirmary at position (2/5) for 2
+[eval 3][INFO][2026-10-23T16:44:42.418126605Z] MiniMaxAgent places White_Abbey at position (8/5) for 4
+[eval 3][INFO][2026-10-23T16:44:50.418845256Z] MinimaxBotCopy places Black_Manor at position (6/3) for 2
+[eval 3][INFO][2026-10-23T16:44:58.419519808Z] MiniMaxAgent places White_Manor at position (4/6) for 4
+[eval 3][INFO][2026-10-23T16:45:06.420281181Z] MinimaxBotCopy places Black_Bridge at position (4/0) for 2
+[eval 3][INFO][2026-10-23T16:45:14.420929374Z] MiniMaxAgent places White_Bridge at position (5/4) for 4
+[eval 3][INFO][2026-10-23T16:45:22.422037507Z] MinimaxBotCopy places Black_Inn at position (1/9) for 2
+[eval 3][INFO][2026-10-23T16:45:30.422663012Z] MiniMaxAgent places White_Stable at position (9/0) for 4
+[eval 3][INFO][2026-10-23T16:45:38.423446532Z] MinimaxBotCopy places Black_Tavern at position (0/3) for 2
+[eval 3][INFO][2026-10-23T16:45:46.424168282Z] MiniMaxAgent places White_Inn at position (1/3) for 4
+[eval 3][INFO][2026-10-23T16:45:54.425565317Z] MinimaxBotCopy places Black_Inn at position (3/4) for 2
+[eval 3][INFO][2026-10-23T16:46:02.433413634Z] MiniMaxAgent places White_Inn at position (4/1) for 4
+[eval 3][INFO][2026-10-23T16:46:03.878233731Z] MinimaxBotCopy places Black_Tavern at position (0/5) for 2
+[eval 3][INFO][2026-10-23T16:46:06.311066311Z] MiniMaxAgent places White_Stable at position (5/9) for 4
+[eval 3][INFO][2026-10-23T16:46:06.311989924Z] No valid moves for 2; passing turn
+[eval 3][INFO][2026-10-23T16:46:06.541515618Z] MiniMaxAgent places White_Tavern at position (5/8) for 4
+[eval 3][INFO][2026-10-23T16:46:06.542183877Z] No valid moves for 2; passing turn
+[eval 3][INFO][2026-10-23T16:46:06.559483049Z] MiniMaxAgent places White_Tavern at position (7/7) for 4
+[eval 3][INFO][2026-10-23T16:46:06.560007984Z] Game 3 finished after 23 turns in 148170ms: Black=12, White=9; modified MiniMaxAgent as 4 -> WIN; maxCandidateMove=8000ms, candidateTimeouts=0
+[eval 3][INFO][2026-10-23T16:49:22.958497710Z] Starting game 3: modified MiniMaxAgent plays 4, baseline MinimaxBotCopy plays the other color
+[eval 3][INFO][2026-10-23T16:49:22.974692840Z] MinimaxBotCopy places Blue_Cathedral at position (2/2) for 1
+[eval 3][INFO][2026-10-23T16:49:30.984842100Z] MinimaxBotCopy places Black_Tower at position (1/1) for 2
+[eval 3][INFO][2026-10-23T16:49:38.985800600Z] MiniMaxAgent places White_Castle at position (6/8) for 4
+[eval 3][INFO][2026-10-23T16:49:46.986588208Z] MinimaxBotCopy places Black_Castle at position (8/6) for 2
+[eval 3][INFO][2026-10-23T16:49:54.987696014Z] MiniMaxAgent places White_Academy at position (1/4) for 4
+[eval 3][INFO][2026-10-23T16:50:02.988639726Z] MinimaxBotCopy places Black_Infirmary at position (6/1) for 2
+[eval 3][INFO][2026-10-23T16:50:10.989583754Z] MiniMaxAgent places White_Tower at position (6/6) for 4
+[eval 3][INFO][2026-10-23T16:50:18.990461903Z] MinimaxBotCopy places Black_Academy at position (7/4) for 2
+[eval 3][INFO][2026-10-23T16:50:26.991829072Z] MiniMaxAgent places White_Manor at position (3/9) for 4
+[eval 3][INFO][2026-10-23T16:50:34.992567726Z] MinimaxBotCopy places Black_Square at position (8/8) for 2
+[eval 3][INFO][2026-10-23T16:50:42.993296374Z] MiniMaxAgent places White_Square at position (4/3) for 4
+[eval 3][INFO][2026-10-23T16:50:50.998091024Z] MinimaxBotCopy places Black_Bridge at position (9/3) for 2
+[eval 3][INFO][2026-10-23T16:50:58.999048882Z] MiniMaxAgent places White_Inn at position (1/9) for 4
+[eval 3][INFO][2026-10-23T16:51:06.999635342Z] MinimaxBotCopy places Black_Inn at position (8/0) for 2
+[eval 3][INFO][2026-10-23T16:51:15.000510890Z] MiniMaxAgent places White_Abbey at position (4/0) for 4
+[eval 3][INFO][2026-10-23T16:51:23.001095412Z] MinimaxBotCopy places Black_Manor at position (3/5) for 2
+[eval 3][INFO][2026-10-23T16:51:31.001538533Z] MiniMaxAgent places White_Inn at position (3/7) for 4
+[eval 3][INFO][2026-10-23T16:51:39.002480076Z] MinimaxBotCopy places Black_Abbey at position (5/7) for 2
+[eval 3][INFO][2026-10-23T16:51:41.415011601Z] MiniMaxAgent places White_Tavern at position (0/3) for 4
+[eval 3][INFO][2026-10-23T16:51:43.396583086Z] MinimaxBotCopy places Black_Tavern at position (3/0) for 2
+[eval 3][INFO][2026-10-23T16:51:43.651021254Z] MiniMaxAgent places White_Tavern at position (6/7) for 4
+[eval 3][INFO][2026-10-23T16:51:43.730411008Z] MinimaxBotCopy places Black_Tavern at position (2/4) for 2
+[eval 3][INFO][2026-10-23T16:51:43.744137692Z] MiniMaxAgent places White_Stable at position (0/7) for 4
+[eval 3][INFO][2026-10-23T16:51:43.750585935Z] MinimaxBotCopy places Black_Inn at position (7/3) for 2
+[eval 3][INFO][2026-10-23T16:51:43.752083537Z] MiniMaxAgent places White_Stable at position (0/5) for 4
+[eval 3][INFO][2026-10-23T16:51:43.752486975Z] Game 3 finished after 25 turns in 140793ms: Black=4, White=8; modified MiniMaxAgent as 4 -> LOSS; maxCandidateMove=8001ms, candidateTimeouts=0
+[eval 3][INFO][2026-10-23T16:52:08.382660129Z] Starting game 3: modified MiniMaxAgent plays 4, baseline MinimaxBotCopy plays the other color
+[eval 3][INFO][2026-10-23T16:52:08.397733081Z] MinimaxBotCopy places Blue_Cathedral at position (2/2) for 1
+[eval 3][INFO][2026-10-23T16:52:16.405859103Z] MinimaxBotCopy places Black_Tower at position (1/1) for 2
+[eval 3][INFO][2026-10-23T16:52:24.406549653Z] MiniMaxAgent places White_Castle at position (6/8) for 4
+[eval 3][INFO][2026-10-23T16:52:32.407477109Z] MinimaxBotCopy places Black_Castle at position (8/6) for 2
+[eval 3][INFO][2026-10-23T16:52:40.408630832Z] MiniMaxAgent places White_Academy at position (1/4) for 4
+[eval 3][INFO][2026-10-23T16:52:48.409173596Z] MinimaxBotCopy places Black_Infirmary at position (6/1) for 2
+[eval 3][INFO][2026-10-23T16:52:56.409781203Z] MiniMaxAgent places White_Tower at position (6/6) for 4
+[eval 3][INFO][2026-10-23T16:53:04.410402696Z] MinimaxBotCopy places Black_Academy at position (7/4) for 2
+[eval 3][INFO][2026-10-23T16:53:12.411095528Z] MiniMaxAgent places White_Manor at position (3/9) for 4
+[eval 3][INFO][2026-10-23T16:53:20.411782160Z] MinimaxBotCopy places Black_Square at position (8/8) for 2
+[eval 3][INFO][2026-10-23T16:53:28.412461976Z] MiniMaxAgent places White_Square at position (4/3) for 4
+[eval 3][INFO][2026-10-23T16:53:36.413497686Z] MinimaxBotCopy places Black_Bridge at position (9/3) for 2
+[eval 3][INFO][2026-10-23T16:53:44.414098508Z] MiniMaxAgent places White_Inn at position (1/9) for 4
+[eval 3][INFO][2026-10-23T16:53:52.415897818Z] MinimaxBotCopy places Black_Inn at position (8/0) for 2
+[eval 3][INFO][2026-10-23T16:54:00.416445295Z] MiniMaxAgent places White_Abbey at position (4/0) for 4
+[eval 3][INFO][2026-10-23T16:54:08.417244485Z] MinimaxBotCopy places Black_Manor at position (3/5) for 2
+[eval 3][INFO][2026-10-23T16:54:16.417755673Z] MiniMaxAgent places White_Inn at position (3/7) for 4
+[eval 3][INFO][2026-10-23T16:54:24.418964029Z] MinimaxBotCopy places Black_Abbey at position (5/7) for 2
+[eval 3][INFO][2026-10-23T16:54:30.661669674Z] MiniMaxAgent places White_Tavern at position (0/3) for 4
+[eval 3][INFO][2026-10-23T16:54:32.057226524Z] MinimaxBotCopy places Black_Tavern at position (3/0) for 2
+[eval 3][INFO][2026-10-23T16:54:32.547770901Z] MiniMaxAgent places White_Tavern at position (6/7) for 4
+[eval 3][INFO][2026-10-23T16:54:32.617100815Z] MinimaxBotCopy places Black_Tavern at position (2/4) for 2
+[eval 3][INFO][2026-10-23T16:54:32.650087114Z] MiniMaxAgent places White_Stable at position (0/7) for 4
+[eval 3][INFO][2026-10-23T16:54:32.655914125Z] MinimaxBotCopy places Black_Inn at position (7/3) for 2
+[eval 3][INFO][2026-10-23T16:54:32.658695925Z] MiniMaxAgent places White_Stable at position (0/5) for 4
+[eval 3][INFO][2026-10-23T16:54:32.659063963Z] Game 3 finished after 25 turns in 144276ms: Black=4, White=8; modified MiniMaxAgent as 4 -> LOSS; maxCandidateMove=8000ms, candidateTimeouts=0
+[eval 3][INFO][2026-10-23T16:54:51.006137550Z] Starting game 3: modified MiniMaxAgent plays 4, baseline MinimaxBotCopy plays the other color
+[eval 3][INFO][2026-10-23T16:54:51.023802633Z] MinimaxBotCopy places Blue_Cathedral at position (2/2) for 1
+[eval 3][INFO][2026-10-23T16:54:59.031413070Z] MinimaxBotCopy places Black_Tower at position (1/1) for 2
+[eval 3][INFO][2026-10-23T16:55:07.032240627Z] MiniMaxAgent places White_Academy at position (8/8) for 4
+[eval 3][INFO][2026-10-23T16:55:15.033234469Z] MinimaxBotCopy places Black_Castle at position (6/1) for 2
+[eval 3][INFO][2026-10-23T16:55:23.033955304Z] MiniMaxAgent places White_Castle at position (1/5) for 4
+[eval 3][INFO][2026-10-23T16:55:31.034690305Z] MinimaxBotCopy places Black_Infirmary at position (8/4) for 2
+[eval 3][INFO][2026-10-23T16:55:39.036002414Z] MiniMaxAgent places White_Infirmary at position (7/6) for 4
+[eval 3][INFO][2026-10-23T16:55:47.037472807Z] MinimaxBotCopy places Black_Academy at position (3/8) for 2
+[eval 3][INFO][2026-10-23T16:55:55.037866606Z] MiniMaxAgent places White_Tower at position (8/2) for 4
+[eval 3][INFO][2026-10-23T16:56:03.038459618Z] MinimaxBotCopy places Black_Manor at position (6/3) for 2
+[eval 3][INFO][2026-10-23T16:56:11.039195646Z] MiniMaxAgent places White_Manor at position (2/6) for 4
+[eval 3][INFO][2026-10-23T16:56:19.040492694Z] MinimaxBotCopy places Black_Abbey at position (1/7) for 2
+[eval 3][INFO][2026-10-23T16:56:27.041538489Z] MiniMaxAgent places White_Stable at position (9/5) for 4
+[eval 3][INFO][2026-10-23T16:56:35.045675131Z] MinimaxBotCopy places Black_Inn at position (3/1) for 2
+[eval 3][INFO][2026-10-23T16:56:43.051495271Z] MiniMaxAgent places White_Tower at position (4/5) for 4
+[eval 3][INFO][2026-10-23T16:56:51.051986117Z] MinimaxBotCopy places Black_Square at position (5/8) for 2
+[eval 3][INFO][2026-10-23T16:56:56.591649758Z] MiniMaxAgent places White_Stable at position (0/3) for 4
+[eval 3][INFO][2026-10-23T16:57:04.592343054Z] MinimaxBotCopy places Black_Bridge at position (5/7) for 2
+[eval 3][INFO][2026-10-23T16:57:07.593820361Z] MiniMaxAgent places White_Tavern at position (7/9) for 4
+[eval 3][INFO][2026-10-23T16:57:15.594529799Z] MinimaxBotCopy places Black_Inn at position (1/9) for 2
+[eval 3][INFO][2026-10-23T16:57:16.200919781Z] MiniMaxAgent places White_Tavern at position (4/3) for 4
+[eval 3][INFO][2026-10-23T16:57:17.692691747Z] MinimaxBotCopy places Black_Stable at position (9/2) for 2
+[eval 3][INFO][2026-10-23T16:57:17.694238395Z] No valid moves for 4; passing turn
+[eval 3][INFO][2026-10-23T16:57:18.111118486Z] MinimaxBotCopy places Black_Stable at position (8/0) for 2
+[eval 3][INFO][2026-10-23T16:57:18.111442030Z] No valid moves for 4; passing turn
+[eval 3][INFO][2026-10-23T16:57:18.167759664Z] MinimaxBotCopy places Black_Tavern at position (9/1) for 2
+[eval 3][INFO][2026-10-23T16:57:18.168031592Z] No valid moves for 4; passing turn
+[eval 3][INFO][2026-10-23T16:57:18.173668398Z] MinimaxBotCopy places Black_Tavern at position (5/4) for 2
+[eval 3][INFO][2026-10-23T16:57:18.174306910Z] Game 3 finished after 25 turns in 147167ms: Black=0, White=17; modified MiniMaxAgent as 4 -> LOSS; maxCandidateMove=8005ms, candidateTimeouts=0
+[eval 3][INFO][2026-10-23T16:58:11.367885665Z] Starting game 3: modified MiniMaxAgent plays 4, baseline MinimaxBotCopy plays the other color
+[eval 3][INFO][2026-10-23T16:58:11.386152095Z] MinimaxBotCopy places Blue_Cathedral at position (2/2) for 1
+[eval 3][INFO][2026-10-23T16:58:19.393480334Z] MinimaxBotCopy places Black_Tower at position (1/1) for 2
+[eval 3][INFO][2026-10-23T16:58:27.394385245Z] MiniMaxAgent places White_Castle at position (6/8) for 4
+[eval 3][INFO][2026-10-23T16:58:35.395378150Z] MinimaxBotCopy places Black_Castle at position (8/6) for 2
+[eval 3][INFO][2026-10-23T16:58:43.396118244Z] MiniMaxAgent places White_Academy at position (1/4) for 4
+[eval 3][INFO][2026-10-23T16:58:51.397320244Z] MinimaxBotCopy places Black_Infirmary at position (6/1) for 2
+[eval 3][INFO][2026-10-23T16:58:59.398421904Z] MiniMaxAgent places White_Tower at position (6/6) for 4
+[eval 3][INFO][2026-10-23T16:59:07.399185885Z] MinimaxBotCopy places Black_Academy at position (7/4) for 2
+[eval 3][INFO][2026-10-23T16:59:15.399807739Z] MiniMaxAgent places White_Manor at position (3/9) for 4
+[eval 3][INFO][2026-10-23T16:59:23.400387804Z] MinimaxBotCopy places Black_Square at position (8/8) for 2
+[eval 3][INFO][2026-10-23T16:59:31.400891805Z] MiniMaxAgent places White_Square at position (4/3) for 4
+[eval 3][INFO][2026-10-23T16:59:39.402646032Z] MinimaxBotCopy places Black_Bridge at position (9/3) for 2
+[eval 3][INFO][2026-10-23T16:59:47.403232493Z] MiniMaxAgent places White_Inn at position (1/9) for 4
+[eval 3][INFO][2026-10-23T16:59:55.403895437Z] MinimaxBotCopy places Black_Inn at position (8/0) for 2
+[eval 3][INFO][2026-10-23T17:00:03.404405105Z] MiniMaxAgent places White_Abbey at position (4/0) for 4
+[eval 3][INFO][2026-10-23T17:00:11.405580779Z] MinimaxBotCopy places Black_Manor at position (3/5) for 2
+[eval 3][INFO][2026-10-23T17:00:19.406365733Z] MiniMaxAgent places White_Inn at position (3/7) for 4
+[eval 3][INFO][2026-10-23T17:00:27.406801041Z] MinimaxBotCopy places Black_Abbey at position (5/7) for 2
+[eval 3][INFO][2026-10-23T17:00:29.926792843Z] MiniMaxAgent places White_Tavern at position (0/3) for 4
+[eval 3][INFO][2026-10-23T17:00:31.606052012Z] MinimaxBotCopy places Black_Tavern at position (3/0) for 2
+[eval 3][INFO][2026-10-23T17:00:31.855128417Z] MiniMaxAgent places White_Tavern at position (6/7) for 4
+[eval 3][INFO][2026-10-23T17:00:31.931137927Z] MinimaxBotCopy places Black_Tavern at position (2/4) for 2
+[eval 3][INFO][2026-10-23T17:00:31.945160734Z] MiniMaxAgent places White_Stable at position (0/7) for 4
+[eval 3][INFO][2026-10-23T17:00:31.952155549Z] MinimaxBotCopy places Black_Inn at position (7/3) for 2
+[eval 3][INFO][2026-10-23T17:00:31.953623747Z] MiniMaxAgent places White_Stable at position (0/5) for 4
+[eval 3][INFO][2026-10-23T17:00:31.954019798Z] Game 3 finished after 25 turns in 140585ms: Black=4, White=8; modified MiniMaxAgent as 4 -> LOSS; maxCandidateMove=8000ms, candidateTimeouts=0
+[eval 3][INFO][2026-10-23T17:00:38.068158626Z] Starting game 3: modified MiniMaxAgent plays 4, baseline MinimaxBotCopy plays the other color
+[eval 3][INFO][2026-10-23T17:00:38.085306570Z] MinimaxBotCopy places Blue_Cathedral at position (2/2) for 1
+[eval 3][INFO][2026-10-23T17:00:46.095565735Z] MinimaxBotCopy places Black_Tower at position (1/1) for 2
+[eval 3][INFO][2026-10-23T17:00:54.097256218Z] MiniMaxAgent places White_Castle at position (6/8) for 4
+[eval 3][INFO][2026-10-23T17:01:02.097842816Z] MinimaxBotCopy places Black_Castle at position (8/6) for 2
+[eval 3][INFO][2026-10-23T17:01:10.098635616Z] MiniMaxAgent places White_Academy at position (1/4) for 4
+[eval 3][INFO][2026-10-23T17:01:18.099818727Z] MinimaxBotCopy places Black_Infirmary at position (6/1) for 2
+[eval 3][INFO][2026-10-23T17:01:26.100729684Z] MiniMaxAgent places White_Tower at position (6/6) for 4
+[eval 3][INFO][2026-10-23T17:01:34.101203474Z] MinimaxBotCopy places Black_Academy at position (7/4) for 2
+[eval 3][INFO][2026-10-23T17:01:42.101859120Z] MiniMaxAgent places White_Manor at position (3/9) for 4
+[eval 3][INFO][2026-10-23T17:01:50.102415312Z] MinimaxBotCopy places Black_Square at position (8/8) for 2
+[eval 3][INFO][2026-10-23T17:01:58.103097286Z] MiniMaxAgent places White_Square at position (4/3) for 4
+[eval 3][INFO][2026-10-23T17:02:06.106341620Z] MinimaxBotCopy places Black_Bridge at position (9/3) for 2
+[eval 3][INFO][2026-10-23T17:02:14.106903414Z] MiniMaxAgent places White_Inn at position (1/9) for 4
+[eval 3][INFO][2026-10-23T17:02:22.107898746Z] MinimaxBotCopy places Black_Inn at position (8/0) for 2
+[eval 3][INFO][2026-10-23T17:02:30.108599759Z] MiniMaxAgent places White_Abbey at position (4/0) for 4
+[eval 3][INFO][2026-10-23T17:02:38.109211033Z] MinimaxBotCopy places Black_Manor at position (3/5) for 2
+[eval 3][INFO][2026-10-23T17:02:46.110091639Z] MiniMaxAgent places White_Inn at position (3/7) for 4
+[eval 3][INFO][2026-10-23T17:02:54.111667061Z] MinimaxBotCopy places Black_Abbey at position (5/7) for 2
+[eval 3][INFO][2026-10-23T17:02:56.567494171Z] MiniMaxAgent places White_Tavern at position (0/3) for 4
+[eval 3][INFO][2026-10-23T17:02:58.031805220Z] MinimaxBotCopy places Black_Tavern at position (3/0) for 2
+[eval 3][INFO][2026-10-23T17:02:58.311088793Z] MiniMaxAgent places White_Tavern at position (6/7) for 4
+[eval 3][INFO][2026-10-23T17:02:58.409116607Z] MinimaxBotCopy places Black_Tavern at position (2/4) for 2
+[eval 3][INFO][2026-10-23T17:02:58.425995357Z] MiniMaxAgent places White_Stable at position (0/7) for 4
+[eval 3][INFO][2026-10-23T17:02:58.435718095Z] MinimaxBotCopy places Black_Inn at position (7/3) for 2
+[eval 3][INFO][2026-10-23T17:02:58.438065012Z] MiniMaxAgent places White_Stable at position (0/5) for 4
+[eval 3][INFO][2026-10-23T17:02:58.445921287Z] Game 3 finished after 25 turns in 140370ms: Black=4, White=8; modified MiniMaxAgent as 4 -> LOSS; maxCandidateMove=8000ms, candidateTimeouts=0
+[eval 3][INFO][2026-10-23T17:03:16.268769685Z] Starting game 3: modified MiniMaxAgent plays 4, baseline MinimaxBotCopy plays the other color
+[eval 3][INFO][2026-10-23T17:03:16.286428709Z] MinimaxBotCopy places Blue_Cathedral at position (2/2) for 1
+[eval 3][INFO][2026-10-23T17:03:24.295012590Z] MinimaxBotCopy places Black_Tower at position (1/1) for 2
+[eval 3][INFO][2026-10-23T17:03:32.295959969Z] MiniMaxAgent places White_Castle at position (6/8) for 4
+[eval 3][INFO][2026-10-23T17:03:40.296779411Z] MinimaxBotCopy places Black_Castle at position (8/6) for 2
+[eval 3][INFO][2026-10-23T17:03:48.297516691Z] MiniMaxAgent places White_Academy at position (1/4) for 4
+[eval 3][INFO][2026-10-23T17:03:56.298234329Z] MinimaxBotCopy places Black_Infirmary at position (6/1) for 2
+[eval 3][INFO][2026-10-23T17:04:04.299242498Z] MiniMaxAgent places White_Tower at position (6/6) for 4
+[eval 3][INFO][2026-10-23T17:04:12.300225759Z] MinimaxBotCopy places Black_Academy at position (7/4) for 2
+[eval 3][INFO][2026-10-23T17:04:20.301585885Z] MiniMaxAgent places White_Manor at position (3/9) for 4
+[eval 3][INFO][2026-10-23T17:04:28.302281103Z] MinimaxBotCopy places Black_Square at position (8/8) for 2
+[eval 3][INFO][2026-10-23T17:04:36.302929523Z] MiniMaxAgent places White_Square at position (4/3) for 4
+[eval 3][INFO][2026-10-23T17:04:44.303666303Z] MinimaxBotCopy places Black_Bridge at position (9/3) for 2
+[eval 3][INFO][2026-10-23T17:04:52.304137541Z] MiniMaxAgent places White_Inn at position (1/9) for 4
+[eval 3][INFO][2026-10-23T17:05:00.304863182Z] MinimaxBotCopy places Black_Abbey at position (3/4) for 2
+[eval 3][INFO][2026-10-23T17:05:08.305560610Z] MiniMaxAgent places White_Bridge at position (3/6) for 4
+[eval 3][INFO][2026-10-23T17:05:16.306328464Z] MinimaxBotCopy places Black_Manor at position (4/0) for 2
+[eval 3][INFO][2026-10-23T17:05:24.307001296Z] MiniMaxAgent places White_Inn at position (1/6) for 4
+[eval 3][INFO][2026-10-23T17:05:32.307693338Z] MinimaxBotCopy places Black_Tavern at position (0/3) for 2
+[eval 3][INFO][2026-10-23T17:05:40.212715006Z] MiniMaxAgent places White_Stable at position (5/6) for 4
+[eval 3][INFO][2026-10-23T17:05:41.417881982Z] MinimaxBotCopy places Black_Tavern at position (3/1) for 2
+[eval 3][INFO][2026-10-23T17:05:41.886042985Z] MiniMaxAgent places White_Tavern at position (0/7) for 4
+[eval 3][INFO][2026-10-23T17:05:41.966564696Z] MinimaxBotCopy places Black_Stable at position (7/0) for 2
+[eval 3][INFO][2026-10-23T17:05:42.017407978Z] MiniMaxAgent places White_Tavern at position (5/2) for 4
+[eval 3][INFO][2026-10-23T17:05:42.030406746Z] MinimaxBotCopy places Black_Stable at position (9/0) for 2
+[eval 3][INFO][2026-10-23T17:05:42.035249674Z] MiniMaxAgent places White_Stable at position (1/8) for 4
+[eval 3][INFO][2026-10-23T17:05:42.037338371Z] MinimaxBotCopy places Black_Inn at position (8/3) for 2
+[eval 3][INFO][2026-10-23T17:05:42.037851547Z] Game 3 finished after 26 turns in 145768ms: Black=3, White=9; modified MiniMaxAgent as 4 -> LOSS; maxCandidateMove=8000ms, candidateTimeouts=0
+[eval 3][INFO][2026-10-23T17:05:57.262556448Z] Starting game 3: modified MiniMaxAgent plays 4, baseline MinimaxBotCopy plays the other color
+[eval 3][INFO][2026-10-23T17:05:57.275421382Z] MinimaxBotCopy places Blue_Cathedral at position (2/2) for 1
+[eval 3][INFO][2026-10-23T17:06:05.283567644Z] MinimaxBotCopy places Black_Tower at position (1/1) for 2
+[eval 3][INFO][2026-10-23T17:06:13.292322434Z] MiniMaxAgent places White_Castle at position (6/8) for 4
+[eval 3][INFO][2026-10-23T17:06:21.292911923Z] MinimaxBotCopy places Black_Castle at position (8/6) for 2
+[eval 3][INFO][2026-10-23T17:06:29.293582359Z] MiniMaxAgent places White_Academy at position (1/4) for 4
+[eval 3][INFO][2026-10-23T17:06:37.294186187Z] MinimaxBotCopy places Black_Infirmary at position (6/1) for 2
+[eval 3][INFO][2026-10-23T17:06:45.295528054Z] MiniMaxAgent places White_Tower at position (6/6) for 4
+[eval 3][INFO][2026-10-23T17:06:53.296143701Z] MinimaxBotCopy places Black_Academy at position (7/4) for 2
+[eval 3][INFO][2026-10-23T17:07:01.296863022Z] MiniMaxAgent places White_Manor at position (3/9) for 4
+[eval 3][INFO][2026-10-23T17:07:09.297464069Z] MinimaxBotCopy places Black_Square at position (8/8) for 2
+[eval 3][INFO][2026-10-23T17:07:17.298026633Z] MiniMaxAgent places White_Square at position (4/3) for 4
+[eval 3][INFO][2026-10-23T17:07:25.298524646Z] MinimaxBotCopy places Black_Bridge at position (9/3) for 2
+[eval 3][INFO][2026-10-23T17:07:33.299213296Z] MiniMaxAgent places White_Inn at position (1/9) for 4
+[eval 3][INFO][2026-10-23T17:07:41.299810796Z] MinimaxBotCopy places Black_Abbey at position (3/4) for 2
+[eval 3][INFO][2026-10-23T17:07:49.300381992Z] MiniMaxAgent places White_Bridge at position (3/6) for 4
+[eval 3][INFO][2026-10-23T17:07:57.300858266Z] MinimaxBotCopy places Black_Manor at position (4/0) for 2
+[eval 3][INFO][2026-10-23T17:08:05.301527515Z] MiniMaxAgent places White_Inn at position (1/6) for 4
+[eval 3][INFO][2026-10-23T17:08:13.302672599Z] MinimaxBotCopy places Black_Tavern at position (0/3) for 2
+[eval 3][INFO][2026-10-23T17:08:20.224897160Z] MiniMaxAgent places White_Stable at position (5/6) for 4
+[eval 3][INFO][2026-10-23T17:08:21.227738003Z] MinimaxBotCopy places Black_Tavern at position (3/1) for 2
+[eval 3][INFO][2026-10-23T17:08:21.725145241Z] MiniMaxAgent places White_Tavern at position (0/7) for 4
+[eval 3][INFO][2026-10-23T17:08:21.817652152Z] MinimaxBotCopy places Black_Stable at position (7/0) for 2
+[eval 3][INFO][2026-10-23T17:08:21.870402088Z] MiniMaxAgent places White_Tavern at position (5/2) for 4
+[eval 3][INFO][2026-10-23T17:08:21.884323497Z] MinimaxBotCopy places Black_Stable at position (9/0) for 2
+[eval 3][INFO][2026-10-23T17:08:21.889347046Z] MiniMaxAgent places White_Stable at position (1/8) for 4
+[eval 3][INFO][2026-10-23T17:08:21.891570520Z] MinimaxBotCopy places Black_Inn at position (8/3) for 2
+[eval 3][INFO][2026-10-23T17:08:21.892085824Z] Game 3 finished after 26 turns in 144629ms: Black=3, White=9; modified MiniMaxAgent as 4 -> LOSS; maxCandidateMove=8008ms, candidateTimeouts=0

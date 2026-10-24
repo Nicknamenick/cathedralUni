@@ -100,6 +100,7 @@ class Utils {
         }
 
         const val LOG_FILE_PATH: String = "logs/debug.log"
+        const val LOG_FILE_PATH_EVAL: String = "logs/eval"
         const val LOG_LEVEL: String = "DEBUG"
         const val LOG_TO_FILE: Boolean = true
 
